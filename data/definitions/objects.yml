@@ -9223,6 +9223,9 @@ chair_140:
 chair_141:
   id: 40041
   examine: "Fancy."
+table_port_sarim:
+  id: 40044
+  examine: "A nice sturdy looking table."
 candle_7:
   id: 40074
   examine: "A candle."

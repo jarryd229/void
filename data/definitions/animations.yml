@@ -1875,3 +1875,15 @@ barbarian_village_to_champions_guild: 9904
 champions_guild_to_lumbridge: 9904
 shear_sheep: 893
 pick_plant: 2282
+snake_hit: 276
+snake_death: 278
+snake_attack: 275
+monkey_hit: 221
+monkey_attack: 220
+monkey_death: 223
+zombie_hit: 5567
+zombie_attack: 5568
+zombie_death: 5569
+scorpion_hit: 6255
+scorpion_attack: 6254
+scorpion_death: 6256

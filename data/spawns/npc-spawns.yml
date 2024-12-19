@@ -1,3 +1,18 @@
+# 4679
+- { id: lesser_demon, x: 1189, y: 4584 }
+- { id: lesser_demon, x: 1181, y: 4556 }
+- { id: lesser_demon_2, x: 1182, y: 4592 }
+- { id: lesser_demon_2, x: 1181, y: 4584 }
+- { id: lesser_demon_2, x: 1177, y: 4561 }
+- { id: lesser_demon_3, x: 1194, y: 4589 }
+- { id: lesser_demon_3, x: 1189, y: 4577 }
+- { id: lesser_demon_3, x: 1170, y: 4564 }
+- { id: lesser_demon_4, x: 1201, y: 4592 }
+- { id: lesser_demon_4, x: 1183, y: 4578 }
+- { id: lesser_demon_4, x: 1164, y: 4569 }
+- { id: lesser_demon_5, x: 1196, y: 4584 }
+- { id: lesser_demon_5, x: 1175, y: 4579 }
+- { id: lesser_demon_5, x: 1171, y: 4572 }
 # 6743
 - { id: banker_fist_of_guthix, x: 1705, y: 5599 }
 # 6993
@@ -399,6 +414,10 @@
 - { id: butterfly_1, x: 2419, y: 4427, members: true }
 - { id: banker_zanaris, x: 2379, y: 4457, direction: EAST, members: true }
 - { id: banker_zanaris_2, x: 2379, y: 4459, direction: EAST, members: true }
+# 9545
+- { id: lesser_demon, x: 2416, y: 4684, members: true }
+- { id: lesser_demon_2, x: 2413, y: 4681, members: true }
+- { id: lesser_demon_3, x: 2412, y: 4677, members: true }
 # 9622
 - { id: rat, x: 2372, y: 9643, members: true }
 - { id: rat, x: 2372, y: 9642, members: true }
@@ -751,6 +770,14 @@
 - { id: barbarian_guard, x: 2544, y: 3571, members: true }
 # 10044
 - { id: musician_miscellania, x: 2536, y: 3861, direction: NORTH, members: true }
+# 10055
+- { id: monkey, x: 2522, y: 4556, members: true }
+- { id: monkey, x: 2524, y: 4552, members: true }
+- { id: monkey, x: 2525, y: 4549, members: true }
+- { id: monkey, x: 2509, y: 4550, members: true }
+- { id: monkey, x: 2513, y: 4553, members: true }
+- { id: monkey, x: 2516, y: 4552, members: true }
+- { id: monkey, x: 2518, y: 4545, members: true }
 # 10067
 - { id: easter_bunny_2010, x: 2528, y: 5355 }
 - { id: easta_buni_spawn, x: 2526, y: 5353, direction: NORTH_EAST }
@@ -824,6 +851,19 @@
 - { id: wolf, x: 2616, y: 3283, members: true }
 - { id: wolf, x: 2620, y: 3283, members: true }
 - { id: bartender_flying_horse_inn, x: 2574, y: 3319, members: true }
+- { id: scorpion, x: 2603, y: 3270, members: true }
+- { id: scorpion, x: 2602, y: 3267, members: true }
+- { id: scorpion, x: 2607, y: 3268, members: true }
+- { id: monkey, x: 2603, y: 3281, members: true }
+- { id: monkey, x: 2600, y: 3279, members: true }
+- { id: monkey, x: 2603, y: 3279, members: true }
+- { id: monkey, x: 2604, y: 3277, members: true }
+- { id: monkey, x: 2600, y: 3275, members: true }
+- { id: snake, x: 2611, y: 3276, members: true }
+- { id: snake, x: 2616, y: 3276, members: true }
+- { id: snake, x: 2610, y: 3275, members: true }
+- { id: snake, x: 2611, y: 3275, members: true }
+- { id: snake, x: 2616, y: 3275, members: true }
 # 10292
 - { id: banker_3, x: 2614, y: 3330, direction: NORTH, members: true }
 - { id: banker_4, x: 2618, y: 3330, direction: NORTH, members: true }
@@ -1122,6 +1162,24 @@
 # 10648
 - { id: giant_spider, x: 2653, y: 9764, members: true }
 - { id: giant_spider, x: 2648, y: 9761, members: true }
+# 10649
+- { id: scorpion, x: 2644, y: 9822, members: true }
+- { id: scorpion, x: 2641, y: 9819, members: true }
+- { id: scorpion, x: 2639, y: 9814, members: true }
+- { id: scorpion, x: 2641, y: 9811, members: true }
+- { id: scorpion, x: 2637, y: 9809, members: true }
+# 10650
+- { id: lesser_demon_3, x: 2631, y: 9880, members: true }
+- { id: lesser_demon_4, x: 2632, y: 9874, members: true }
+- { id: lesser_demon_5, x: 2630, y: 9867, members: true }
+# 10801
+- { id: monkey, x: 2732, y: 3176, members: true }
+- { id: monkey, x: 2742, y: 3159, members: true }
+- { id: snake, x: 2739, y: 3169, members: true }
+- { id: snake, x: 2733, y: 3165, members: true }
+- { id: snake, x: 2751, y: 3166, members: true }
+- { id: snake, x: 2734, y: 3147, members: true }
+- { id: snake, x: 2749, y: 3151, members: true }
 # 10803
 - { id: chicken, x: 2691, y: 3273, members: true }
 - { id: chicken, x: 2695, y: 3274, members: true }
@@ -1173,15 +1231,41 @@
 - { id: banker_dorgesh_kaan_2, x: 2699, y: 5348, direction: EAST, members: true }
 # 11054
 - { id: musician_shilo_village, x: 2811, y: 2946, direction: SOUTH, members: true }
+- { id: scorpion, x: 2768, y: 2980, members: true }
+- { id: scorpion, x: 2765, y: 2978, members: true }
+- { id: scorpion, x: 2785, y: 2955, members: true }
+- { id: scorpion, x: 2788, y: 2948, members: true }
+- { id: scorpion, x: 2786, y: 2947, members: true }
+- { id: monkey, x: 2787, y: 3002, members: true }
+- { id: monkey, x: 2794, y: 3000, members: true }
+- { id: monkey, x: 2790, y: 2997, members: true }
+- { id: monkey, x: 2799, y: 2996, members: true }
+- { id: monkey, x: 2792, y: 2994, members: true }
+- { id: monkey, x: 2796, y: 2993, members: true }
 # 11055
 - { id: chicken, x: 2780, y: 3064, members: true }
 - { id: chicken, x: 2808, y: 3067, members: true }
 # 11056
 - { id: musician_tai_bwo_wannai, x: 2771, y: 3131, direction: SOUTH, members: true }
+- { id: snake, x: 2804, y: 3116, members: true}
+- { id: snake, x: 2811, y: 3112, members: true }
+- { id: snake, x: 2784, y: 3104, members: true }
+- { id: snake, x: 2785, y: 3101, members: true }
+- { id: snake, x: 2772, y: 3093, members: true }
+- { id: snake, x: 2775, y: 3089, members: true }
 # 11057
 - { id: rat, x: 2810, y: 3170, members: true }
 - { id: rat, x: 2807, y: 3167, members: true }
 - { id: bartender_dead_mans_chest, x: 2797, y: 3155, members: true }
+- { id: monkey, x: 2758, y: 3178, members: true }
+- { id: monkey, x: 2755, y: 3170, members: true }
+- { id: monkey, x: 2783, y: 3175, members: true }
+- { id: monkey, x: 2812, y: 3182, members: true }
+- { id: snake, x: 2763, y: 3180, members: true }
+- { id: snake, x: 2754, y: 3171, members: true }
+- { id: snake, x: 2786, y: 3174, members: true }
+# 11058
+- { id: snake, x: 2772, y: 3209, members: true }
 # 11061
 - { id: man, x: 2803, y: 3431, members: true }
 - { id: man, x: 2805, y: 3428, members: true }
@@ -1227,6 +1311,51 @@
 # 11310
 - { id: banker_shilo_village, x: 2851, y: 2954, members: true }
 - { id: banker_shilo_village, x: 2853, y: 2955, members: true }
+# 11311
+- { id: monkey, x: 2834, y: 3035, members: true }
+- { id: monkey, x: 2837, y: 3034, members: true }
+- { id: monkey, x: 2829, y: 3029, members: true }
+- { id: monkey, x: 2832, y: 3029, members: true }
+- { id: monkey, x: 2837, y: 3029, members: true }
+- { id: monkey, x: 2833, y: 3027, members: true }
+- { id: monkey, x: 2871, y: 3023, members: true }
+- { id: monkey, x: 2868, y: 3021, members: true }
+- { id: monkey, x: 2873, y: 3021, members: true }
+- { id: monkey, x: 2868, y: 3017, members: true }
+- { id: monkey, x: 2871, y: 3018, members: true }
+- { id: monkey, x: 2869, y: 3015, members: true }
+- { id: snake, x: 2838, y: 3047, members: true }
+- { id: snake, x: 2836, y: 3043, members: true }
+- { id: snake, x: 2847, y: 3042, members: true }
+- { id: snake, x: 2838, y: 3039, members: true }
+- { id: snake, x: 2825, y: 3030, members: true }
+- { id: snake, x: 2832, y: 3019, members: true }
+- { id: snake, x: 2832, y: 3017, members: true }
+- { id: snake, x: 2827, y: 3013, members: true }
+# 11312
+- { id: snake, x: 2820, y: 3082, members: true }
+- { id: snake, x: 2826, y: 3081, members: true }
+- { id: snake, x: 2824, y: 3077, members: true }
+- { id: snake, x: 2835, y: 3074, members: true }
+# 11313
+- { id: scorpion, x: 2862, y: 3180 }
+- { id: scorpion, x: 2863, y: 3169 }
+- { id: scorpion, x: 2861, y: 3165 }
+- { id: scorpion, x: 2843, y: 3156 }
+- { id: scorpion, x: 2853, y: 3159 }
+- { id: scorpion, x: 2870, y: 3159 }
+- { id: scorpion, x: 2865, y: 3156 }
+- { id: stiles, x: 2851, y: 3143, direction: SOUTH }
+- { id: monkey, x: 2820, y: 3193 }
+- { id: monkey, x: 2879, y: 3161 }
+- { id: monkey, x: 2877, y: 3154 }
+- { id: monkey, x: 2873, y: 3148 }
+- { id: snake, x: 2875, y: 3164 }
+- { id: snake, x: 2879, y: 3151 }
+- { id: snake, x: 2819, y: 3194 }
+# 11315
+- { id: lesser_demon_3, x: 2837, y: 3280 }
+- { id: lesser_demon_5, x: 2832, y: 3278 }
 # 11316
 - { id: chicken, x: 2846, y: 3374, members: true }
 - { id: chicken, x: 2852, y: 3370, members: true }
@@ -1281,16 +1410,80 @@
 - { id: rat_ratcatchers_4, x: 2863, y: 5101, members: true }
 - { id: rat_ratcatchers_5, x: 2857, y: 5091, members: true }
 - { id: rat_ratcatchers_6, x: 2863, y: 5086, members: true }
+# 11413
+- { id: lesser_demon, x: 2831, y: 9562 }
+- { id: lesser_demon, x: 2840, y: 9552 }
+- { id: lesser_demon_2, x: 2843, y: 9559 }
+- { id: lesser_demon_3, x: 2837, y: 9565 }
+- { id: lesser_demon_4, x: 2836, y: 9558 }
+- { id: lesser_demon_5, x: 2843, y: 9557 }
 # 11414
 - { id: rat, x: 2862, y: 9638, members: true }
 - { id: rat, x: 2860, y: 9635, members: true }
+- { id: lesser_demon, x: 2835, y: 9602 }
+- { id: lesser_demon_2, x: 2839, y: 9604 }
+- { id: lesser_demon_3, x: 2838, y: 9610 }
+- { id: lesser_demon_4, x: 2845, y: 9612 }
+- { id: lesser_demon_5, x: 2837, y: 9623 }
 # 11423
 - { id: banker_keldagrim, x: 2836, y: 10205, direction: NORTH, members: true }
 - { id: banker_keldagrim_2, x: 2838, y: 10205, direction: NORTH, members: true }
+# 11565
+- { id: monkey, x: 2909, y: 2900, members: true }
+- { id: monkey, x: 2934, y: 2915, members: true }
+- { id: monkey, x: 2937, y: 2911, members: true }
+- { id: monkey, x: 2939, y: 2907, members: true }
+- { id: monkey, x: 2937, y: 2898, members: true }
+- { id: monkey, x: 2880, y: 2934, members: true }
+- { id: snake, x: 2880, y: 2922, members: true }
+- { id: snake, x: 2884, y: 2921, members: true }
+- { id: snake, x: 2881, y: 2919, members: true }
+- { id: snake, x: 2910, y: 2919, members: true }
+- { id: snake, x: 2912, y: 2916, members: true }
+- { id: snake, x: 2913, y: 2913, members: true }
+# 11566
+- { id: monkey, x: 2895, y: 2994, level: 1, members: true }
+- { id: monkey, x: 2898, y: 2996, level: 1, members: true }
+- { id: monkey, x: 2901, y: 2995, level: 1, members: true }
+- { id: monkey, x: 2896, y: 3000, level: 2, members: true }
+- { id: monkey, x: 2900, y: 2988, level: 2, members: true }
+- { id: monkey, x: 2894, y: 2985, level: 2, members: true }
+- { id: monkey, x: 2898, y: 2983, level: 2, members: true }
+- { id: monkey, x: 2894, y: 2981, level: 2, members: true }
+- { id: monkey, x: 2905, y: 2973, level: 2, members: true }
+- { id: snake, x: 2929, y: 2989, members: true }
+- { id: snake, x: 2936, y: 2986, members: true }
+- { id: snake, x: 2939, y: 2985, members: true }
+- { id: snake, x: 2933, y: 2981, members: true }
+- { id: snake, x: 2937, y: 2978, members: true }
+- { id: snake, x: 2935, y: 2973, members: true }
+- { id: snake, x: 2928, y: 2973, members: true }
+- { id: snake, x: 2923, y: 2970, members: true }
+# 11567
+- { id: monkey, x: 2920, y: 3027, members: true }
+- { id: monkey, x: 2923, y: 3027, members: true }
+- { id: monkey, x: 2921, y: 3024, members: true }
+- { id: monkey, x: 2924, y: 3022, members: true }
+- { id: monkey, x: 2928, y: 3022, members: true }
+- { id: monkey, x: 2922, y: 3018, members: true }
+- { id: monkey, x: 2924, y: 3018, members: true }
+- { id: monkey, x: 2928, y: 3018, members: true }
+- { id: monkey, x: 2909, y: 3023, members: true }
+- { id: monkey, x: 2912, y: 3019, members: true }
+# 11568
+- { id: monkey, x: 2906, y: 3084, members: true }
+- { id: monkey, x: 2908, y: 3080, members: true }
+- { id: monkey, x: 2909, y: 3077, members: true }
+- { id: monkey, x: 2893, y: 3078, members: true }
+- { id: monkey, x: 2897, y: 3081, members: true }
+- { id: monkey, x: 2900, y: 3080, members: true }
+- { id: monkey, x: 2902, y: 3073, members: true }
 # 11569
 - { id: shopkeeper_musa_point, x: 2902, y: 3146 }
 - { id: shop_assistant_musa_point, x: 2902, y: 3150 }
 - { id: bartender_zambo, x: 2926, y: 3145 }
+- { id: snake, x: 2881, y: 3157 }
+- { id: snake, x: 2889, y: 3146 }
 # 11570
 - { id: rat, x: 2923, y: 3251 }
 - { id: rat, x: 2939, y: 3242 }
@@ -1340,11 +1533,24 @@
 - { id: rat, x: 2921, y: 9653 }
 - { id: rat, x: 2936, y: 9648 }
 - { id: rat, x: 2923, y: 9639 }
+- { id: lesser_demon_melzars_maze, x: 2936, y: 9650 }
 # 11671
 - { id: rat, x: 2930, y: 9701, members: true }
 - { id: rat, x: 2932, y: 9697, members: true }
 - { id: rat, x: 2932, y: 9692, members: true }
 - { id: rat, x: 2932, y: 9687, members: true }
+# 11673
+- { id: lesser_demon, x: 2931, y: 9807, members: true }
+- { id: lesser_demon_2, x: 2932, y: 9810, members: true }
+- { id: lesser_demon_3, x: 2926, y: 9802, members: true }
+- { id: lesser_demon_4, x: 2931, y: 9798, members: true }
+- { id: lesser_demon_5, x: 2936, y: 9793, members: true }
+# 11822
+- { id: monkey, x: 2948, y: 3001, members: true }
+- { id: monkey, x: 2950, y: 2997, members: true }
+- { id: monkey, x: 2952, y: 2973, members: true }
+- { id: monkey, x: 2948, y: 2970, members: true }
+- { id: monkey, x: 2953, y: 2965, members: true }
 # 11825
 - { id: a_pile_of_broken_glass, x: 2981, y: 3190 }
 - { id: thurgo, x: 3001, y: 3144 }
@@ -1465,6 +1671,14 @@
 - { id: skeleton_flail, x: 3005, y: 10352 }
 - { id: skeleton_axe_shield, x: 3006, y: 10357 }
 # 12081
+- { id: port_sarim_guard_sleeping, x: 3019, y: 3185, direction: SOUTH_WEST  }
+- { id: port_sarim_guard_6, x: 3018, y: 3179, level: 2 }
+- { id: crab, x: 3028, y: 3158 }
+- { id: crab, x: 3025, y: 3156 }
+- { id: crab, x: 3022, y: 3157 }
+- { id: crab, x: 3019, y: 3154 }
+- { id: crab, x: 3020, y: 3146 }
+- { id: crab, x: 3013, y: 3141 }
 - { id: rat, x: 3013, y: 3194 }
 - { id: rat, x: 3013, y: 3190 }
 - { id: rat, x: 3011, y: 3189 }
@@ -1498,6 +1712,17 @@
 - { id: banker_falador, x: 3015, y: 3353, direction: NORTH }
 # 12086
 - { id: musician_edgeville, x: 3057, y: 3472, direction: SOUTH }
+# 12087
+- { id: scorpion, x: 3040, y: 3581 }
+- { id: scorpion, x: 3028, y: 3577 }
+- { id: scorpion, x: 3025, y: 3568 }
+- { id: scorpion, x: 3032, y: 3570 }
+- { id: scorpion, x: 3041, y: 3572 }
+- { id: scorpion, x: 3055, y: 3574 }
+- { id: scorpion, x: 3052, y: 3570 }
+- { id: scorpion, x: 3047, y: 3567 }
+- { id: scorpion, x: 3056, y: 3566 }
+- { id: scorpion, x: 3062, y: 3555 }
 # 12088
 - { id: skeleton_helmet, x: 3008, y: 3595 }
 - { id: skeleton_unarmed, x: 3010, y: 3597 }
@@ -1514,6 +1739,11 @@
 # 12089
 - { id: giant_rat, x: 3049, y: 3691 }
 - { id: giant_rat_dark_injured, x: 3049, y: 3695 }
+# 12092
+- { id: lesser_demon_2, x: 3017, y: 3852 }
+- { id: lesser_demon_3, x: 3015, y: 3851 }
+- { id: lesser_demon_4, x: 3014, y: 3848 }
+- { id: lesser_demon_5, x: 3016, y: 3845 }
 # 12107
 - { id: dark_mage, x: 3039, y: 4834, direction: SOUTH, members: true }
 - { id: abyssal_leech, x: 3014, y: 4838, members: true }
@@ -1599,11 +1829,25 @@
 - { id: abyssal_walker, x: 3062, y: 4820, members: true }
 - { id: abyssal_walker, x: 3022, y: 4849, members: true }
 - { id: abyssal_walker, x: 3030, y: 4856, members: true }
+# 12184
+- { id: scorpion, x: 3039, y: 9790 }
+- { id: scorpion, x: 3044, y: 9787 }
+- { id: scorpion, x: 3047, y: 9784 }
+- { id: scorpion, x: 3041, y: 9781 }
+- { id: scorpion, x: 3045, y: 9777 }
+- { id: scorpion, x: 3049, y: 9777 }
+- { id: scorpion, x: 3056, y: 9778 }
+- { id: scorpion, x: 3038, y: 9771 }
+- { id: scorpion, x: 3054, y: 9773 }
+- { id: scorpion, x: 3046, y: 9767 }
 # 12185
 - { id: rat, x: 3026, y: 9837, members: true }
 - { id: rat, x: 3033, y: 9827, members: true }
 - { id: rat, x: 3042, y: 9818, members: true }
 - { id: rat, x: 3043, y: 9815, members: true }
+- { id: scorpion, x: 3039, y: 9802 }
+- { id: scorpion, x: 3042, y: 9800 }
+- { id: scorpion, x: 3042, y: 9793 }
 # 12336
 - { id: runescape_guide, x: 3094, y: 3107 }
 - { id: survival_expert, x: 3103, y: 3095 }
@@ -1627,6 +1871,7 @@
 - { id: banker_tutorial_island, x: 3122, y: 3125, direction: SOUTH }
 # 12337
 - { id: traiborn, x: 3112, y: 3162, level: 1 }
+- { id: lesser_demon, x: 3110, y: 3157, level: 2 }
 # 12338
 - { id: diango, x: 3081, y: 3247 }
 - { id: musician_draynor_village, x: 3110, y: 3253, direction: SOUTH }
@@ -1709,6 +1954,9 @@
 - { id: skeleton_shield_helmet, x: 3112, y: 3538 }
 - { id: skeleton_unarmed, x: 3116, y: 3524 }
 - { id: skeleton_helmet, x: 3117, y: 3532 }
+# 12348
+- { id: lesser_demon_2, x: 3094, y: 3869 }
+- { id: lesser_demon_4, x: 3091, y: 3861 }
 # 12346
 - { id: skeleton_axe_shield_85, x: 3092, y: 3717 }
 - { id: skeleton_sword_shield_85, x: 3096, y: 3738 }
@@ -1739,27 +1987,31 @@
 # 12437
 - { id: sedridor, x: 3103, y: 9571 }
 - { id: chicken, x: 3109, y: 9569 }
+# 12438
+- { id: zombie_2, x: 3119, y: 9647 }
+- { id: zombie_4, x: 3124, y: 9651 }
 # 12439
-- { id: rat, x: 3083, y: 9673, members: true }
-- { id: rat, x: 3091, y: 9670, members: true }
-- { id: rat, x: 3099, y: 9674, members: true }
-- { id: rat, x: 3108, y: 9672, members: true }
-- { id: rat, x: 3118, y: 9670, members: true }
-- { id: rat, x: 3122, y: 9673, members: true }
-- { id: rat, x: 3123, y: 9666, members: true }
-- { id: rat, x: 3117, y: 9694, members: true }
-- { id: rat, x: 3106, y: 9689, members: true }
-- { id: rat, x: 3113, y: 9683, members: true }
+- { id: rat, x: 3083, y: 9673 }
+- { id: rat, x: 3091, y: 9670 }
+- { id: rat, x: 3099, y: 9674}
+- { id: rat, x: 3108, y: 9672 }
+- { id: rat, x: 3118, y: 9670 }
+- { id: rat, x: 3122, y: 9673}
+- { id: rat, x: 3123, y: 9666 }
+- { id: rat, x: 3117, y: 9694 }
+- { id: rat, x: 3106, y: 9689 }
+- { id: rat, x: 3113, y: 9683 }
+- { id: zombie_3, x: 3086, y: 9674 }
 # 12440
-- { id: rat, x: 3099, y: 9765, members: true }
-- { id: rat, x: 3103, y: 9764, members: true }
-- { id: rat, x: 3104, y: 9760, members: true }
-- { id: rat, x: 3093, y: 9754, members: true }
-- { id: rat, x: 3099, y: 9755, members: true }
-- { id: rat, x: 3113, y: 9754, members: true }
-- { id: rat, x: 3116, y: 9754, members: true }
-- { id: rat, x: 3111, y: 9752, members: true }
-- { id: rat, x: 3101, y: 9748, members: true }
+- { id: rat, x: 3099, y: 9765}
+- { id: rat, x: 3103, y: 9764 }
+- { id: rat, x: 3104, y: 9760 }
+- { id: rat, x: 3093, y: 9754 }
+- { id: rat, x: 3099, y: 9755 }
+- { id: rat, x: 3113, y: 9754 }
+- { id: rat, x: 3116, y: 9754 }
+- { id: rat, x: 3111, y: 9752 }
+- { id: rat, x: 3101, y: 9748 }
 # 12442
 - { id: rat, x: 3112, y: 9884 }
 - { id: rat, x: 3124, y: 9882 }
@@ -2267,6 +2519,13 @@
 - { id: wolf, x: 3218, y: 3924, members: true }
 - { id: wolf, x: 3229, y: 3917, members: true }
 - { id: wolf, x: 3241, y: 3921, members: true }
+- { id: scorpion, x: 3225, y: 3943, members: true }
+- { id: scorpion, x: 3231, y: 3940, members: true }
+- { id: scorpion, x: 3235, y: 3946, members: true }
+- { id: scorpion, x: 3239, y: 3942, members: true }
+- { id: scorpion, x: 3246, y: 3945, members: true }
+- { id: scorpion, x: 3249, y: 3949, members: true }
+- { id: scorpion, x: 3256, y: 3954, members: true }
 # 12870
 - { id: holding_pen_swept_away, x: 3231, y: 4523 }
 - { id: bat_pen_swept_away, x: 3222, y: 4513 }
@@ -2308,6 +2567,9 @@
 - { id: giant_rat, x: 3233, y: 9866 }
 - { id: giant_rat_dark, x: 3239, y: 9864 }
 - { id: giant_rat_dark_injured, x: 3223, y: 9860 }
+- { id: scorpion, x: 3251, y: 9908 }
+- { id: scorpion, x: 3253, y: 9903 }
+- { id: zombie_3, x: 3259, y: 9891 }
 # 13099
 - { id: musician_sophanem, x: 3278, y: 2802, direction: EAST, members: true }
 # 13104
@@ -2330,6 +2592,7 @@
 - { id: man_3, x: 3303, y: 3199 }
 - { id: ellis, x: 3276, y: 3193 }
 - { id: al_the_camel, x: 3274, y: 3168 }
+- { id: scorpion, x: 3292, y: 3142 }
 # 13106
 - { id: mubariz, x: 3314, y: 3240 }
 - { id: border_guard_al_kharid, x: 3266, y: 3229, direction: SOUTH }
@@ -2339,6 +2602,16 @@
 - { id: musician_al_kharid, x: 3292, y: 3212, direction: NORTH }
 - { id: man_3, x: 3298, y: 3206 }
 - { id: rat, x: 3319, y: 3250 }
+# 13107
+- { id: scorpion, x: 3300, y: 3315 }
+- { id: scorpion, x: 3298, y: 3311 }
+- { id: scorpion, x: 3302, y: 3306 }
+- { id: scorpion, x: 3298, y: 3304 }
+- { id: scorpion, x: 3298, y: 3299 }
+- { id: scorpion, x: 3292, y: 3297 }
+- { id: scorpion, x: 3301, y: 3291 }
+- { id: scorpion, x: 3299, y: 3288 }
+- { id: scorpion, x: 3301, y: 3278 }
 # 13108
 - { id: musician_gower_farm, x: 3289, y: 3339, direction: SOUTH }
 - { id: goblin_orange_hat_spear, x: 3311, y: 3375 }
@@ -2348,6 +2621,8 @@
 # 13110
 - { id: man_3, x: 3283, y: 3501 }
 - { id: bartender_jolly_boar_inn, x: 3277, y: 3488 }
+# 13116
+- { id: lesser_demon_5, x: 3324, y: 3856 }
 # 13131
 - { id: eniola, x: 3269, y: 4857, direction: SOUTH, members: true }
 - { id: zamorak_warrior_square, x: 3271, y: 4815, members: true }

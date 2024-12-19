@@ -1705,3 +1705,87 @@ skeleton_drop_table:
   type: all
   drops:
     - id: bones
+snake_drop_table:
+  type: all
+  drops:
+    - drops:
+        - id: bones
+monkey_drop_table:
+  type: all
+  drops:
+    - drops:
+        - id: monkey_bones
+lesser_demon_melzars_maze_drop_table:
+  type: all
+  drops:
+    - type: all
+      drops:
+        - id: ashes
+        - id: key_green
+demon_drop_table:
+  type: all
+  drops:
+    - drops:
+        - id: ashes
+    - roll: 128
+      drops:
+        - id: steel_full_helm
+          chance: 4
+        - id: steel_hatchet
+          chance: 4
+        - id: steel_scimitar
+          chance: 3
+        - id: black_2h_sword
+          chance: 6
+        - id: black_kiteshield
+          chance: 6
+        - id: mithril_sq_shield
+          chance: 1
+        - id: mithril_chainbody
+          chance: 1
+        - id: rune_med_helm
+          chance: 1
+        - id: fire_rune
+          chance: 8
+          amount: 60
+        - id: chaos_rune
+          chance: 5
+          amount: 12
+        - id: death_rune
+          chance: 3
+          amount: 3
+        - id: fire_rune
+          chance: 1
+          amount: 30
+        - <<: *herb_drop_table
+          chance: 1
+        - id: coins
+          chance: 40
+          amount: 120
+        - id: coins
+          chance: 29
+          amount: 40
+        - id: coins
+          chance: 10
+          amount: 200
+        - id: coins
+          chance: 7
+          amount: 10
+        - id: coins
+          chance: 1
+          amount: 450
+        - id: coins
+          chance: 1
+          amount: 10
+          members: false
+        - id: jug_of_wine
+          chance: 3
+        - id: gold_ore
+          chance: 2
+        - <<: *gem_table
+          chance: 4
+    - roll: 5000
+      drops:
+        - id: lesser_demon_champions_scroll
+          chance: 1
+
