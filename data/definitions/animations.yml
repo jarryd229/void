@@ -1401,6 +1401,7 @@ giant_spider_hit: 5328
 giant_spider_death: 5329
 rat_attack: 2705
 rat_hit: 2706
+rat_death: 2707
 giant_rat_attack: 14859
 giant_rat_death: 14860
 giant_rat_hit: 14861
@@ -1569,6 +1570,7 @@ traiborn_bone_spell: 4602
 summon_demon: 4617
 demon_attack: 64
 demon_hit: 65
+demon_death: 67
 delrith_continue: 4620
 delrith_appear: 4623
 delrith_death: 4624
@@ -1808,3 +1810,15 @@ gnome_jump: 11785
 gnome_swing: 11789
 gnome_jump_barrier: 2923
 gnome_pipe_land: 2924
+snake_hit: 276
+snake_death: 278
+snake_attack: 275
+monkey_hit: 221
+monkey_attack: 220
+monkey_death: 223
+zombie_hit: 5567
+zombie_attack: 5568
+zombie_death: 5569
+scorpion_hit: 6255
+scorpion_attack: 6254
+scorpion_death: 6256
