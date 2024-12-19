@@ -762,6 +762,27 @@
 - { id: iron_platebody, x: 3085, y: 3859, delay: 1000 }
 # 12440
 - { id: oil_can, x: 3092, y: 9755, delay: 100 }
+# 12441
+- { id: bones, x: 3101, y: 9825, delay: 100 }
+- { id: bones, x: 3110, y: 9825, delay: 100 }
+- { id: bones, x: 3107, y: 9823, delay: 100 }
+- { id: bones, x: 3109, y: 9823, delay: 100 }
+# 12442
+- { id: bones, x: 3116, y: 9891, delay: 100 }
+- { id: bones, x: 3119, y: 9894, delay: 100 }
+- { id: bones, x: 3120, y: 9894, delay: 100 }
+- { id: bones, x: 3122, y: 9891, delay: 100 }
+- { id: bones, x: 3093, y: 9879, delay: 100 }
+- { id: bones, x: 3093, y: 9884, delay: 100 }
+- { id: bones, x: 3098, y: 9886, delay: 100 }
+- { id: bones, x: 3097, y: 9901, delay: 100 }
+- { id: bones, x: 3094, y: 9906, delay: 100 }
+- { id: coins, amount: 4, x: 3088, y: 9898, delay: 100 }
+- { id: coins, x: 3091, y: 9899, delay: 100 }
+- { id: coins, x: 3088, y: 9899, delay: 100 }
+- { id: bronze_arrow, amount: 3, x: 3130, y: 9903, delay: 100 }
+- { id: bronze_arrow, x: 3135, y: 9916, delay: 100 }
+- { id: brass_key, x: 3131, y: 9862, delay: 100 }
 # 12593
 - { id: swamp_tar, x: 3194, y: 3168, delay: 100, members: true }
 - { id: swamp_tar, x: 3194, y: 3162, delay: 100, members: true }

@@ -147,6 +147,22 @@ giant_spider_2:
   race: giant_spider
   height: 10
   examine: "I think this spider has been genetically modified."
+zombie:
+  &low_level_zombie
+  id: 73
+  att: 8
+  str: 9
+  def: 10
+  attack_bonus: 5
+  attack_speed: 5
+  wander_radius: 10
+  hitpoints: 220
+  slayer_xp: 22.0
+  max_hit_melee: 20
+  style: slash
+  respawn_delay: 35
+  race: zombie
+  examine: "Dead man walking."
 cow:
   &cow
   id: 81
@@ -161,6 +177,22 @@ cow:
   race: cow
   height: 30
   examine: "Converts grass to beef."
+lesser_demon:
+  &lesser_demon
+  id: 82
+  hitpoints: 790
+  att: 68
+  str: 70
+  def: 71
+  mage: 1
+  range: 1
+  style: slash
+  max_hit_melee: 80
+  wander_radius: 4
+  hunt_mode: aggressive
+  race: demon
+  respawn_delay: 30
+  examine: "Lesser, but still pretty big."
 giant_rat:
   &giant_rat
   id: 86
@@ -222,6 +254,51 @@ white_wolf_2:
   respawn_delay: 90
   race: wolves
   examine: "A vicious mountain wolf."
+scorpion:
+  id: 107
+  hitpoints: 170
+  att: 11
+  str: 12
+  def: 11
+  mage: 1
+  range: 1
+  style: stab
+  max_hit_melee: 2
+  respawn_delay: 25
+  wander_radius: 4
+  hunt_mode: cowardly
+  race: scorpion
+  examine: "An extremely vicious scorpion."
+snake:
+  id: 128
+  hitpoints: 60
+  att: 4
+  str: 5
+  def: 3
+  mage: 1
+  range: 1
+  style: stab
+  max_hit_melee: 10
+  respawn_delay: 30
+  wander_radius: 4
+  hunt_mode: cowardly
+  race: snake
+  examine: "A slithering serpent."
+monkey:
+  id: 132
+  hitpoints: 60
+  att: 2
+  str: 3
+  def: 2
+  mage: 1
+  range: 1
+  style: crush
+  attack_speed: 4
+  max_hit_melee: 10
+  respawn_delay: 37
+  wander_radius: 4
+  race: monkey
+  examine: "Perhaps our oldest relatives?"
 big_wolf:
   <<: *wolf
   id: 141
@@ -940,6 +1017,19 @@ duckling:
   swim: true
   wander_radius: 6
   examine: "Mini quackers."
+port_sarim_guard_sleeping:
+  id: 2704
+  race: human
+  examine: "He's asleep."
+port_sarim_guard_6:
+  id: 2705
+  race: human
+  examine: "Keeping an eye out for suspicious activity."
+crab:
+  id: 2706
+  race: crab
+  wander_radius: 3
+  examine: "Nobody likes crabs..."
 master_crafter_2:
   id: 2732
   race: human
@@ -1355,6 +1445,18 @@ denath:
 wally:
   id: 4664
   examine: "Wally."
+lesser_demon_2:
+  <<: *lesser_demon
+  id: 4694
+lesser_demon_3:
+  <<: *lesser_demon
+  id: 4695
+lesser_demon_4:
+  <<: *lesser_demon
+  id: 4696
+lesser_demon_5:
+  <<: *lesser_demon
+  id: 4697
 mikasi:
   id: 4707
   race: human
@@ -1400,6 +1502,16 @@ banker_sophanem_dungeon_2:
   interact_distance: 2
   race: human
   examine: "She can look after my money."
+zombie_2:
+  <<: *low_level_zombie
+  id: 5304
+zombie_3:
+  <<: *low_level_zombie
+  id: 5305
+zombie_4:
+  <<: *low_level_zombie
+  id: 5306
+  examine: "Dead woman walking."
 musician_port_sarim:
   id: 5439
   song: 702
@@ -1474,6 +1586,9 @@ wolf_2:
   max_hit_melee: 30
   slayer_xp: 34
   examine: "A social killer."
+lesser_demon_melzars_maze:
+  <<: *lesser_demon
+  id: 6101
 ducklings:
   id: 6112
   swim: true
@@ -1997,6 +2112,10 @@ balloon_animal_goat:
   id: 11235
   wander_radius: 3
   examine: "It looks like an animal."
+stiles:
+  id: 11267
+  race: human
+  examine: "Exchanges lobsters, tuna and swordfish for banknotes."
 goblin_light_grey_bald:
   <<: *goblin_mohawk_blue
   id: 12353
@@ -2084,22 +2203,6 @@ greater_demon:
   hunt_mode: aggressive
   height: 60
   examine: "Big, red, and incredibly evil."
-zombie:
-  &low_level_zombie
-  id: 73
-  att: 8
-  str: 9
-  def: 10
-  attack_bonus: 5
-  attack_speed: 5
-  wander_radius: 10
-  hitpoints: 220
-  slayer_xp: 22.0
-  max_hit_melee: 20
-  style: slash
-  respawn_delay: 35
-  examine: "Dead man walking."
-  race: zombie
 guardian_mummy:
   id: 4476
   race: mummy

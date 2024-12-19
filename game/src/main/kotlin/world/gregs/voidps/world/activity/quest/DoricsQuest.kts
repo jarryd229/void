@@ -28,7 +28,7 @@ interfaceSlot(component = "journals", id = "quest_journals", itemSlot = 3) {
             "<navy>I can start this quest by speaking to <maroon>Doric<navy> who is <maroon>North of",
             "<maroon>Falador",
             "",
-            "<navy>There aren't any requirements but <maroon>Level 15 Mining<navy> will help"
+            "<navy>There aren't any requirements but <maroon>Level 15 Mining<navy> will help."
         )
     }
     player.sendQuestJournal("Doric's Quest", lines)

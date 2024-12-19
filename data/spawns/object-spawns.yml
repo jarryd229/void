@@ -1,1 +1,3 @@
 - { id: crate, x: 3081, y: 3488, type: 10, rotation: 1 }
+- { id: chair_139, x: 3019, y: 3184, type: 10, rotation: 1 }
+- { id: table_port_sarim, x: 3018, y: 3184, type: 10, rotation: 1 }
