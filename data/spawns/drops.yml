@@ -265,6 +265,7 @@ uncommon_seed_drop_table:
     - id: torstol_seed
       chance: 1
 herb_drop_table:
+  &herb_drop_table
   roll: 128
   drops:
     - id: grimy_guam
