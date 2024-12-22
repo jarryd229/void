@@ -1,7 +1,11 @@
 package world.gregs.voidps.world.map.port_sarim
 
+import world.gregs.voidps.engine.data.definition.PatrolDefinitions
+import world.gregs.voidps.engine.entity.character.mode.Patrol
 import world.gregs.voidps.engine.entity.character.npc.npcOperate
 import world.gregs.voidps.engine.entity.character.player.name
+import world.gregs.voidps.engine.entity.npcSpawn
+import world.gregs.voidps.engine.inject
 import world.gregs.voidps.type.random
 import world.gregs.voidps.world.interact.dialogue.*
 import world.gregs.voidps.world.interact.dialogue.type.choice
@@ -46,6 +50,8 @@ npcOperate("Talk-to", "port_sarim_guard_6") {
         }
     }
 }
+
+val patrols: PatrolDefinitions by inject()
 
 npcSpawn("port_sarim_guard_6") { npc ->
     val patrol = patrols.get("port_sarim_guard")
