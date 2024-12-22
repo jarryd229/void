@@ -1599,6 +1599,7 @@ autumn_elemental_1:
   &autumn_elemental
   id: 5533
   race: elemental
+  hunt_mode: spotted
   examine: "An autumn elemental."
 autumn_elemental_2:
   <<: *autumn_elemental
@@ -1619,6 +1620,7 @@ spring_elemental_1:
   &spring_elemental
   id: 5539
   race: elemental
+  hunt_mode: spotted
   examine: "A spring elemental."
 spring_elemental_2:
   <<: *spring_elemental
@@ -1645,6 +1647,7 @@ summer_elemental_1:
   &summer_elemental
   id: 5547
   race: elemental
+  hunt_mode: spotted
   examine: "A summer elemental."
 summer_elemental_2:
   <<: *summer_elemental
@@ -1665,6 +1668,7 @@ winter_elemental_1:
   &winter_elemental
   id: 5553
   race: elemental
+  hunt_mode: spotted
   examine: "A winter elemental."
 winter_elemental_2:
   <<: *winter_elemental
