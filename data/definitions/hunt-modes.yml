@@ -21,3 +21,11 @@ ash_finder:
   check_visual: line_of_sight
   id: ashes
   rate: 4
+spotted:
+  type: player
+  check_visual: line_of_sight
+  check_afk: false
+  check_not_to_strong: false
+  check_not_combat: false
+  check_not_combat_self: false
+  check_not_busy: false
