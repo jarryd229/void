@@ -1529,6 +1529,102 @@ thakkrad_sigmundson:
   id: 5506
   race: human
   examine: "A young master craftsman."
+apprentice_sorceresss_garden:
+  id: 5532
+  wander_radius: 2
+  race: human
+  examine: "Come, old broomstick, you are needed."
+autumn_elemental_1:
+  &autumn_elemental
+  id: 5533
+  race: elemental
+  examine: "An autumn elemental."
+autumn_elemental_2:
+  <<: *autumn_elemental
+  id: 5534
+autumn_elemental_3:
+  <<: *autumn_elemental
+  id: 5535
+autumn_elemental_4:
+  <<: *autumn_elemental
+  id: 5536
+autumn_elemental_5:
+  <<: *autumn_elemental
+  id: 5537
+autumn_elemental_6:
+  <<: *autumn_elemental
+  id: 5538
+spring_elemental_1:
+  &spring_elemental
+  id: 5539
+  race: elemental
+  examine: "A spring elemental."
+spring_elemental_2:
+  <<: *spring_elemental
+  id: 5540
+spring_elemental_3:
+  <<: *spring_elemental
+  id: 5541
+spring_elemental_4:
+  <<: *spring_elemental
+  id: 5542
+spring_elemental_5:
+  <<: *spring_elemental
+  id: 5543
+spring_elemental_6:
+  <<: *spring_elemental
+  id: 5544
+spring_elemental_7:
+  <<: *spring_elemental
+  id: 5545
+spring_elemental_8:
+  <<: *spring_elemental
+  id: 5546
+summer_elemental_1:
+  &summer_elemental
+  id: 5547
+  race: elemental
+  examine: "A summer elemental."
+summer_elemental_2:
+  <<: *summer_elemental
+  id: 5548
+summer_elemental_3:
+  <<: *summer_elemental
+  id: 5549
+summer_elemental_4:
+  <<: *summer_elemental
+  id: 5550
+summer_elemental_5:
+  <<: *summer_elemental
+  id: 5551
+summer_elemental_6:
+  <<: *summer_elemental
+  id: 5552
+winter_elemental_1:
+  &winter_elemental
+  id: 5553
+  race: elemental
+  examine: "A winter elemental."
+winter_elemental_2:
+  <<: *winter_elemental
+  id: 5554
+winter_elemental_3:
+  <<: *winter_elemental
+  id: 5555
+winter_elemental_4:
+  <<: *winter_elemental
+  id: 5556
+winter_elemental_5:
+  <<: *winter_elemental
+  id: 5557
+winter_elemental_6:
+  <<: *winter_elemental
+  id: 5558
+del_monty:
+  id: 5563
+  wander_radius: 4
+  race: cat
+  examine: "Loves living in an orchard."
 banker_dorgesh_kaan:
   id: 5776
   interact_distance: 2
