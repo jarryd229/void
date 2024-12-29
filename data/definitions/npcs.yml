@@ -751,6 +751,8 @@ captain_rovin:
   examine: "The head of the palace guard."
 nora_t_hagg:
   id: 896
+  hunt_range: 3
+  hunt_mode: spotted
   examine: "Her friends call her Nor-T for short."
 banker_zanaris_2:
   id: 909

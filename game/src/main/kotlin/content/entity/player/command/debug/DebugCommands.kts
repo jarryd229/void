@@ -1,5 +1,6 @@
 package content.entity.player.command.debug
 
+import org.rsmod.game.pathfinder.LineValidator
 import org.rsmod.game.pathfinder.PathFinder
 import org.rsmod.game.pathfinder.flag.CollisionFlag
 import content.bot.interact.path.Dijkstra
