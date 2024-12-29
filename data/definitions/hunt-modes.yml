@@ -23,6 +23,7 @@ ash_finder:
   rate: 4
 spotted:
   type: player
+  rate: 1
   check_visual: line_of_sight
   check_afk: false
   check_not_to_strong: false

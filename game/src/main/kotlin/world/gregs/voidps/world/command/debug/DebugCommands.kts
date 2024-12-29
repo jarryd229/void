@@ -1,5 +1,6 @@
 package world.gregs.voidps.world.command.debug
 
+import org.rsmod.game.pathfinder.LineValidator
 import org.rsmod.game.pathfinder.PathFinder
 import org.rsmod.game.pathfinder.flag.CollisionFlag
 import world.gregs.voidps.bot.path.Dijkstra
@@ -42,10 +43,8 @@ val objects: GameObjects by inject()
 val npcs: NPCs by inject()
 
 modCommand("test") {
-    player.weakQueue(name = "level_up") {
-        val response = startQuest(content)
-        println(response)
-    }
+    println(get<LineValidator>().hasLineOfSight(0, 2923, 3460, 2920, 3463, srcSize = 1, destWidth = 1, destHeight = 1))
+    println(get<LineValidator>().hasLineOfSight(0, 2920, 3463, 2923, 3460, srcSize = 1, destWidth = 1, destHeight = 1))
 }
 
 modCommand("patrol") {
