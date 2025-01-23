@@ -1,9 +1,8 @@
 package world.gregs.voidps.world.map.karamja
 
-import com.github.michaelbull.logging.InlineLogger
-import world.gregs.voidps.engine.entity.character.CharacterContext
+import world.gregs.voidps.engine.entity.character.mode.interact.Interaction
 import world.gregs.voidps.engine.entity.character.npc.npcOperate
-import world.gregs.voidps.engine.entity.item.Item
+import world.gregs.voidps.engine.entity.character.player.Player
 import world.gregs.voidps.engine.inv.*
 import world.gregs.voidps.world.interact.dialogue.*
 import world.gregs.voidps.world.interact.dialogue.type.choice
@@ -31,7 +30,7 @@ npcOperate("Exchange", "stiles") {
     exchange()
 }
 
-suspend fun CharacterContext.whoAreYou() {
+suspend fun Interaction<Player>.whoAreYou() {
     npc<Shifty>("Ahhh, when I were a young'un my name were Nigel but, these days, folks mostly call me Stiles.")
     npc<Happy>("Long time ago, in Draynor Village, there were three brothers who'd exchange yer stuff for bitty bits o' paper, like these new-fangled banknotes we've got today. Niles, Miles an' Giles they called themselves.")
     npc<Upset>("They be long gone, like the golden days, but they were an inspiration to me, so I took this trade myself, an' I changed my name to Stiles.")
@@ -51,7 +50,7 @@ suspend fun CharacterContext.whoAreYou() {
     }
 }
 
-suspend fun CharacterContext.witchFish() {
+suspend fun Interaction<Player>.witchFish() {
     npc<Happy>("Ahhh, ol' Stiles has banknotes for yer lobbies, yer swordies and yer tuna. 'Tis a grand service I be offerin' here, and nary a penny do I ask in return.")
     choice {
         option<Quiz>("Why don't you exchange other fish?") {
@@ -80,7 +79,7 @@ suspend fun CharacterContext.witchFish() {
 
 
 val fishlist = listOf("raw_swordfish", "swordfish", "raw_lobster", "lobster", "raw_tuna", "tuna")
-suspend fun CharacterContext.exchange() {
+suspend fun Interaction<Player>.exchange() {
     if (player.inventory.contains(fishlist.toString())) {
         val count = player.inventory.count(fishlist.toString())
         for (fish in fishlist) {

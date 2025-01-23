@@ -40,7 +40,7 @@ fun itemTeleport(player: Player, tile: Tile, type: String, force: Boolean = fals
         player.playSound("teleport")
         player.gfx("teleport_$type")
         player.animDelay("teleport_$type")
-        player.tele(area.random(player)!!)
+        player.tele(tile)
         val int = player.anim("teleport_land_$type")
         if (int == -1) {
             player.clearAnim()

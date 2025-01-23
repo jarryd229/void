@@ -2,8 +2,6 @@ package world.gregs.voidps.world.map.taverley
 
 import org.rsmod.game.pathfinder.LineValidator
 import world.gregs.voidps.engine.data.definition.PatrolDefinitions
-import world.gregs.voidps.engine.entity.character.facing
-import world.gregs.voidps.engine.entity.character.forceChat
 import world.gregs.voidps.engine.entity.character.mode.Patrol
 import world.gregs.voidps.engine.entity.character.mode.move.hasLineOfSight
 import world.gregs.voidps.engine.entity.character.npc.hunt.huntPlayer
@@ -20,7 +18,7 @@ npcSpawn("nora_t_hagg") { npc ->
 }
 
 huntPlayer("nora_t_hagg") { npc ->
-    val facing = npc.facing
+    val facing = npc.direction
     for (player in targets) {
         val direction = player.tile.delta(npc.tile).toDirection()
         if (direction != Direction.SOUTH && direction != Direction.NORTH && direction != facing.rotate(1) && direction != facing.rotate(-1)) {
@@ -29,7 +27,7 @@ huntPlayer("nora_t_hagg") { npc ->
         if (!lineValidator.hasLineOfSight(player, npc)) {
             continue // Check sight in both directions so nora can't see players standing on bush corners
         }
-        npc.forceChat = "I see you!"
+        npc.say("I see you!")
         // tele player here
     }
 }

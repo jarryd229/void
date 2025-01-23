@@ -2,14 +2,12 @@ package world.gregs.voidps.world.activity.minigames
 
 import world.gregs.voidps.engine.client.ui.open
 import world.gregs.voidps.engine.data.definition.PatrolDefinitions
-import world.gregs.voidps.engine.entity.character.CharacterContext
 import world.gregs.voidps.engine.entity.character.mode.Patrol
+import world.gregs.voidps.engine.entity.character.mode.interact.Interaction
 import world.gregs.voidps.engine.entity.character.move.tele
 import world.gregs.voidps.engine.entity.character.npc.npcOperate
 import world.gregs.voidps.engine.entity.character.player.Player
 import world.gregs.voidps.engine.entity.character.player.skill.Skill
-import world.gregs.voidps.engine.entity.character.setAnimation
-import world.gregs.voidps.engine.entity.character.setGraphic
 import world.gregs.voidps.engine.entity.npcSpawn
 import world.gregs.voidps.engine.entity.obj.GameObject
 import world.gregs.voidps.engine.entity.obj.objectOperate
@@ -17,11 +15,13 @@ import world.gregs.voidps.engine.inject
 import world.gregs.voidps.engine.inv.add
 import world.gregs.voidps.engine.inv.inventory
 import world.gregs.voidps.engine.queue.softQueue
-import world.gregs.voidps.engine.queue.strongQueue
-import world.gregs.voidps.engine.suspend.playAnimation
+import world.gregs.voidps.engine.suspend.SuspendableContext
 import world.gregs.voidps.type.Tile
 import world.gregs.voidps.world.activity.transport.teleport.teleport
-import world.gregs.voidps.world.interact.dialogue.*
+import world.gregs.voidps.world.interact.dialogue.Happy
+import world.gregs.voidps.world.interact.dialogue.Neutral
+import world.gregs.voidps.world.interact.dialogue.Quiz
+import world.gregs.voidps.world.interact.dialogue.Uncertain
 import world.gregs.voidps.world.interact.dialogue.type.choice
 import world.gregs.voidps.world.interact.dialogue.type.item
 import world.gregs.voidps.world.interact.dialogue.type.npc
@@ -32,7 +32,7 @@ import world.gregs.voidps.world.interact.entity.sound.playSound
 val patrols: PatrolDefinitions by inject()
 
 objectOperate("Drink-from", "fountain_10") {
-    player.setAnimation("5796")
+    player.anim("5796")
     player.softQueue("teleport", 6) {
         player.teleport(Tile(3321, 3141), "modern")
     }
@@ -44,7 +44,7 @@ objectOperate("Open", "sorceress_gate_winter") {
 
 objectOperate("Open", "sorceress_gate_spring") {
     if (player.levels.get(Skill.Thieving) < 25) {
-        item("highwayman_mask",145,"You need a Thieving level of 25 to pick the lock of this gate.")
+        item("highwayman_mask", 145, "You need a Thieving level of 25 to pick the lock of this gate.")
     } else {
         enterGarden(target, player)
     }
@@ -52,7 +52,7 @@ objectOperate("Open", "sorceress_gate_spring") {
 
 objectOperate("Open", "sorceress_gate_autumn") {
     if (player.levels.get(Skill.Thieving) < 45) {
-        item("highwayman_mask",145,"You need a Thieving level of 45 to pick the lock of this gate.")
+        item("highwayman_mask", 145, "You need a Thieving level of 45 to pick the lock of this gate.")
     } else {
         enterGarden(target, player)
     }
@@ -60,7 +60,7 @@ objectOperate("Open", "sorceress_gate_autumn") {
 
 objectOperate("Open", "sorceress_gate_summer") {
     if (player.levels.get(Skill.Thieving) < 65) {
-        item("highwayman_mask",145,"You need a Thieving level of 65 to pick the lock of this gate.")
+        item("highwayman_mask", 145, "You need a Thieving level of 65 to pick the lock of this gate.")
     } else {
         enterGarden(target, player)
     }
@@ -97,72 +97,58 @@ npcSpawn("winter_elemental_*") { npc ->
 }
 
 
-objectOperate("Pick-fruit", "sqirk_tree_summer") {
-    pickFruit(player, "summer")
-}
-objectOperate("Pick-fruit", "sqirk_tree_spring") {
-    pickFruit(player, "spring")
-}
-objectOperate("Pick-fruit", "sqirk_tree_autumn") {
-    pickFruit(player, "autumn")
-}
-objectOperate("Pick-fruit", "sqirk_tree_winter") {
-    pickFruit(player, "winter")
+objectOperate("Pick-fruit", "sqirk_tree_summer", "sqirk_tree_spring", "sqirk_tree_autumn", "sqirk_tree_winter") {
+    pickFruit(target.id.removePrefix("sqirk_tree_"))
 }
 
 
-fun pickFruit(player: Player, type: String)  {
+suspend fun SuspendableContext<Player>.pickFruit(type: String) {
     if (player.inventory.isFull()) {
         //player<Neutral>("I cannot carry any more.")
         return
     }
-    player.strongQueue("delaytest") {
-        player.playSound("3407")
-        player.playAnimation("2280")
-        player.inventory.add("${type}_sqirk")
-        if (type == "summer") {
-            player.experience.add(Skill.Thieving, 60.0)
-        }
-        if (type == "autumn") {
-            player.experience.add(Skill.Thieving, 50.0)
-        }
-        if (type == "spring") {
-            player.experience.add(Skill.Thieving, 40.0)
-        }
-        if (type == "winter") {
-            player.experience.add(Skill.Thieving, 30.0)
-        }
-        player.softQueue("delay", 2) {
-            player.playSound("1930")
-            player.setGraphic("188")
-            player.open("fade_out")
-            player.softQueue("teleport", 2) {
-                player.tele(2911, 5470)
-                player.open("fade_in")
-            }
-        }
+    player.playSound("3407")
+    player.animDelay("2280")
+    player.inventory.add("${type}_sqirk")
+    if (type == "summer") {
+        player.experience.add(Skill.Thieving, 60.0)
     }
+    if (type == "autumn") {
+        player.experience.add(Skill.Thieving, 50.0)
+    }
+    if (type == "spring") {
+        player.experience.add(Skill.Thieving, 40.0)
+    }
+    if (type == "winter") {
+        player.experience.add(Skill.Thieving, 30.0)
+    }
+    delay(2)
+    player.playSound("1930")
+    player.gfx("188")
+    player.open("fade_out")
+    delay(2)
+    player.tele(2911, 5470)
+    player.open("fade_in")
 }
 
 
 
 npcOperate("Talk-to", "del_monty") {
-   // npc<CatCalmTalk>("CatCalmTalk")
+    // npc<CatCalmTalk>("CatCalmTalk")
     //npc<CatCheerful>("CatCheerful")
-   // npc<CatExplain>("CatExplain")
+    // npc<CatExplain>("CatExplain")
     //npc<CatShook>("CatShook")
-   // npc<CatShouting>("CatShouting")
-   // npc<CatSlowTalk>("CatSlowTalk")
-   // npc<CatSlowTalkTwo>("CatSlowTalkTwo")
+    // npc<CatShouting>("CatShouting")
+    // npc<CatSlowTalk>("CatSlowTalk")
+    // npc<CatSlowTalkTwo>("CatSlowTalkTwo")
     //npc<CatSurprissed>("CatSurprissed")
-   // npc<CatHappy>("CatHappy")
-   // npc<CatPurring>("CatPurring")
+    // npc<CatHappy>("CatHappy")
+    // npc<CatPurring>("CatPurring")
     //npc<CatDisappointed>("CatDisappointed")
-   // npc<CatDisappointedTwo>("CatDisappointedTwo")
-   // npc<CatLaugh>("CatLaugh")
+    // npc<CatDisappointedTwo>("CatDisappointedTwo")
+    // npc<CatLaugh>("CatLaugh")
     //npc<CatSad>("CatSad")
     //npc<CatIntelligentCalm>("CatIntelligentCalm")
-
 
 
     npc<Neutral>("Hello, no-fur. What are you doing in my mistress's garden?")
@@ -198,7 +184,7 @@ npcOperate("Talk-to", "del_monty") {
     }
 }
 
-suspend fun CharacterContext.questions() {
+suspend fun Interaction<Player>.questions() {
     choice {
         option<Neutral>("What are the creatures inside the gardens?") {
             npc<Neutral>("Oh, you mean the gardeners?")
@@ -224,7 +210,7 @@ suspend fun CharacterContext.questions() {
     }
 }
 
-suspend fun CharacterContext.moreQuestions() {
+suspend fun Interaction<Player>.moreQuestions() {
     choice {
         option<Neutral>("Thanks, I have another question though.") {
             questions()
@@ -234,14 +220,14 @@ suspend fun CharacterContext.moreQuestions() {
     }
 }
 
-suspend fun CharacterContext.getHere() {
+suspend fun Interaction<Player>.getHere() {
     npc<Neutral>("Every time I play with spiders in the Sorceress's house, her silly apprentice completely freaks out and teleports me here!")
     player<Neutral>("So you've been stuck here since?")
     npc<Neutral>("No, silly! I drink from the fountain whenever I want to leave.")
     anotherQuestion()
 }
 
-suspend fun CharacterContext.doingHere() {
+suspend fun Interaction<Player>.doingHere() {
     npc<Happy>("I get this strange urge for sq'irks. It's quite peculiar. I think I may be addicted.")
     player<Neutral>("I think I know someone else who may be in a similar position.")
     npc<Neutral>("Don't tell me. Osman, right?")
@@ -249,7 +235,8 @@ suspend fun CharacterContext.doingHere() {
     npc<Neutral>("Oh, he used to come here all the time. Then one day, he just stopped.")
     anotherQuestion()
 }
-suspend fun CharacterContext.whoAreYou() {
+
+suspend fun Interaction<Player>.whoAreYou() {
     npc<Neutral>("Del-Monty the cat, at your service.")
     player<Neutral>("Are you a famous adventurer who was turned into a cat by a vindictive mage?")
     npc<Neutral>("No; as I said, I'm Del-Monty the cat, connoisseur of exotic fruits.")
@@ -258,7 +245,7 @@ suspend fun CharacterContext.whoAreYou() {
     anotherQuestion()
 }
 
-suspend fun CharacterContext.anotherQuestion() {
+suspend fun Interaction<Player>.anotherQuestion() {
     choice {
         option<Neutral>("Thanks, I have another question though.") {
             choice {
