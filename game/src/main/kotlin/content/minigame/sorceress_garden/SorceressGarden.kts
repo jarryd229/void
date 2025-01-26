@@ -1,4 +1,4 @@
-package world.gregs.voidps.world.activity.minigames
+package content.minigame.sorceress_garden
 
 import world.gregs.voidps.engine.client.ui.open
 import world.gregs.voidps.engine.data.definition.PatrolDefinitions
@@ -17,17 +17,17 @@ import world.gregs.voidps.engine.inv.inventory
 import world.gregs.voidps.engine.queue.softQueue
 import world.gregs.voidps.engine.suspend.SuspendableContext
 import world.gregs.voidps.type.Tile
-import world.gregs.voidps.world.activity.transport.teleport.teleport
-import world.gregs.voidps.world.interact.dialogue.Happy
-import world.gregs.voidps.world.interact.dialogue.Neutral
-import world.gregs.voidps.world.interact.dialogue.Quiz
-import world.gregs.voidps.world.interact.dialogue.Uncertain
-import world.gregs.voidps.world.interact.dialogue.type.choice
-import world.gregs.voidps.world.interact.dialogue.type.item
-import world.gregs.voidps.world.interact.dialogue.type.npc
-import world.gregs.voidps.world.interact.dialogue.type.player
-import world.gregs.voidps.world.interact.entity.obj.door.Door.tile
-import world.gregs.voidps.world.interact.entity.sound.playSound
+import content.skill.magic.jewellery.teleport
+import content.entity.player.dialogue.Happy
+import content.entity.player.dialogue.Neutral
+import content.entity.player.dialogue.Quiz
+import content.entity.player.dialogue.Uncertain
+import content.entity.player.dialogue.type.choice
+import content.entity.player.dialogue.type.item
+import content.entity.player.dialogue.type.npc
+import content.entity.player.dialogue.type.player
+import content.entity.obj.door.Door.tile
+import content.entity.sound.playSound
 
 val patrols: PatrolDefinitions by inject()
 

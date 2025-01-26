@@ -1,11 +1,11 @@
-package world.gregs.voidps.world.activity.minigames.sorceress
+package content.minigame.sorceress_garden
 
 import world.gregs.voidps.engine.client.ui.open
 import world.gregs.voidps.engine.entity.character.move.tele
 import world.gregs.voidps.engine.entity.character.npc.hunt.huntPlayer
 import world.gregs.voidps.engine.queue.softQueue
 import world.gregs.voidps.type.Direction
-import world.gregs.voidps.world.interact.entity.sound.playSound
+import content.entity.sound.playSound
 
 huntPlayer("*_elemental_#") { npc ->
     val direction = npc.direction

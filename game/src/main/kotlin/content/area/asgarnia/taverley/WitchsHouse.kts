@@ -1,4 +1,4 @@
-package world.gregs.voidps.world.map.taverley
+package content.area.asgarnia.taverley
 
 import org.rsmod.game.pathfinder.LineValidator
 import world.gregs.voidps.engine.data.definition.PatrolDefinitions

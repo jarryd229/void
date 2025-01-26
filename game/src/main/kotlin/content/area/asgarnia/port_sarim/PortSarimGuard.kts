@@ -1,4 +1,4 @@
-package world.gregs.voidps.world.map.port_sarim
+package content.area.asgarnia.port_sarim
 
 import world.gregs.voidps.engine.data.definition.PatrolDefinitions
 import world.gregs.voidps.engine.entity.character.mode.Patrol
@@ -7,20 +7,21 @@ import world.gregs.voidps.engine.entity.character.player.name
 import world.gregs.voidps.engine.entity.npcSpawn
 import world.gregs.voidps.engine.inject
 import world.gregs.voidps.type.random
-import world.gregs.voidps.world.interact.dialogue.*
-import world.gregs.voidps.world.interact.dialogue.type.choice
-import world.gregs.voidps.world.interact.dialogue.type.npc
-import world.gregs.voidps.world.interact.dialogue.type.player
-import world.gregs.voidps.world.interact.dialogue.type.statement
-
+import content.entity.player.dialogue.*
+import content.entity.player.dialogue.type.choice
+import content.entity.player.dialogue.type.npc
+import content.entity.player.dialogue.type.player
+import content.entity.player.dialogue.type.statement
 
 npcOperate("Talk-to", "port_sarim_guard_sleeping") {
-    npc<Asleep>("port_sarim_guard_6", when (random.nextInt(0, 4)) {
-        0 -> "Mmmm... big pint of beer... kebab..."
-        1 -> "Guh... mwww... zzzzz..."
-        2 -> "Hmph... heh heh heh..."
-        else -> "Mmmmmm... donuts..."
-    })
+    npc<Asleep>(
+        "port_sarim_guard_6", when (random.nextInt(0, 4)) {
+            0 -> "Mmmm... big pint of beer... kebab..."
+            1 -> "Guh... mwww... zzzzz..."
+            2 -> "Hmph... heh heh heh..."
+            else -> "Mmmmmm... donuts..."
+        }
+    )
     player<Neutral>("Maybe I should let him sleep.")
 }
 
@@ -40,7 +41,7 @@ npcOperate("Talk-to", "port_sarim_guard_6") {
             npc<Neutral>("Yes, that's right.")
             player<Chuckle>("Okay, it's been nice talking to you.")
         }
-        option<Happy>("No-one, there's no-one here."){
+        option<Happy>("No-one, there's no-one here.") {
             npc<Neutral>("What? I can see you!")
             player<Happy>("No, you're just imagining it. Perhaps you've been up here in the sun for too long?")
             npc<Uncertain>("So who am I talking to?")
