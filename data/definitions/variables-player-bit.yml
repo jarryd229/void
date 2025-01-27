@@ -1,3 +1,11 @@
+been_to_sorceresss_garden:
+  id: 3328
+  persist: true
+  format: boolean
+spoken_to_osman:
+  id: 3329
+  persist: true
+  format: boolean
 gunnars_ground:
   id: 5730
   persist: true

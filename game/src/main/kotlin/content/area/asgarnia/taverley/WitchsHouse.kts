@@ -1,12 +1,17 @@
 package content.area.asgarnia.taverley
 
+import content.entity.proj.shoot
+import content.entity.sound.playSound
 import org.rsmod.game.pathfinder.LineValidator
+import world.gregs.voidps.engine.client.variable.start
 import world.gregs.voidps.engine.data.definition.PatrolDefinitions
 import world.gregs.voidps.engine.entity.character.mode.Patrol
 import world.gregs.voidps.engine.entity.character.mode.move.hasLineOfSight
+import world.gregs.voidps.engine.entity.character.move.tele
 import world.gregs.voidps.engine.entity.character.npc.hunt.huntPlayer
 import world.gregs.voidps.engine.entity.npcSpawn
 import world.gregs.voidps.engine.inject
+import world.gregs.voidps.engine.queue.softQueue
 import world.gregs.voidps.type.Direction
 
 val patrols: PatrolDefinitions by inject()
@@ -27,7 +32,23 @@ huntPlayer("nora_t_hagg") { npc ->
         if (!lineValidator.hasLineOfSight(player, npc)) {
             continue // Check sight in both directions so nora can't see players standing on bush corners
         }
-        npc.say("I see you!")
-        // tele player here
+        player.start("movement_delay", 4)
+        npc.face(player)
+        npc.say("Stop! Thief")
+        //todo add delay it skips "Stop! Thief"
+        npc.say("Klarata... Sepptento... Valkan!")
+        npc.gfx("curse_cast")
+        player.playSound("curse_cast_and_fire")
+        if (!npc.contains("old_model")) {
+            npc.anim("curse")
+        }
+        npc.shoot("curse", player.tile)
+        player.playSound("curse_hit")
+        player.softQueue("delay", 2) {
+            player.gfx("curse_hit")
+        }
+        player.softQueue("teleport", 2) {
+            player.tele(2928, 3455)
+        }
     }
 }

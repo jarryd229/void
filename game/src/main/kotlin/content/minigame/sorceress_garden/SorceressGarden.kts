@@ -28,10 +28,15 @@ import content.entity.player.dialogue.type.npc
 import content.entity.player.dialogue.type.player
 import content.entity.obj.door.Door.tile
 import content.entity.sound.playSound
+import world.gregs.voidps.engine.client.variable.start
+import world.gregs.voidps.engine.entity.World
+import world.gregs.voidps.engine.entity.item.drop.DropTables
 
 val patrols: PatrolDefinitions by inject()
+val dropTables: DropTables by inject()
 
 objectOperate("Drink-from", "fountain_10") {
+    player.start("movement_delay", 6)
     player.anim("5796")
     player.softQueue("teleport", 6) {
         player.teleport(Tile(3321, 3141), "modern")
@@ -96,15 +101,13 @@ npcSpawn("winter_elemental_*") { npc ->
     npc.mode = Patrol(npc, patrol.waypoints)
 }
 
-
 objectOperate("Pick-fruit", "sqirk_tree_summer", "sqirk_tree_spring", "sqirk_tree_autumn", "sqirk_tree_winter") {
     pickFruit(target.id.removePrefix("sqirk_tree_"))
 }
 
-
 suspend fun SuspendableContext<Player>.pickFruit(type: String) {
     if (player.inventory.isFull()) {
-        //player<Neutral>("I cannot carry any more.")
+        player<Neutral>("I cannot carry any more.")
         return
     }
     player.playSound("3407")
@@ -131,26 +134,36 @@ suspend fun SuspendableContext<Player>.pickFruit(type: String) {
     player.open("fade_in")
 }
 
+objectOperate("Pick", "sorceress_Herbs_spring", "sorceress_Herbs_summer", "sorceress_Herbs_autumn", "sorceress_Herbs_winter") {
+    pickHerb(target.id.removePrefix("sorceress_Herbs_"))
+}
 
+suspend fun SuspendableContext<Player>.pickHerb(type: String) {
+    if (player.inventory.isFull()) {
+        player<Neutral>("I cannot carry any more.")
+        return
+    }
+    player.playSound("2581")
+    player.animDelay("827")
+    var table = dropTables.get("${type}_herb_drop_table")
+    if (table != null) {
+        val loot = table.role(members = World.members)
+        for (drop in loot) {
+            val item = drop.toItem()
+            player.inventory.add(item.id, item.amount)
+        }
+    }
+    player.experience.add(Skill.Farming, 25.0)
+    delay(2)
+    player.playSound("1930")
+    player.gfx("188")
+    player.open("fade_out")
+    delay(2)
+    player.tele(2911, 5470)
+    player.open("fade_in")
+}
 
 npcOperate("Talk-to", "del_monty") {
-    // npc<CatCalmTalk>("CatCalmTalk")
-    //npc<CatCheerful>("CatCheerful")
-    // npc<CatExplain>("CatExplain")
-    //npc<CatShook>("CatShook")
-    // npc<CatShouting>("CatShouting")
-    // npc<CatSlowTalk>("CatSlowTalk")
-    // npc<CatSlowTalkTwo>("CatSlowTalkTwo")
-    //npc<CatSurprissed>("CatSurprissed")
-    // npc<CatHappy>("CatHappy")
-    // npc<CatPurring>("CatPurring")
-    //npc<CatDisappointed>("CatDisappointed")
-    // npc<CatDisappointedTwo>("CatDisappointedTwo")
-    // npc<CatLaugh>("CatLaugh")
-    //npc<CatSad>("CatSad")
-    //npc<CatIntelligentCalm>("CatIntelligentCalm")
-
-
     npc<Neutral>("Hello, no-fur. What are you doing in my mistress's garden?")
     choice {
         option<Neutral>("Looking for sq'irks.") {

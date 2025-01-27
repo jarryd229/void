@@ -779,6 +779,23 @@ aggie:
   race: human
   wander_radius: 3
   examine: "A witch."
+osman:
+  &osman
+  id: 5282
+  wander_radius: 2
+  race: human
+  examine: "He looks a little shifty."
+hassan:
+  id: 923
+  race: human
+  wander_radius: 3
+  examine: "Chancellor to the Emir."
+osman_normal:
+  <<: *osman
+  id: 924
+osman_dishevelled:
+  <<: *osman
+  id: 5284
 border_guard_al_kharid:
   id: 925
   race: human

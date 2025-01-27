@@ -237,3 +237,5 @@ curse_all: 125
 curse_hit: 126
 curse_cast_and_fire: 127
 pick: 2581
+stun_all: 187
+stunned: 2727

@@ -6709,3 +6709,10 @@ tomatoes_5:
   add:
     - item: tomatoes_5
   message: "You put a tomato in the fruit basket."
+dye_wig:
+  remove:
+    - item: wig_grey
+    - item: yellow_dye
+  add: 
+    - item: wig_blonde
+  message: "You dye the wig blonde."

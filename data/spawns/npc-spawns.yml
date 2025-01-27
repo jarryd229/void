@@ -2606,6 +2606,8 @@
 # 13104
 - { id: musician_shantay_pass, x: 3309, y: 3126, direction: WEST }
 # 13105
+- { id: osman, x: 3286, y: 3180 }
+- { id: hassan, x: 3302, y: 3163 }
 - { id: apprentice_sorceresss_garden, x: 3321, y: 3139 }
 - { id: karim, x: 3272, y: 3182 }
 - { id: dommik, x: 3321, y: 3194 }
