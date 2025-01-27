@@ -233,3 +233,7 @@ jump: 2461
 canoe_roll: 2731
 canoe_sink: 2732
 tree_fall: 2734
+curse_all: 125
+curse_hit: 126
+curse_cast_and_fire: 127
+pick: 2581

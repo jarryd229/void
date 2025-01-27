@@ -41,6 +41,9 @@ gate_2_opened:
 gate_2_closed:
   id: 38
   examine: "Stops people walking past."
+wall_pipe:
+  id: 41
+  examine: "Looks like an outlet pipe to the lake."
 gate_4_opened:
   id: 49
   examine: "A wooden gate."
@@ -10212,6 +10215,9 @@ crate_359:
 tomb_9:
   id: 48686
   examine: "The Tomb of Dragith Nurn."
+wall_pipe_2:
+  id: 48844
+  examine: "Looks like an outlet pipe to the lake."
 door_772_opened:
   id: 48939
   examine: "A heavily built wooden door."

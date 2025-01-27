@@ -1508,3 +1508,6 @@ tele_other_receive:
   height: 52
 run_replenish: 1733
 restless_ghost: 668
+mixing_yellow_dye: 716
+mixing_red_dye: 717
+mixing_blue_dye: 718

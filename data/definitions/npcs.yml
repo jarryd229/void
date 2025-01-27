@@ -37,6 +37,11 @@ musician_draynor_village:
   song: 702
   race: human
   examine: "What restful music!"
+wyson_the_gardener:
+  id: 36
+  race: human
+  wander_radius: 4
+  examine: "The head gardener."
 chicken:
   id: 41
   hitpoints: 30
@@ -759,6 +764,21 @@ banker_zanaris_2:
   interact_distance: 2
   race: fairy
   examine: "Manages money momentarily."
+leela:
+  id: 915
+  race: human
+  wander_radius: 4
+  examine: "She comes from Al Kharid."
+ned:
+  id: 918
+  race: human
+  wander_radius: 2
+  examine: "An old sailor."
+aggie:
+  id: 922
+  race: human
+  wander_radius: 3
+  examine: "A witch."
 border_guard_al_kharid:
   id: 925
   race: human
@@ -1602,6 +1622,7 @@ autumn_elemental_1:
   id: 5533
   race: elemental
   hunt_mode: spotted
+  solid: false
   examine: "An autumn elemental."
 autumn_elemental_2:
   <<: *autumn_elemental
@@ -1623,6 +1644,7 @@ spring_elemental_1:
   id: 5539
   race: elemental
   hunt_mode: spotted
+  solid: false
   examine: "A spring elemental."
 spring_elemental_2:
   <<: *spring_elemental
@@ -1650,6 +1672,7 @@ summer_elemental_1:
   id: 5547
   race: elemental
   hunt_mode: spotted
+  solid: false
   examine: "A summer elemental."
 summer_elemental_2:
   <<: *summer_elemental
@@ -1671,6 +1694,7 @@ winter_elemental_1:
   id: 5553
   race: elemental
   hunt_mode: spotted
+  solid: false
   examine: "A winter elemental."
 winter_elemental_2:
   <<: *winter_elemental
@@ -2324,7 +2348,7 @@ cow_light_spots_2:
 cow_calf_3:
   <<: *cow_calf
   id: 12366
-leela:
+leela_2:
   id: 13172
   race: human
   wander_radius: 4

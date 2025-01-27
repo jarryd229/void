@@ -1789,4 +1789,79 @@ demon_drop_table:
       drops:
         - id: lesser_demon_champions_scroll
           chance: 1
-
+winter_herb_drop_table:
+  &herb_drop_table
+  roll: 54
+  drops:
+    - id: grimy_guam
+      chance: 16
+    - id: grimy_marrentill
+      chance: 14
+    - id: grimy_tarromin
+      chance: 13
+    - id: grimy_harralander
+      chance: 11
+spring_herb_drop_table:
+  &herb_drop_table
+  roll: 75
+  drops:
+    - id: grimy_guam
+      chance: 16
+    - id: grimy_marrentill
+      chance: 14
+    - id: grimy_tarromin
+      chance: 13
+    - id: grimy_harralander
+      chance: 12
+    - id: grimy_irit
+      chance: 11
+    - id: grimy_avantoe
+      chance: 9
+autumn_herb_drop_table:
+  &herb_drop_table
+  roll: 99
+  drops:
+    - id: grimy_guam
+      chance: 16
+    - id: grimy_marrentill
+      chance: 14
+    - id: grimy_tarromin
+      chance: 13
+    - id: grimy_harralander
+      chance: 12
+    - id: grimy_irit
+      chance: 11
+    - id: grimy_avantoe
+      chance: 10  
+    - id: grimy_ranarr
+      chance: 9
+    - id: grimy_kwuarm
+      chance: 8
+    - id: grimy_cadantine
+      chance: 6
+summer_herb_drop_table:
+  &herb_drop_table
+  roll: 111
+  drops:
+    - id: grimy_guam
+      chance: 16
+    - id: grimy_marrentill
+      chance: 14
+    - id: grimy_tarromin
+      chance: 13
+    - id: grimy_harralander
+      chance: 12
+    - id: grimy_irit
+      chance: 11
+    - id: grimy_avantoe
+      chance: 10  
+    - id: grimy_ranarr
+      chance: 9
+    - id: grimy_kwuarm
+      chance: 8
+    - id: grimy_cadantine
+      chance: 7
+    - id: grimy_lantadyme
+      chance: 6
+    - id: grimy_dwarf_weed
+      chance: 5
