@@ -15,7 +15,7 @@ huntPlayer("*_elemental_#") { npc ->
             continue // Skip players that aren't in-front or under.
         }
         player.softQueue("delay", 0) {
-            npc.anim("elemental_Pointing")
+            npc.anim("elemental_pointing")
             player.playSound("stun_all")
             npc.shoot("curse", player.tile)
             player.gfx("curse_hit")

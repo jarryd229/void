@@ -10,19 +10,18 @@ import content.entity.sound.playSound
 import world.gregs.voidps.engine.client.message
 import world.gregs.voidps.engine.client.variable.start
 import world.gregs.voidps.engine.entity.World
+import world.gregs.voidps.engine.entity.character.mode.interact.TargetInteraction
 import world.gregs.voidps.engine.entity.character.move.tele
 import world.gregs.voidps.engine.entity.character.npc.NPC
 import world.gregs.voidps.engine.entity.character.npc.NPCOption
 import world.gregs.voidps.engine.entity.character.npc.npcOperate
 import world.gregs.voidps.engine.entity.character.player.Player
-import world.gregs.voidps.engine.queue.softQueue
-
 
 npcOperate("Talk-to", "apprentice_sorceresss_garden") {
     if (player["been_to_sorceresss_garden", false]) {
         player<Happy>("Hey apprentice, do you want to try out your teleport skills again?")
         npc<Neutral>("Okay, here goes - and remember, to return just drink from the fountain.")
-        teleportToGarden(target, player)
+        teleportToGarden()
         return@npcOperate
     }
     player<Neutral>("Hello. What are you doing?")
@@ -42,7 +41,7 @@ npcOperate("Talk-to", "apprentice_sorceresss_garden") {
             player<Quiz>("What garden?")
             npc<Surprised>("Oh, I shouldn't have told you.")
             choice {
-                option<Neutral>("You're right, you shouldn't have."){
+                option<Neutral>("You're right, you shouldn't have.") {
                     npc<Angry>("Well, if you don't mind then, I'm busy and have to get back to work.")
                     player<Neutral>("Don't let me keep you.")
                 }
@@ -101,7 +100,7 @@ suspend fun NPCOption<Player>.castTheSpell() {
         player<Neutral>("Of course not. I'd be glad to help.")
         npc<Neutral>("Okay, here goes! Remember, to return, just drink from the fountain.")
         player["been_to_sorceresss_garden"] = true
-        teleportToGarden(target, player)
+        teleportToGarden()
     }
 }
 
@@ -109,11 +108,11 @@ npcOperate("Teleport", "apprentice_sorceresss_garden") {
     if (!player["spoken_to_osman", false]) {
         npc<Neutral>("I can't do that now, I'm far too busy sweeping.")
     } else {
-        teleportToGarden(target, player)
+        teleportToGarden()
     }
 }
 
-fun teleportToGarden(npc: NPC, player: Player) {
+suspend fun TargetInteraction<Player, NPC>.teleportToGarden() {
     //if player has follower
     //npc<Upset>("Oh, I'm sorry, could you pick up your follower first? I'm really not sure that I could teleport the both of you.")
     //return
@@ -123,19 +122,17 @@ fun teleportToGarden(npc: NPC, player: Player) {
         return
     }
     player.start("movement_delay", 4)
-    npc.face(player)
-    npc.say("Seventior Disthinte Molesko!")
-    npc.gfx("curse_cast")
+    target.face(player)
+    target.say("Seventior Disthinte Molesko!")
+    target.gfx("curse_cast")
     player.playSound("curse_cast_and_fire")
-    if (!npc.contains("old_model")) {
-        npc.anim("curse")
+    if (!target.contains("old_model")) {
+        target.anim("curse")
     }
-    npc.shoot("curse", player.tile)
+    target.shoot("curse", player.tile)
     player.playSound("curse_hit")
-    player.softQueue("delay", 2) {
-        player.gfx("curse_hit")
-    }
-    player.softQueue("teleport", 4) {
-        player.tele(2912, 5474)
-    }
+    delay(2)
+    player.gfx("curse_hit")
+    delay(4)
+    player.tele(2912, 5474)
 }
