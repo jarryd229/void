@@ -202,6 +202,10 @@ expression_look_down3: 14708
 expression_look_down4: 14709
 expression_look_down5: 14710
 expression_blinking: 14711
+expression_cat_neutral: 8373
+expression_cat_question: 8375
+expression_cat_angry: 9178
+expression_cat_annoyed: 9187
 # End expressions
 activate_protect_item: 12567
 activate_berserker: 12589
