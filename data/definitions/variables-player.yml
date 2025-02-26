@@ -1,4 +1,4 @@
-prince_ali_resuce:
+prince_ali_rescue:
   id: 273
   type: varp
   persist: true
@@ -10,7 +10,6 @@ prince_ali_resuce:
     osman: 20
     leela: 30
     joe_one_beer: 31
-    joe_two_beers: 35 #get right id
     joe_three_beers: 40
     tie_up_lady_keli: 50
     prince_ali_disguise: 100
@@ -624,14 +623,6 @@ shades_of_mortton:
   values:
     unstarted: 0
     completed: 85
-prince_ali_rescue:
-  id: 273
-  format: map
-  persist: true
-  default: unstarted
-  values:
-    unstarted: 0
-    completed: 110
 task_reward_items:
   id: 1959
   format: bitwise
