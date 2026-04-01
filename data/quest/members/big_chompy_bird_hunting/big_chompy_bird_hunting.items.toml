@@ -44,6 +44,10 @@ limit = 1000
 slot = "Ammo"
 examine = "A large ogre arrow with a bone tip."
 
+[ogre_arrow_2]
+id = 2867
+examine = "A large ogre arrow with a bone tip."
+
 [ogre_bellows]
 id = 2871
 examine = "A large pair of ogre bellows."

@@ -1,0 +1,27 @@
+[ogre_spit_roast]
+id = 3375
+examine = "Useful for ogre dinners."
+
+[locked_ogre_chest_rantzs_house]
+id = 3377
+examine = "Hmmm, a rock for a lock...."
+
+[unlocked_ogre_chest_rantzs_house]
+id = 3378
+examine = "Some stealthy thief must have picked the ogre lock!"
+
+[cave_entrance_rantzs_house]
+id = 3379
+examine = "The entrance to Rantz's cave"
+
+[tunnel_rantzs_house]
+id = 32068
+examine = "Dark and intimidating."
+
+[tunnel_2_rantzs_house]
+id = 32069
+examine = "Dark and intimidating."
+
+[charred_bones_rantzs_house]
+id = 32071
+examine = "I don't even want to think about what did that..."

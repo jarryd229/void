@@ -1,0 +1,6 @@
+[big_chompy_bird_hunting]
+id = 293
+format = "map"
+persist = true
+default = "unstarted"
+values = { unstarted = 0, started = 5, gave_arrows = 10, can_get_ogre_bellows = 15, opened_the_chest = 20, completed = 65 }

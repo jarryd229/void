@@ -690,3 +690,18 @@ id = 9318
 
 [expression_tzhaar_sad]
 id = 9319
+
+[expression_ogre_neutral]
+id = 8579
+
+[expression_ogre_angry]
+id = 8583
+
+[expression_ogre_quiz]
+id = 8584 
+
+[expression_ogre_happy]
+id = 8585
+
+[expression_ogre_sad]
+id = 8659 

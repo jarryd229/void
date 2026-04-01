@@ -1,0 +1,14 @@
+[cave_entrance_rantzs_house]
+option = "Enter"
+tile = { x = 2629, y = 2998 }
+to = { x = 2647, y = 9378}
+
+[tunnel_rantzs_house]
+option = "Pass-through"
+tile = { x = 2647, y = 9377 }
+to = { x = 2630, y = 2997 }
+
+[tunnel_2_rantzs_house]
+option = "Pass-through"
+tile = { x = 2646, y = 9377 }
+to = { x = 2630, y = 2997 }
