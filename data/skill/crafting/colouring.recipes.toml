@@ -91,3 +91,19 @@ ticks = 2
 remove = [{ id = "coif" }, { id = "yellow_feather", amount = 20 }]
 add = ["feather_headdress_yellow"]
 message = "You add the feathers to the coif to make a feathered headdress."
+
+[blue_goblin_mail]
+skill = "crafting"
+one = ["goblin_mail"]
+remove = ["blue_dye"]
+add = ["blue_goblin_mail"]
+message = "You dye the goblin mail blue."
+sound = "drip_liquid"
+
+[orange_goblin_mail]
+skill = "crafting"
+one = ["goblin_mail"]
+remove = ["orange_dye"]
+add = ["orange_goblin_mail"]
+message = "You dye the goblin mail orange."
+sound = "drip_liquid"

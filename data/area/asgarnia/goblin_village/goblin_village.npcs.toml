@@ -10,20 +10,38 @@ max_hit_crush = 30
 max_hit_magic = 100
 hunt_mode = "cowardly"
 examine = "A Zamorakian human cleric."
-drop_table = "monk_of_zamorak"
 
 [general_bentnoze_goblin_village]
 id = 4493
+large_head = true
+examine = "An ugly green creature."
 
 [general_wartface_goblin_village]
 id = 4494
+large_head = true
 examine = "An ugly green creature."
 
 [drain_pipe_goblin_village]
 id = 5991
 
+[general_bentnoze_cutscene]
+id = 3723
+large_head = true
+examine = "An ugly green creature."
+
+[general_wartface_cutscene]
+id = 3724
+large_head = true
+examine = "An ugly green creature."
+
+[grubfoot_cutscene]
+id = 3725
+large_head = true
+examine = "Smaller than the average goblin."
+
 [grubfoot_goblin_village]
 id = 4495
+examine = "Smaller than the average goblin."
 
 [rupert_the_beard]
 id = 5998
@@ -82,4 +100,3 @@ id = 8055
 
 [stubthumb_4]
 id = 8056
-

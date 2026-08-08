@@ -14,6 +14,7 @@ val quests = setOf(
     "cooks_assistant",
     "demon_slayer",
     "dorics_quest",
+	"goblin_diplomacy",
     "gunnars_ground",
     "the_restless_ghost",
     "rune_mysteries",

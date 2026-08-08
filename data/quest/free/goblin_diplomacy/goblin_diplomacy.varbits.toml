@@ -3,4 +3,26 @@ id = 2378
 persist = true
 format = "map"
 default = "unstarted"
-values = { unstarted = 0, started = 1 }
+values = { unstarted = 0, started = 3, gave_orange = 4, gave_blue = 5, completed = 6 }
+
+[gobdip_grubfoot_vis]
+id = 1782
+persist = true
+format = "map"
+default = "brown"
+values = { brown = 0, orange = 1, blue = 2 }
+
+[gobdip_crate1_searched]
+id = 2379
+persist = true
+format = "boolean"
+
+[gobdip_crate2_searched]
+id = 2380
+persist = true
+format = "boolean"
+
+[gobdip_crate3_searched]
+id = 2381
+persist = true
+format = "boolean"
