@@ -1401,10 +1401,6 @@ examine = "A strengthened pillar."
 id = 37451
 examine = "Stops bits of building falling on me."
 
-[railing_10]
-id = 37668
-examine = "A sturdy metal railing."
-
 [coffin_35]
 id = 37914
 examine = "It's sealed shut."

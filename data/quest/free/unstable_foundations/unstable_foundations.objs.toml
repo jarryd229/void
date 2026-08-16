@@ -1,0 +1,87 @@
+[dragons_food_bowl_unstable_foundations]
+id = 1758
+examine = "Just what you'd need for feeding a pet dragon."
+
+[dragons_food_bowl_2_unstable_foundations]
+id = 1761
+examine = "It's full of drugged meat."
+
+[wooden_pillar_unstable_foundations]
+id = 45566
+examine = "A wooden support holding up the ceiling."
+
+[wooden_pillar_oily_unstable_foundations]
+id = 45567
+examine = "A wooden support holding up the ceiling."
+
+[wooden_pillar_fuse_unstable_foundations]
+id = 45568
+examine = "A wooden support holding up the ceiling."
+
+[wooden_pillar_lit_fuse_unstable_foundations]
+id = 45569
+examine = "A wooden support holding up the ceiling."
+
+[wooden_pillar_on_fire_unstable_foundations]
+id = 45570
+examine = "A wooden support holding up the ceiling."
+
+[tree_root_unstable_foundations]
+id = 45587
+examine = "A root growing through the wall."
+
+[tree_root_2_unstable_foundations]
+id = 45588
+examine = "A root growing through the wall."
+
+[tree_root_3_unstable_foundations]
+id = 45590
+examine = "A root growing through the wall."
+
+[tree_root_4_unstable_foundations]
+id = 45591
+examine = "A root growing through the wall."
+
+[tree_root_5_unstable_foundations]
+id = 45593
+examine = "A root growing through the wall."
+
+[tree_root_6_unstable_foundations]
+id = 45594
+examine = "A root growing through the wall."
+
+[low_wall_unstable_foundations]
+id = 45603
+examine = "It might be possible to get over this."
+
+[barrel_unstable_foundations]
+id = 45654
+examine = "An empty barrel."
+
+[barrel_2_unstable_foundations]
+id = 45655
+examine = "An empty barrel."
+
+[sir_vants_bag_unstable_foundations]
+id = 45783
+examine = "Dragon-slaying equipment."
+
+[ladder_unstable_foundations]
+id = 45784
+examine = "A way out of the cellar."
+
+[ladder_2_unstable_foundations]
+id = 45785
+examine = "For climbing out of cellars."
+
+[ladder_3_unstable_foundations]
+id = 45786
+examine = "The dragon's fire has destroyed this ladder."
+
+[ladder_4_unstable_foundations]
+id = 45787
+examine = "The dragon's fire has destroyed this ladder."
+
+[egg_shell_unstable_foundations]
+id = 45788
+examine = "It looks like someone has hatched a creature from this egg. Hmmm."

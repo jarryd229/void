@@ -2,3 +2,30 @@
 id = 7942
 examine = "A White Knight from Falador."
 
+[squire_unstable_foundations]
+id = 8857
+examine = "A servant of Sir Vant."
+
+[dragon_unstable_foundations]
+id = 8858
+examine = "A very dangerous dragon."
+
+[dragon_2_unstable_foundations]
+id = 8859
+examine = "A very dangerous dragon."
+
+[dragon_3_unstable_foundations]
+id = 8860
+examine = "A very dangerous dragon."
+
+[dragon_sleeping_unstable_foundations]
+id = 8861
+examine = "A very dangerous dragon."
+
+[goblin_unstable_foundations]
+id = 8862
+examine = "One of many ugly green creatures that roam this area."
+
+[roddeck_unstable_foundations]
+id = 8863
+examine = "A helpful soul who loves dispensing advice."

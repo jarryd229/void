@@ -29,6 +29,7 @@ class LumbridgeSwampShed : Script {
                 message("The world starts to shimmer...", type = ChatType.Game)
             }
             enterDoor(target)
+			set("nowt_tool_look_at_task", true)
             if (enter) {
                 Teleport.teleport(this, Tile(2452, 4473), "fairy")
             }

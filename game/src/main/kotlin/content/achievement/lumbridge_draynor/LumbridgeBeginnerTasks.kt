@@ -1,4 +1,4 @@
-package content.achievement
+package content.achievement.lumbridge_draynor
 
 import content.entity.combat.killer
 import content.entity.npc.shop.shop
@@ -216,6 +216,12 @@ class LumbridgeBeginnerTasks(
         crafted(Skill.Crafting) { recipe ->
             if (recipe.add.any { it.id == "soft_clay" } && tile in Areas["draynor_potter_house"]) {
                 set("just_add_water_task", true)
+            }
+        }
+
+        itemAdded("unfired_pot", inventory = "inventory") {
+            if (softTimers.contains("pottery") && tile in Areas["draynor_potter_house"]) {
+                set("very_potter_task", true)
             }
         }
 
