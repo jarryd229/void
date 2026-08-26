@@ -10,9 +10,11 @@ import content.entity.combat.hit.directHit
 import content.entity.gfx.areaGfx
 import content.entity.player.effect.energy.MAX_RUN_ENERGY
 import content.entity.player.effect.energy.runEnergy
+import content.entity.player.equip.DragonfireShield
 import content.entity.player.inv.item.tradeable
 import content.entity.player.kept.ItemsKeptOnDeath
 import content.entity.proj.shoot
+import content.quest.instance
 import content.quest.instanceLogout
 import content.skill.prayer.getActivePrayerVarKey
 import content.skill.prayer.praying
@@ -79,7 +81,9 @@ class PlayerDeath : Script {
                 clear(getActivePrayerVarKey())
                 dismissFamiliar()
                 if (onDeath.dropItems) {
-                    val tile = instanceLogout() ?: tile
+                    // Instance exit tile only applies while actually inside one; a leftover
+                    // value would send the grave and every dropped item to that old tile.
+                    val tile = if (instance() != null) instanceLogout() ?: tile else tile
                     dropItems(this, killer, tile)
                 }
                 levels.clear()
@@ -108,6 +112,9 @@ class PlayerDeath : Script {
                 continue
             }
         }
+
+        // Only the shields being dropped lose their charges, a protected one stays charged
+        DragonfireShield.releaseCharges(player)
 
         // inFullPvp covers wilderness + the Clan Wars FFA dangerous arena: no grave, drops go to the killer.
         val pvpDrop = player.inFullPvp
