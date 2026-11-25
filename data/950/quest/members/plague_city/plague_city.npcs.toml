@@ -1,0 +1,91 @@
+[elena2]
+id = 335
+categories = ["human"]
+
+[alrena]
+id = 710
+categories = ["human"]
+examine = "She looks concerned."
+
+[bravek]
+id = 711
+categories = ["human"]
+examine = "The city warder of West Ardougne."
+
+[clerk_west_ardougne]
+id = 713
+categories = ["human"]
+examine = "A bureaucratic administrator."
+
+[edmond]
+id = 714
+categories = ["human"]
+examine = "A local civilian."
+
+[elenap]
+id = 715
+categories = ["human"]
+
+[recruiter]
+id = 720
+categories = ["human"]
+examine = "A member of the Ardougne Royal Army."
+
+[ted_rehnison]
+id = 721
+categories = ["human"]
+examine = "The head of the Rehnison family."
+
+[martha_rehnison]
+id = 722
+categories = ["human"]
+examine = "A fairly poor looking woman."
+
+[billy_rehnison]
+id = 723
+categories = ["human"]
+examine = "The Rehnisons' eldest son."
+
+[milli_rehnison]
+id = 724
+dialogue = "child"
+categories = ["human"]
+examine = "She doesn't seem very happy."
+
+[jethick]
+id = 725
+categories = ["human"]
+examine = "A cynical old man."
+
+[w_ardougnecitizen3]
+id = 728
+categories = ["human"]
+examine = "One of Gielinor's many citizens."
+
+[w_ardougnecitizen4]
+id = 729
+categories = ["human"]
+examine = "One of Gielinor's many citizens."
+
+[elena2_vis]
+id = 3209
+categories = ["human"]
+examine = "A healer from Ardougne."
+
+[bravek_hangover_cure_anim]
+id = 3212
+categories = ["human"]
+examine = "The city warder of West Ardougne."
+
+[edmond_sewer]
+id = 3214
+
+[elenap_vis]
+id = 3215
+categories = ["human"]
+examine = "She's been imprisoned."
+
+[mourner_elena_guard_vis]
+id = 3216
+categories = ["human"]
+examine = "A mourner, or plague healer."

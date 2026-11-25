@@ -1,0 +1,21 @@
+[culinaromancers_chest_base]
+id = 12308
+
+[culinaromancers_chest]
+id = 12309
+examine = "It's open."
+
+[lost_tribe_cellar_wall]
+id = 6898
+
+[lost_tribe_cellar_hole]
+id = 6905
+examine = "A hole in the wall."
+
+[cave_goblin_city_door_left]
+id = 32953
+examine = "A heavy portal decorated with bone."
+
+[cave_goblin_city_door_right]
+id = 32952
+examine = "A heavy portal decorated with bone."

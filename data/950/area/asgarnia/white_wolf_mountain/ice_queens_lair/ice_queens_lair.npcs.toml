@@ -1,0 +1,24 @@
+[ice_warrior_ice_queens_lair]
+id = 145
+drop_table = "ice_warrior"
+combat_def = "ice_warrior"
+hitpoints = 590
+att = 47
+str = 47
+def = 47
+max_hit_slash = 60
+hunt_mode = "cowardly"
+categories = ["ice_warriors"]
+
+[ice_queen]
+id = 795
+hitpoints = 1040
+att = 95
+str = 94
+def = 95
+style = "crush"
+max_hit_melee = 100
+respawn_delay = 50
+drop_table = "ice_queen"
+examine = "A cold hearted lady."
+max_hit_crush = 100

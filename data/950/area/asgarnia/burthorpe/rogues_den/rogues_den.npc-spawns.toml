@@ -1,0 +1,5 @@
+spawns = [
+  { id = "emerald_benedict", x = 3042, y = 4972, level = 1, members = true },
+  { id = "martin_thwait", x = 3051, y = 4974, level = 1, members = true },
+  { id = "brian_o_richard", x = 3049, y = 4977, level = 1, members = true },
+]

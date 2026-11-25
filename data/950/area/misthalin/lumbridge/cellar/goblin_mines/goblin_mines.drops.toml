@@ -1,0 +1,63 @@
+[cave_goblin_guard_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "cave_goblin_guard_secondary" },
+    { table = "cave_goblin_guard_tertiary" },
+    { table = "cave_goblin_charms", members = true },
+]
+
+[cave_goblin_guard_secondary]
+roll = 128
+drops = [
+    { id = "bone_club", chance = 20 },
+    { id = "bone_spear", chance = 20 },
+    { id = "iron_chainbody", chance = 20 },
+    { id = "coins", amount = 12, chance = 20 },
+    { id = "oil_lantern", chance = 20 },
+    { id = "tinderbox", chance = 20 },
+    { id = "mining_helmet", chance = 4 },
+    { id = "iron_full_helm", chance = 4 },
+]
+
+[cave_goblin_guard_tertiary]
+roll = 5000
+drops = [
+    { id = "cave_goblin_skull", chance = 1250, variable = "rag_and_bone_man_wish_list", equals = "started", default = "unstarted" },
+    { id = "goblin_champions_scroll", members = true, lacks = "goblin_champions_scroll" },
+]
+
+[cave_goblin_miner_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "cave_goblin_miner_secondary" },
+    { table = "cave_goblin_miner_tertiary" },
+    { table = "cave_goblin_charms", members = true },
+]
+
+[cave_goblin_miner_secondary]
+roll = 128
+drops = [
+    { id = "mining_helmet", chance = 20 },
+    { id = "coins", amount = 6, chance = 20 },
+    { id = "iron_ore", min = 2, max = 7, chance = 4 },
+    { id = "tinderbox", chance = 20 },
+    { id = "silver_ore", chance = 5 },
+    { id = "oil_lantern", chance = 4 },
+]
+
+[cave_goblin_miner_tertiary]
+roll = 4
+drops = [
+    { id = "cave_goblin_skull", variable = "rag_and_bone_man_wish_list", equals = "started", default = "unstarted" },
+]
+
+[cave_goblin_charms]
+roll = 100000
+drops = [
+    { id = "gold_charm", chance = 6550 },
+    { id = "green_charm", chance = 2476 },
+    { id = "crimson_charm", chance = 2849 },
+    { id = "blue_charm", chance = 1198 },
+]

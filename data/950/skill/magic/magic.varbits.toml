@@ -1,0 +1,5 @@
+[vengeance]
+id = 2450 # osrs
+format = "boolean"
+persist = true
+transmit = false

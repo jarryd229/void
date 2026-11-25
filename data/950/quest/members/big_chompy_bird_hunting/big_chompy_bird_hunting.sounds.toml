@@ -1,0 +1,29 @@
+[chompy_bird_screech]
+id = 1448
+
+[chompy_bird_attack]
+id = 1449
+
+[chompy_bird_death]
+id = 1450
+
+[chompy_bird_defend]
+id = 1451
+
+[chompy_bird_squak]
+id = 1453
+
+[ogre_bow]
+id = 1452
+
+[ogre_bellows_suck]
+id = 1454
+
+[ogre_bellows]
+id = 1455
+
+[spit_roast]
+id = 1456
+
+[toad_croak]
+id = 1458

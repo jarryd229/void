@@ -1,0 +1,516 @@
+[pottery_oven_east_ardougne]
+id = 34802
+examine = "Bake your clay items in here."
+
+[bank_booth_ardougne]
+id = 34752
+examine = "The bank teller will serve you from here."
+
+[bakers_stall]
+id = 34384
+empty = "ardougne_stall_empty"
+exp = 16.0
+level = 5
+restock = 4
+examine = "This stall smells great."
+
+[ardougne_stall_empty]
+id = 34381
+examine = "All sold out."
+
+[silk_stall]
+id = 34383
+empty = "ardougne_stall_empty"
+level = 20
+exp = 24.0
+restock = 8
+examine = "Fine silk woven by experts."
+
+[grey_fur_stall]
+id = 34387
+empty = "ardougne_stall_empty"
+level = 35
+exp = 45.0
+restock = 12
+examine = "All manner of animal clothing."
+
+[silver_stall]
+id = 34382
+empty = "ardougne_stall_empty"
+level = 50
+exp = 205.0
+restock = 32
+examine = "Fine silver items are for sale here."
+
+[spice_stall]
+id = 34386
+empty = "ardougne_stall_empty"
+level = 65
+exp = 92.0
+restock = 10
+examine = "Spices to tingle your taste buds."
+
+[gem_stall]
+id = 34385
+empty = "ardougne_stall_empty"
+level = 75
+exp = 408.0
+restock = 100
+examine = "Precious stones from around the world."
+
+[ardougne_locked_door_opened]
+id = 34813
+examine = "The door is open."
+
+[ardougne_locked_door_closed]
+id = 34812
+level = 1
+exp = 3.8
+examine = "The door is locked."
+
+[coin_chest]
+id = 2566
+level = 13
+exp = 7.8
+restock = 6
+examine = "I wonder what's inside it."
+
+[nature_chest]
+id = 2567
+level = 28
+exp = 25.0
+restock = 13
+examine = "I wonder what's inside it."
+
+[big_coin_chest]
+id = 2568
+level = 43
+exp = 125.0
+restock = 115
+examine = "I wonder what's inside it."
+
+[blood_rune_chest]
+id = 2569
+level = 59
+exp = 250.0
+restock = 225
+examine = "I wonder what's inside it."
+
+[ardougne_castle_chest]
+id = 2570
+level = 72
+exp = 500.0
+restock = 834
+examine = "I wonder what's inside it."
+
+[trap_chest_empty_light]
+id = 2571
+examine = "I wonder what's inside it."
+
+[trap_chest_open]
+id = 2574
+
+[trap_chest_empty]
+id = 2572
+examine = "I wonder what's inside it."
+
+[steel_arrows_chest]
+id = 2573
+level = 47
+exp = 150.0
+restock = 150
+examine = "I wonder what's inside it."
+
+[chaos_druid_tower_locked_door_opened]
+id = 2538
+examine = "A door."
+
+[chaos_druid_tower_locked_door_closed]
+id = 2554
+level = 46
+exp = 37.5
+examine = "A secure door."
+
+[ardougne_house_locked_door_opened]
+id = 2055
+
+[ardougne_house_locked_door_closed]
+id = 2556
+level = 13
+exp = 15.0
+examine = "A secure door."
+
+[ardougne_castle_locked_door_opened]
+id = 34233
+
+[ardougne_castle_locked_door_closed]
+id = 2555
+level = 61
+exp = 50.0
+examine = "A secure door."
+
+[cooking_range_west_ardougne]
+id = 34495
+examine = "Ideal for cooking on."
+
+[cooking_range_east_ardougne]
+id = 34546
+examine = "Ideal for cooking on."
+
+[cooking_range_ardougne]
+id = 34565
+examine = "An appliance used for cooking."
+
+[potters_wheel_ardougne]
+id = 34801
+examine = "Used for fashioning clay items."
+
+[trapdoor_mourner_tunnels]
+id = 8783
+
+[ladder_mourner_tunnels]
+id = 8785
+examine = "I can climb this."
+
+[flour_bin_ardougne]
+id = 1782
+examine = "I'll need an empty pot so I can collect my flour."
+
+[hopper_ardougne]
+id = 2717
+
+[hopper_controls_ardougne]
+id = 2721
+examine = "These control the flow of wheat from the hopper to the millstones."
+
+[flour_bin_ardougne_empty]
+id = 5792
+examine = "When I've ground some flour, I'll be able to collect it here."
+
+[dairy_churn_ardougne]
+id = 34800
+examine = "Used to make dairy products."
+
+[gangplank_ardougne_enter]
+id = 2085
+examine = "Handy for boarding the ship."
+
+[gangplank_ardougne_exit]
+id = 2086
+examine = "Handy for boarding the ship."
+
+[captain_barnaby_ship_ladder]
+id = 9745
+examine = "A sturdy wooden ladder."
+
+[bank_deposit_box_east_ardougne]
+id = 34755
+examine = "Lets you put items into your bank."
+
+[hill_east_ardougne]
+id = 19852
+examine = "Cute."
+
+[hollow_log_east_ardougne]
+id = 1337
+examine = "The old tree is rotting away."
+
+[food_trough_east_ardougne]
+id = 301
+examine = "Animals have no table manners."
+
+[table_east_ardougne]
+id = 11743
+examine = "A nice sturdy-looking table."
+
+[gravestone_east_ardougne]
+id = 34626
+examine = "A gravestone."
+
+[gravestone_east_ardougne_2]
+id = 34623
+examine = "A gravestone."
+
+[gravestone_east_ardougne_3]
+id = 34629
+examine = "A gravestone."
+
+[gravestone_east_ardougne_4]
+id = 34620
+examine = "A gravestone."
+
+[shelves_east_ardougne]
+id = 34370
+examine = "A shelf for storing stuff."
+
+[shelves_east_ardougne_2]
+id = 34367
+examine = "Storage for all needs."
+
+[shelves_east_ardougne_3]
+id = 34366
+examine = "Farming stock is kept here."
+
+[shelves_east_ardougne_4]
+id = 34368
+examine = "Storage for cookery items."
+
+[table_east_ardougne_2]
+id = 34473
+examine = "A table."
+
+[table_east_ardougne_3]
+id = 34521
+examine = "A nice table."
+
+[table_east_ardougne_4]
+id = 36731
+examine = "A table."
+
+[table_east_ardougne_5]
+id = 34469
+examine = "It's a small table."
+
+[table_east_ardougne_6]
+id = 34474
+examine = "A dirty table covered with used pots and plates."
+
+[table_east_ardougne_7]
+id = 34520
+examine = "A waiting room table."
+
+[table_east_ardougne_8]
+id = 36255
+examine = "A table draped with an elegant cloth."
+
+[bookcase_east_ardougne]
+id = 34526
+examine = "A good source of books!"
+
+[box_east_ardougne]
+id = 34539
+examine = "Stores items."
+
+[box_east_ardougne_2]
+id = 34488
+examine = "Stores items."
+
+[storage_crate_east_ardougne]
+id = 34587
+examine = "Filled with all sorts of old stuff."
+
+[barrel_east_ardougne]
+id = 34591
+examine = "A wooden barrel."
+
+[dresser_east_ardougne]
+id = 34562
+examine = "Bedroom furniture."
+
+[dresser_east_ardougne_2]
+id = 34543
+examine = "A dresser."
+
+[dresser_east_ardougne_3]
+id = 34892
+examine = "To help you do your hair."
+
+[drawers_closed_east_ardougne]
+id = 34559
+examine = "These open and close!"
+
+[bunk_bed_east_ardougne]
+id = 34558
+examine = "Looks snug."
+
+[workbench_east_ardougne]
+id = 26816
+examine = "A bench where work is done."
+
+[grandfather_clock_east_ardougne]
+id = 34493
+examine = "Tick-tock, it's a clock."
+
+[grandfather_clock_east_ardougne_2]
+id = 34544
+examine = "Tick-tock, it's a clock."
+
+[books_east_ardougne]
+id = 34481
+examine = "These books have been strewn all over the place."
+
+[books_east_ardougne_2]
+id = 34480
+examine = "These books are stacked very neatly."
+
+[bookcase_east_ardougne_2]
+id = 34479
+examine = "A mountain of knowledge."
+
+[bookcase_east_ardougne_3]
+id = 34478
+examine = "A mountain of knowledge."
+
+[bookcase_east_ardougne_4]
+id = 34477
+examine = "A mountain of knowledge."
+
+[bookcase_east_ardougne_5]
+id = 34527
+examine = "The Carnillean family seems to be interested primarily in their own history."
+
+[bookcase_east_ardougne_6]
+id = 34525
+examine = "Sir Ceril's books."
+
+[wardrobe_east_ardougne]
+id = 34486
+examine = "A wardrobe."
+
+[bed_east_ardougne]
+id = 34476
+examine = "Great for sleeping in."
+
+[bed_east_ardougne_2]
+id = 34556
+examine = "Looks snug."
+
+[bed_east_ardougne_3]
+id = 34475
+examine = "Great for sleeping in."
+
+[bed_east_ardougne_4]
+id = 36256
+examine = "Great for sleeping in."
+
+[bed_east_ardougne_5]
+id = 36257
+examine = "Great for sleeping in."
+
+[drawers_closed_east_ardougne_2]
+id = 34482
+examine = "For clothes and handy stuff."
+
+[drawers_closed_east_ardougne_3]
+id = 34528
+examine = "A chest of drawers."
+
+[drawers_closed_east_ardougne_4]
+id = 34530
+examine = "A chest of drawers."
+
+[painting_east_ardougne]
+id = 34509
+examine = "A watermill, how charming."
+
+[painting_east_ardougne_2]
+id = 34510
+examine = "A sunset."
+
+[painting_east_ardougne_3]
+id = 34511
+examine = "A view of mountains."
+
+[wardrobe_east_ardougne_2]
+id = 34561
+examine = "A place to store clothes."
+
+[wardrobe_east_ardougne_3]
+id = 34484
+examine = "A wardrobe."
+
+[wardrobe_east_ardougne_4]
+id = 34533
+examine = "A wardrobe."
+
+[wardrobe_east_ardougne_5]
+id = 34552
+examine = "A wardrobe."
+
+[wardrobe_east_ardougne_6]
+id = 2850
+examine = "The wardrobe of Sir Ceril and Lady Henryeta."
+
+[wardrobe_east_ardougne_7]
+id = 34535
+examine = "A wardrobe."
+
+[wardrobe_east_ardougne_8]
+id = 34890
+examine = "A fancy place to store clothes."
+
+[wardrobe_east_ardougne_9]
+id = 34532
+examine = "A wardrobe."
+
+[safe_east_ardougne]
+id = 34756
+examine = "For storing valuables."
+
+[small_table_east_ardougne]
+id = 34751
+examine = "A small wooden table."
+
+[barrel_east_ardougne_2]
+id = 34590
+examine = "A wooden barrel for storage."
+
+[bar_east_ardougne]
+id = 34748
+examine = "Eat, drink and be merry, for tommorrow we die."
+
+[bar_east_ardougne_2]
+id = 34746
+examine = "Always drink responsibly."
+
+[bar_east_ardougne_3]
+id = 34744
+examine = "Where everybody knows your username."
+
+[bar_east_ardougne_4]
+id = 34747
+examine = "Wine and whisky don't mix."
+
+[bar_east_ardougne_5]
+id = 34743
+examine = "Drinks for sale here."
+
+[bar_east_ardougne_6]
+id = 34740
+examine = "Drinks for sale here."
+
+[bar_east_ardougne_7]
+id = 34741
+examine = "Drinks for sale here."
+
+[bar_east_ardougne_8]
+id = 34742
+examine = "Drinks for sale here."
+
+[wheelbarrow_east_ardougne]
+id = 34580
+examine = "A wheelbarrow."
+
+[suite_of_armour_east_ardougne]
+id = 36287
+examine = "A suit of armour."
+
+[throne_east_ardougne]
+id = 34891
+examine = "The seat of power."
+
+[closed_chest_east_ardougne]
+id = 376
+examine = "I wonder what's inside."
+
+[wooden_defence_east_ardougne]
+id = 36732
+examine = "A wooden defensive structure."
+
+[rack_east_ardougne]
+id = 34840
+examine = "It can make you taller."
+
+[sacks_east_ardougne]
+id = 34583
+examine = "They may have something in them."

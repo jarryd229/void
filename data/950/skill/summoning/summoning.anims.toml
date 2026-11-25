@@ -1,0 +1,20 @@
+[summoning_infuse]
+id = 8500
+
+[summoning_renew]
+id = 8502
+walk = false
+run = false
+
+[unicorn_stallion_cure]
+id = 8267
+
+[dreadfowl_special]
+id = 5387
+# Fire-breathing familiars lighting logs beneath themselves - each demon has its own breath
+# animation (the forge regent's doubles as its Inferno special's breath).
+[pyrelord_light_fire]
+id = 8085
+
+[forge_regent_light_fire]
+id = 7871

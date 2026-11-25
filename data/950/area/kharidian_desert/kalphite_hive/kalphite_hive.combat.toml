@@ -1,0 +1,8 @@
+[goat]
+defend_anim = "goat_defend"
+death_anim = "goat_death"
+
+[goat.melee]
+range = 1
+target_hit = { offense = "crush", max = 40 }
+anim = "goat_attack"

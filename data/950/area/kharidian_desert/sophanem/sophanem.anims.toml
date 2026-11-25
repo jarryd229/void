@@ -1,0 +1,19 @@
+[locust_death]
+id = 2013
+
+[locust_defend]
+id = 2014
+
+[locust_attack]
+id = 2015
+
+[scarab_death]
+id = 5464
+
+[scarab_attack]
+id = 1948
+[plague_frog_death]
+id = 1022
+
+[plague_frog_attack]
+id = 1021

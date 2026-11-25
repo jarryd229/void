@@ -1,0 +1,10 @@
+[skoblin]
+defend_anim = "skoblin_defend"
+defend_sound = "goblin_defend"
+death_anim = "skoblin_death"
+
+[skoblin.melee]
+range = 1
+anim = "skoblin_attack"
+target_hit = { offense = "slash", max = 28 }
+

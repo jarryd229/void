@@ -1,0 +1,39 @@
+[juna]
+id = 2023
+dialogue = "old"
+
+[light_creature]
+id = 2021
+collision = "sky"
+examine = "A shimmering creature of blue light."
+
+[light_creature_carry]
+id = 2022
+examine = "That one is carrying someone!"
+
+[zanik_tears_of_guthix_cavern]
+id = 3363
+
+[movario_tears_of_guthix_cavern]
+id = 8471
+
+[darve_tears_of_guthix_cavern]
+id = 8472
+
+[cave_goblin_tears_of_guthix_cavern]
+id = 8473
+
+[fiara]
+id = 7600
+interacts = false
+dialogue = "old"
+examine = "A trusted and fierce-temped creature of Guthix."
+
+[movario_tears_of_guthix_cavern_2]
+id = 8449
+
+[darve_tears_of_guthix_cavern_2]
+id = 8450
+
+[cave_goblin_tears_of_guthix_cavern_2]
+id = 8451

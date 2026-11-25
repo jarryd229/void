@@ -1,0 +1,81 @@
+[harpie_bug_swarm]
+defend_anim = "harpie_bug_swarm_defend"
+defend_sound = "harpie_bug_swarm_defend"
+death_anim = "harpie_bug_swarm_death"
+death_sound = "harpie_bug_swarm_death"
+
+[harpie_bug_swarm.melee]
+range = 1
+anim = "harpie_bug_swarm_attack"
+target_sound = "harpie_bug_swarm_attack"
+target_hit = { offense = "crush", max = 60 }
+
+[shaikahan]
+defend_anim = "shaikahan_defend"
+defend_sound = "shaikahan_defend"
+death_anim = "shaikahan_death"
+death_sound = "shaikahan_death"
+
+[shaikahan.melee]
+range = 1
+anim = "shaikahan_attack"
+target_sound = "shaikahan_attack"
+target_hit = { offense = "slash", max = 90 }
+
+[giant_ant]
+defend_anim = "giant_ant_defend"
+defend_sound = "giant_ant_defend"
+death_anim = "giant_ant_death"
+death_sound = "giant_ant_death"
+
+[giant_ant.melee]
+range = 1
+anim = "giant_ant_attack"
+target_sound = "giant_ant_attack"
+target_hit = { offense = "crush", max = 60 }
+
+[tribesman]
+defend_anim = "tribesman_defend"
+death_anim = "tribesman_death"
+
+[tribesman.melee]
+range = 1
+target_hit = { offense = "stab", max = 40 }
+anim = "tribesman_attack"
+
+[frog]
+defend_anim = "frog_defend"
+death_anim = "frog_death"
+
+[frog.melee]
+range = 1
+target_hit = { offense = "crush", max = 61 }
+impact_poison = 68
+anim = "frog_attack"
+
+[tenacious_toucan]
+defend_anim = "tenacious_toucan_defend"
+death_anim = "tenacious_toucan_death"
+
+[tenacious_toucan.melee]
+range = 1
+target_hit = { offense = "stab", max = 119 }
+anim = "tenacious_toucan_attack"
+
+[giant_wasp]
+defend_anim = "giant_wasp_defend"
+death_anim = "giant_wasp_death"
+
+[giant_wasp.melee]
+range = 1
+target_hit = { offense = "crush", max = 50 }
+anim = "giant_wasp_attack"
+
+[pernicious_parrot]
+defend_anim = "pernicious_parrot_defend"
+death_anim = "pernicious_parrot_death"
+
+[pernicious_parrot.melee]
+range = 1
+target_hit = { offense = "stab", max = 119 }
+anim = "pernicious_parrot_attack"

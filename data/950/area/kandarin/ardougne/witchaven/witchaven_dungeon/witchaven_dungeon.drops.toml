@@ -1,0 +1,20 @@
+[giant_lobster_drop_table]
+type = "all"
+drops = [
+    { table = "giant_lobster_secondary" },
+]
+
+[giant_lobster_secondary]
+roll = 128
+drops = [
+    { id = "iron_pickaxe", chance = 5 },
+    { id = "seaweed", chance = 4 },
+    { id = "copper_ore", amount = 3, chance = 2 },
+    { id = "oyster", chance = 9 },
+    { id = "coins", amount = 4, chance = 29 },
+    { id = "coins", amount = 8, chance = 6 },
+    { id = "coins", amount = 36, chance = 8 },
+    { id = "fishing_bait", chance = 2 },
+    { id = "dead_sea_slug" },
+    { id = "casket" },
+]

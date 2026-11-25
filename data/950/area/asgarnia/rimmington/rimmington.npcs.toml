@@ -1,0 +1,208 @@
+[shopkeeper_rimmington]
+id = 530
+categories = ["human"]
+shop = "rimmington_general_store"
+collision = "indoors"
+examine = "Has an interesting assortment of items for sale."
+
+[shop_assistant_rimmington]
+id = 531
+categories = ["human"]
+shop = "rimmington_general_store"
+collision = "indoors"
+examine = "Works on commission."
+
+[wise_old_man_rimmington]
+id = 11597
+
+[wise_old_man_rimmington_2]
+id = 11598
+
+[captain_korasi_rimmington]
+id = 11656
+
+[jessika_rimmington]
+id = 11667
+
+[taria]
+id = 2336
+patch = "farming_bush_patch_rimmington"
+examine = "Perhaps this gardener might look after your crops for you."
+
+[hetty_rimmington]
+id = 307
+examine = "An old motherly witch with a curious smile and a hooked nose."
+
+[da_vinci_rimmington]
+id = 336
+examine = "He has a colourful personality."
+
+[chancy_rimmington]
+id = 338
+examine = "He's ready for a bet."
+
+[hops_rimmington]
+id = 340
+examine = "He's drunk."
+
+[chemist_rimmington]
+id = 367
+examine = "Smells very chemically..."
+
+[zombie_rat_rimmington]
+id = 6088
+hitpoints = 50
+att = 2
+str = 3
+def = 2
+combat_def = "zombie_rat_rimmington"
+slayer_xp = 2.0
+categories = ["rats", "zombies"]
+respawn_delay = 30
+examine = "Overgrown undead vermin."
+drop_table = "zombie_rat"
+
+[zombie_rat_rimmington_2]
+id = 6089
+clone = "zombie_rat_rimmington"
+drop_table = "zombie_rat"
+
+[zombie_rat_rimmington_3]
+id = 6090
+clone = "zombie_rat_rimmington"
+drop_table = "zombie_rat"
+
+[skeleton_rimmington]
+id = 6091
+drop_table = "skeleton"
+combat_def = "skeleton_unarmed"
+hitpoints = 290
+att = 15
+str = 18
+def = 17
+max_hit_crush = 30
+hunt_mode = "cowardly"
+categories = ["skeletons", "undead"]
+
+[skeleton_rimmington_2]
+id = 6092
+categories = ["skeletons"]
+examine = "Could do with gaining a few pounds."
+drop_table = "skeleton"
+combat_def = "skeleton_unarmed"
+hitpoints = 290
+att = 15
+str = 18
+def = 17
+max_hit_crush = 30
+hunt_mode = "cowardly"
+
+[skeleton_rimmington_3]
+id = 6093
+categories = ["skeletons"]
+examine = "Could do with gaining a few pounds."
+drop_table = "skeleton"
+combat_def = "skeleton_unarmed"
+hitpoints = 290
+att = 15
+str = 18
+def = 17
+max_hit_crush = 30
+hunt_mode = "cowardly"
+
+[ghost_rimmington]
+id = 6094
+drop_table = "empty"
+combat_def = "ghost_rimmington"
+hitpoints = 250
+att = 13
+str = 13
+def = 18
+max_hit_crush = 20
+categories = ["ghosts", "undead"]
+
+[ghost_rimmington_2]
+id = 6095
+drop_table = "empty"
+combat_def = "ghost"
+hitpoints = 250
+att = 13
+str = 13
+def = 18
+max_hit_crush = 20
+categories = ["ghosts", "undead"]
+
+[ghost_rimmington_3]
+id = 6096
+drop_table = "empty"
+combat_def = "ghost"
+hitpoints = 250
+att = 13
+str = 13
+def = 18
+max_hit_crush = 20
+categories = ["ghosts", "undead"]
+
+[ghost_rimmington_4]
+id = 6097
+categories = ["ghosts"]
+examine = "Eeek! A ghost!"
+drop_table = "empty"
+combat_def = "ghost"
+hitpoints = 250
+att = 13
+str = 13
+def = 18
+max_hit_crush = 20
+
+[ghost_rimmington_5]
+id = 6098
+drop_table = "empty"
+combat_def = "ghost"
+hitpoints = 250
+att = 13
+str = 13
+def = 18
+max_hit_crush = 20
+categories = ["ghosts", "undead"]
+
+[tool_leprechaun_rimmington]
+id = 7559
+examine = "Looks after your Farming tools."
+
+[rommik]
+id = 585
+shop = "rommiks_crafty_supplies"
+collision = "indoors"
+examine = "If Crafting's your thing, he's your man."
+
+[brian_rimmington]
+id = 1860
+shop = "brians_archery_supplies"
+collision = "indoors"
+examine = "He sells ranged equipment."
+
+[anja]
+id = 2684
+hitpoints = 70
+combat_def = "woman"
+respawn_delay = 25
+drop_table = "citizen"
+categories = ["human"]
+examine = "A citizen of Rimmington."
+
+[hengel]
+id = 2683
+hitpoints = 70
+combat_def = "man"
+respawn_delay = 25
+categories = ["human"]
+examine = "A citizen of Rimmington."
+
+[customs_sergeant]
+id = 7830
+examine = "Wow, he looks busy."
+
+[customs_sergeant_2]
+id = 7831
+clone = "customs_sergeant"

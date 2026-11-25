@@ -1,0 +1,143 @@
+[angry_unicorn_tolnas_rift]
+id = 3661
+hitpoints = 500
+att = 38
+str = 41
+def = 38
+style = "stab"
+max_hit_melee = 50
+examine = "He looks a little on the cross side!"
+drop_table = "empty"
+max_hit_stab = 50
+combat_def = "angry_unicorn"
+hunt_mode = "cowardly"
+
+[angry_giant_rat_tolnas_rift]
+id = 3662
+hitpoints = 500
+att = 38
+str = 41
+def = 38
+style = "stab"
+max_hit_melee = 50
+categories = ["rats"]
+drop_table = "bones"
+examine = "He looks a little on the cross side!"
+combat_def = "angry_giant_rat_tolnas_rift"
+hunt_mode = "cowardly"
+
+[angry_goblin_tolnas_rift]
+id = 3663
+hitpoints = 500
+att = 38
+str = 41
+def = 38
+style = "stab"
+max_hit_melee = 50
+categories = ["goblins"]
+examine = "He looks a little on the cross side!"
+drop_table = "empty"
+combat_def = "goblin"
+hunt_mode = "cowardly"
+
+[angry_bear_tolnas_rift]
+id = 3664
+hitpoints = 500
+att = 38
+str = 41
+def = 38
+style = "stab"
+max_hit_melee = 50
+examine = "He looks a little on the cross side!"
+drop_table = "empty"
+combat_def = "bear"
+hunt_mode = "cowardly"
+
+[fear_reaper_tolnas_rift]
+id = 3665
+hitpoints = 570
+att = 45
+str = 48
+def = 45
+style = "slash"
+max_hit_melee = 60
+hunt_mode = "cowardly"
+examine = "AHHHH!"
+drop_table = "empty"
+max_hit_slash = 60
+combat_def = "fear_reaper"
+
+[confusion_beast_tolnas_rift]
+id = 3666
+hitpoints = 640
+att = 52
+str = 55
+def = 52
+style = "slash"
+max_hit_melee = 60
+hunt_mode = "cowardly"
+respawn_delay = 25
+examine = "What on Gielinor is that?!?"
+drop_table = "empty"
+max_hit_slash = 60
+combat_def = "confusion_beast"
+
+[hopeless_creature_tolnas_rift]
+id = 3667
+hitpoints = 710
+att = 59
+str = 62
+def = 59
+style = "slash"
+max_hit_melee = 70
+hunt_mode = "cowardly"
+respawn_delay = 25
+examine = "A hopeless poor creature."
+drop_table = "empty"
+max_hit_slash = 70
+combat_def = "hopeless_creature"
+
+[angry_giant_rat_tolnas_rift_2]
+id = 4940
+clone = "angry_giant_rat_tolnas_rift"
+combat_def = "angry_giant_rat_tolnas_rift"
+hunt_mode = "cowardly"
+
+[tolna_south]
+id = 3658
+hitpoints = 370
+att = 42
+str = 41
+def = 40
+style = "slash"
+max_hit_melee = 50
+attack_speed = 5
+hunt_mode = "cowardly"
+examine = "Is that really Tolna?"
+
+[tolna_east]
+id = 3659
+hitpoints = 370
+att = 42
+str = 41
+def = 40
+style = "range"
+weapon_style = "bow"
+ammo = "bronze_arrow"
+attack_range = 8
+max_hit_range = 50
+attack_speed = 5
+hunt_mode = "cowardly"
+examine = "Is that really Tolna?"
+
+[tolna_north]
+id = 3660
+hitpoints = 370
+att = 42
+str = 41
+def = 40
+style = "stab"
+max_hit_melee = 50
+attack_speed = 5
+hunt_mode = "cowardly"
+examine = "Is that really Tolna?"

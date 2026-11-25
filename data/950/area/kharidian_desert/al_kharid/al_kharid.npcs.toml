@@ -1,0 +1,147 @@
+[shopkeeper_al_kharid]
+id = 524
+categories = ["human"]
+shop = "al_kharid_general_store"
+collision = "indoors"
+examine = "A product of a consumerist society."
+
+[shop_assistant_al_kharid]
+id = 525
+categories = ["human"]
+shop = "al_kharid_general_store"
+collision = "indoors"
+examine = "Likes you more, the more you spend."
+
+[zeke]
+id = 541
+categories = ["human"]
+shop = "zekes_superior_scimitars"
+area = "zekes_scimitar_shop"
+collision = "indoors"
+examine = "Sells superior scimitars."
+
+[louie_legs]
+id = 542
+shop = "louies_armoured_legs_bazaar"
+categories = ["human"]
+collision = "indoors"
+examine = "For the finest in armoured legware."
+
+[ranael]
+id = 544
+shop = "ranaels_super_skirt_store"
+categories = ["human"]
+collision = "indoors"
+examine = "She's an expert on armoured skirts!"
+
+[dommik]
+id = 545
+shop = "dommiks_crafting_store"
+categories = ["human"]
+collision = "indoors"
+examine = "If Crafting's your thing, he's your man."
+
+[ali_morrisane]
+id = 1862
+categories = ["human"]
+examine = "A bazaar merchant."
+
+[karim]
+id = 543
+categories = ["human"]
+collision = "indoors"
+examine = "Kebabs are full of meaty goodness."
+
+[ellis]
+id = 2824
+categories = ["human"]
+collision = "indoors"
+examine = "Manufacturer of fine leathers."
+
+[fremennik_warrior]
+id = 9709
+examine = "He's not from around here."
+
+[faruq]
+id = 9159
+examine = "He's not from around here."
+
+[ali_the_leaflet_dropper]
+id = 3680
+dialogue = "child"
+examine = "A young boy handing out flyers."
+
+[silk_trader]
+id = 539
+examine = "Very snappily dressed."
+
+[gem_trader]
+id = 540
+shop = "gem_trader"
+examine = "Makes his money selling rocks."
+
+[tool_leprechaun_al_kharid]
+id = 7564
+examine = "Looks after your Farming tools."
+
+[father_reen]
+id = 2897
+examine = "Looks a bit lost."
+
+[alice_the_camel]
+id = 2813
+examine = "A camel who's come from the south."
+
+[cam_the_camel]
+id = 2812
+examine = "A camel who likes to rest."
+
+[ollie_the_camel]
+id = 2811
+examine = "A camel who wants to fly some day."
+
+[elly_the_camel]
+id = 2810
+examine = "A camel whose love is unrequited."
+
+[al_kharid_warrior]
+id = 18
+hitpoints = 190
+att = 7
+str = 5
+def = 4
+style = "slash"
+max_hit_melee = 20
+attack_bonus = 10
+respawn_delay = 25
+drop_table = "citizen"
+examine = "Part of Al Kharid's elite fighting force."
+combat_def = "guard"
+
+[man_al_kharid]
+id = 16
+hitpoints = 70
+combat_def = "man"
+respawn_delay = 25
+drop_table = "human"
+categories = ["human"]
+examine = "One of the citizens of Al Kharid."
+
+[apprentice]
+id = 5532
+examine = "Come, old broomstick, you are needed."
+
+[sorceress]
+id = 5531
+examine = "Antisocial."
+
+[alice_the_camel_2]
+id = 2814
+examine = "A camel who's come from the south."
+
+[father_reen_2]
+id = 2899
+examine = "Looks a bit lost."
+
+[fishing_spot_al_kharid]
+id = 330

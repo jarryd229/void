@@ -1,0 +1,34 @@
+[suqah_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { id = "suqah_hide" },
+    { table = "suqah_tiara" },
+    { table = "suqah_secondary" },
+    { table = "suqah_tertiary" },
+]
+
+[suqah_tiara]
+roll = 2
+drops = [
+    { id = "a_special_tiara", variable = "lunar_diplomacy", not_equals = "completed", default = "unstarted", lacks = "a_special_tiara" },
+]
+
+[suqah_secondary]
+roll = 258
+drops = [
+    { id = "suqah_tooth", chance = 138 },
+    { id = "grimy_guam", chance = 59 },
+    { id = "grimy_marrentill", chance = 50 },
+    { table = "gem_drop_table", chance = 10 },
+    { id = "nature_rune", amount = 67 },
+]
+
+[suqah_tertiary]
+roll = 5012
+drops = [
+    { table = "hard_clue_scroll", chance = 38 },
+    { id = "long_bone", chance = 12 },
+    { id = "curved_bone" },
+    { id = "starved_ancient_effigy", chance = 10 },
+]

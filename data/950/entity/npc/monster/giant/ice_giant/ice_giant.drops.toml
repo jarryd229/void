@@ -1,0 +1,54 @@
+[ice_giant_drop_table]
+type = "all"
+drops = [
+    { table = "big_bones" },
+    { table = "ice_giant_secondary" },
+    { table = "ice_giant_tertiary" },
+]
+
+[ice_giant_secondary]
+roll = 1024
+drops = [
+    { id = "iron_2h_sword", chance = 40 },
+    { id = "black_kiteshield", chance = 32, members = true },
+    { id = "black_kiteshield", chance = 40, members = false },
+    { id = "steel_hatchet", chance = 32 },
+    { id = "steel_sword", chance = 32 },
+    { id = "iron_platelegs", chance = 8 },
+    { id = "mithril_mace", chance = 8 },
+    { id = "mithril_sq_shield", chance = 8 },
+    { id = "adamant_arrow", min = 2, max = 5, chance = 24 },
+    { id = "nature_rune", amount = 6, chance = 32 },
+    { id = "mind_rune", amount = 24, chance = 24 },
+    { id = "body_rune", amount = 37, chance = 24 },
+    { id = "law_rune", amount = 3, chance = 16 },
+    { id = "water_rune", amount = 12, chance = 8 },
+    { id = "cosmic_rune", min = 2, max = 4, chance = 4 },
+    { id = "death_rune", min = 2, max = 4, chance = 4 },
+    { id = "blood_rune", min = 2, max = 4, chance = 4, members = true },
+    { table = "uncommon_seed_drop_table", chance = 64, members = true },
+    { id = "coins", amount = 117, chance = 256 },
+    { id = "coins", amount = 53, chance = 96 },
+    { id = "coins", amount = 196, chance = 80 },
+    { id = "coins", amount = 5, chance = 64, members = false },
+    { id = "coins", amount = 8, chance = 56 },
+    { id = "coins", amount = 22, chance = 48 },
+    { id = "coins", amount = 400, chance = 16 },
+    { id = "jug_of_wine", chance = 24 },
+    { id = "mithril_ore", chance = 8 },
+    { id = "banana", chance = 8 },
+    { table = "gem_drop_table", chance = 32 },
+    { id = "iron_battleaxe", chance = 32 },
+    { id = "spirit_weed_seed", members = true },
+    { id = "cosmic_talisman", chance = 3, members = true },
+]
+
+[ice_giant_tertiary]
+roll = 5000
+drops = [
+    { id = "ice_giant_ribs", chance = 1250, members = true },
+    { id = "long_bone", chance = 12, members = true },
+    { id = "giant_champions_scroll", members = true },
+    { id = "curved_bone", members = true },
+    { id = "starved_ancient_effigy", chance = 29 },
+]

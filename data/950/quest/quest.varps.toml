@@ -1,0 +1,13 @@
+[quest_points]
+id = 101
+persist = true
+default = 0
+
+[quest_points_total]
+id = 904
+default = 0
+
+[bork_defeated_day]
+id = 1199
+format = "int"
+persist = true

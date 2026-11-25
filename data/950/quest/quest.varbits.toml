@@ -1,0 +1,58 @@
+[fairy_rings_unlocked]
+id = 2328
+format = "boolean"
+persist = true
+
+[dragon_slayer_received_shield]
+id = 3746
+format = "boolean"
+persist = true
+
+[knights_waves]
+id = 3909
+format = "int"
+persist = true
+
+[skeletal_horror_respawn_minute]
+id = 6305
+format = "int"
+persist = true
+
+[teleport_to_digsite_with_pendant]
+id = 3639
+format = "boolean"
+persist = true
+
+[quest_intro_unmark_map]
+id = 6924
+persist = true
+format = "boolean"
+
+[quest_journal_reversed]
+id = 4538
+persist = true
+format = "boolean"
+
+[quest_journal_show_all]
+id = 4537
+persist = true
+format = "boolean"
+
+[quest_journal_order]
+id = 4536
+persist = true
+format = "map"
+default = "free_members"
+values = {
+  free_members = 0,
+  progress = 1,
+  difficulty = 2,
+  demo_quests = 3
+}
+
+# This varbit doesn't correctly update
+# on the client side for some reason.
+#[quest_journal_hide_done]
+#id = 7264
+#persist = true
+#format = "boolean"

@@ -1,0 +1,82 @@
+[brine_rat_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { id = "raw_rat_meat" },
+    { table = "brine_rat_secondary" },
+    { table = "medium_clue_scroll", roll = 128 },
+    { table = "brine_rat_tertiary" },
+]
+
+[brine_rat_secondary]
+roll = 128
+drops = [
+    { id = "death_rune", amount = 7, chance = 18 },
+    { id = "air_rune", amount = 18, chance = 2 },
+    { id = "earth_rune", amount = 10, chance = 6 },
+    { id = "earth_rune", amount = 18, chance = 2 },
+    { id = "earth_rune", amount = 36, chance = 4 },
+    { id = "water_rune", amount = 10, chance = 3 },
+    { id = "water_rune", amount = 18, chance = 2 },
+    { id = "blood_rune", amount = 4, chance = 2 },
+    { id = "raw_lobster_noted", amount = 10, chance = 6 },
+    { id = "raw_shark_noted", amount = 3, chance = 6 },
+    { id = "raw_rat_meat_noted", amount = 18, chance = 2 },
+    { id = "raw_pike_noted", amount = 18, chance = 2 },
+    { id = "raw_shark_noted", amount = 8, chance = 2 },
+    { id = "raw_swordfish", amount = 9, chance = 2 },
+    { id = "raw_shark" },
+    { id = "coins", chance = 21 },
+    { id = "coins", amount = 2, chance = 16 },
+    { id = "coins", amount = 4, chance = 9 },
+    { id = "coins", amount = 29, chance = 3 },
+    { id = "water_talisman", chance = 3 },
+]
+
+[skeleton_fremennik_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "skeleton_fremennik_secondary" },
+    { table = "skeleton_fremennik_tertiary" },
+]
+
+[skeleton_fremennik_secondary]
+roll = 256
+drops = [
+    { id = "black_hatchet", chance = 4 },
+    { id = "coins", amount = 20, chance = 46 },
+    { id = "coins", amount = 50, chance = 16 },
+    { id = "coins", amount = 80, chance = 50 },
+    { id = "coins", amount = 90, chance = 8 },
+    { id = "coins", amount = 185, chance = 6 },
+    { id = "coins", amount = 200, chance = 4 },
+    { id = "guam_seed", chance = 8 },
+    { id = "spirit_weed_seed" },
+    { id = "air_rune", amount = 60, chance = 6 },
+    { id = "chaos_rune", amount = 9, chance = 6 },
+    { id = "cosmic_rune", amount = 4, chance = 2 },
+    { id = "water_rune", amount = 20, chance = 6 },
+    { id = "law_rune", amount = 2, chance = 4 },
+    { id = "steel_med_helm", chance = 12 },
+    { id = "steel_sword", chance = 8 },
+    { id = "mithril_arrow", amount = 8, chance = 4 },
+    { id = "mithril_scimitar", chance = 2 },
+    { id = "bronze_pickaxe", chance = 8 },
+    { id = "mithril_bar", chance = 10 },
+    { table = "gem_drop_table", chance = 4 },
+    { table = "uncommon_seed_drop_table", chance = 40 },
+]
+
+[brine_rat_tertiary]
+roll = 5000
+drops = [
+    { id = "brine_sabre", chance = 10 },
+    { id = "starved_ancient_effigy", chance = 29 },
+]
+
+[skeleton_fremennik_tertiary]
+roll = 5000
+drops = [
+    { id = "skeleton_champions_scroll", lacks = "skeleton_champions_scroll" },
+]

@@ -1,0 +1,53 @@
+[death_wing]
+defend_anim = "death_wing_defend"
+death_anim = "death_wing_death"
+
+[death_wing.melee]
+range = 1
+target_hit = { offense = "stab", max = 80 }
+anim = "death_wing_attack"
+
+[ungadulu]
+defend_anim = "human_defend"
+death_anim = "human_death"
+
+[ungadulu.melee]
+range = 1
+target_hit = { offense = "crush", max = 70 }
+anim = "human_attack"
+
+[san_tojalon]
+defend_anim = "skeleton_defend"
+death_anim = "skeleton_death"
+
+[san_tojalon.melee]
+range = 1
+target_hit = { offense = "stab", max = 120 }
+anim = "skeleton_crush"
+
+[irvig_senay]
+defend_anim = "skeleton_defend"
+death_anim = "skeleton_death"
+
+[irvig_senay.melee]
+range = 1
+target_hit = { offense = "slash", max = 120 }
+anim = "skeleton_crush"
+
+[ranalph_devere]
+defend_anim = "ranalph_devere_defend"
+death_anim = "ranalph_devere_death"
+
+[ranalph_devere.melee]
+range = 1
+target_hit = { offense = "slash", max = 130 }
+anim = "ranalph_devere_attack"
+
+[undead_one_kharazi_caves]
+clone = "zombie"
+defend_anim = "undead_one_kharazi_caves_defend"
+death_anim = "undead_one_kharazi_caves_death"
+
+[undead_one_kharazi_caves.melee]
+clone = "zombie.melee"
+anim = "undead_one_kharazi_caves_attack"

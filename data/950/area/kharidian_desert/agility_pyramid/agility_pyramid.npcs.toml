@@ -1,0 +1,90 @@
+[simon_templeton]
+id = 3123
+examine = "He looks like he's seen the inside of a few tombs."
+
+[vulture_flying]
+id = 1996
+hitpoints = 100
+att = 40
+str = 40
+def = 10
+style = "crush"
+max_hit_melee = 50
+slayer_xp = 10.0
+categories = ["birds"]
+immune_poison = true
+respawn_delay = 50
+drop_table = "vulture"
+examine = "If you see them circling: run."
+
+[vulture_agility_pyramid]
+id = 3675
+drop_table = "vulture"
+examine = "If you see them circling, run."
+hitpoints = 100
+att = 40
+str = 40
+def = 10
+max_hit_crush = 50
+combat_def = "vulture"
+categories = ["birds"]
+
+[mummy_agility_pyramid]
+id = 6753
+drop_table = "mummy"
+combat_def = "mummy"
+hitpoints = 910
+att = 46
+str = 46
+def = 250
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[mummy_agility_pyramid_2]
+id = 6754
+drop_table = "mummy"
+combat_def = "mummy"
+hitpoints = 910
+att = 46
+str = 46
+def = 250
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[mummy_agility_pyramid_3]
+id = 6755
+drop_table = "mummy"
+combat_def = "mummy"
+hitpoints = 910
+att = 46
+str = 46
+def = 250
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[mummy_agility_pyramid_4]
+id = 6756
+drop_table = "mummy"
+combat_def = "mummy"
+hitpoints = 910
+att = 46
+str = 46
+def = 250
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[agility_pyramid_block]
+id = 3124
+
+[agility_pyramid_block_2]
+id = 3125
+
+[agility_pyramid_block_3]
+id = 8521
+
+[agility_pyramid_block_2_2]
+id = 8522

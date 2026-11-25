@@ -1,0 +1,67 @@
+[locust_rider_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "locust_rider_secondary" },
+    { table = "locust_rider_tertiary" },
+]
+
+[locust_rider_secondary]
+roll = 256
+drops = [
+    { id = "rune_mace", chance = 2 },
+    { id = "adamant_arrow", amount = 16, chance = 12 },
+    { id = "blood_rune", amount = 5, chance = 8 },
+    { id = "fire_rune", amount = 37, chance = 2 },
+    { id = "cosmic_rune", amount = 35, chance = 4 },
+    { id = "lava_rune", amount = 20, chance = 4 },
+    { id = "rune_arrow", amount = 7, chance = 4 },
+    { table = "herb_drop_table", chance = 40 },
+    { id = "coins", min = 2000, max = 3000, chance = 64 },
+    { id = "bass", chance = 8 },
+    { id = "lobster", amount = 5, chance = 2 },
+    { id = "marrentill_tar", amount = 6, chance = 2 },
+    { table = "rare_drop_table", chance = 2 },
+    { id = "battlestaff" },
+    { id = "mithril_kiteshield", chance = 16 },
+    { id = "rune_scimitar" },
+    { id = "desert_goat_horn", amount = 3, chance = 4 },
+    { id = "raw_bass", chance = 8 },
+]
+
+[scarab_mage_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "scarab_mage_secondary" },
+]
+
+[scarab_mage_secondary]
+roll = 128
+drops = [
+    { id = "herb", chance = 6 },
+    { id = "marrentill_tar", amount = 7 },
+    { id = "battlestaff", chance = 4 },
+    { id = "desert_goat_horn", amount = 3, chance = 2 },
+    { id = "adamant_arrow", amount = 16, chance = 6 },
+    { id = "rune_mace" },
+    { id = "rune_sq_shield" },
+    { id = "rune_arrow", min = 7, max = 8, chance = 2 },
+    { id = "mithril_kiteshield", chance = 4 },
+    { id = "lobster" },
+    { id = "bass", chance = 4 },
+    { id = "lava_rune", amount = 20, chance = 2 },
+    { id = "cosmic_rune", amount = 3, chance = 2 },
+    { id = "blood_rune", amount = 5, chance = 4 },
+    { id = "fire_rune", amount = 37 },
+    { id = "coins", min = 2000, max = 3000, chance = 32 },
+    { id = "raw_bass", chance = 4 },
+    { table = "herb_drop_table", chance = 20 },
+    { table = "rare_drop_table" },
+]
+
+[locust_rider_tertiary]
+roll = 5000
+drops = [
+    { id = "starved_ancient_effigy", chance = 29 },
+]

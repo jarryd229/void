@@ -1,0 +1,115 @@
+[stool_bamboo]
+id = 1113
+examine = "Park it here..."
+
+[snake_vine_full]
+id = 2575
+examine = "A marshy jungle vine."
+
+[snake_vine_empty]
+id = 2576
+examine = "A marshy jungle vine."
+
+[ardrigal_palm_full]
+id = 2577
+examine = "A tall palm tree with some plants growing at its stem."
+
+[ardrigal_palm_empty]
+id = 2578
+examine = "A tall palm tree."
+
+[sito_soil_full]
+id = 2579
+examine = "The burnt ground has a plant growing on it."
+
+[sito_soil_empty]
+id = 2580
+examine = "The ground has been burnt here by a fire."
+
+[volencia_moss_rock_full]
+id = 2581
+examine = "A rock with green moss growing on it."
+
+[volencia_moss_rock_empty]
+id = 2582
+examine = "A rock, it looks like something was growing here."
+
+[pothole_cave_entrance]
+id = 2584
+examine = "A collection of rocks over what looks like a depression."
+
+[rogues_purse_cave_full]
+id = 32106
+examine = "It looks as if it is covered in some fungus."
+
+[rogues_purse_cave_empty]
+id = 32107
+examine = "It looks as if it is covered in some fungus."
+
+[jungle1]
+id = 1184
+examine = "The tendrils of a creeping plant."
+
+[greener_jungle1]
+id = 1186
+examine = "A large curling plant."
+
+[jungleplant4]
+id = 1204
+examine = "A small fernlike plant."
+
+[jungletree2_karamja]
+id = 1304
+examine = "A tree found in tropical areas."
+
+[bamboo_tree_base]
+id = 1326
+examine = "A terribly tall tropical tree."
+
+[bamboo_tree_mid]
+id = 1327
+examine = "A terribly tall tropical tree."
+
+[bamboo_tree_uppermid]
+id = 1328
+examine = "A terribly tall tropical tree."
+
+[bamboo_tree_top]
+id = 1329
+examine = "Leaves of a bamboo tree."
+
+[bamboo_tree_2_base]
+id = 1371
+examine = "This tree contains dangerous insects no doubt."
+
+[bamboo_tree_2_mid]
+id = 1372
+examine = "This tree contains dangerous insects no doubt."
+
+[bamboo_tree_2_top]
+id = 1374
+examine = "This tree contains dangerous insects no doubt."
+
+[jungle2]
+id = 1390
+examine = "Commonly found in these parts."
+
+[jungleplant1_karamja]
+id = 1400
+examine = "A large waxy jungle plant."
+
+[jungleplant3]
+id = 1402
+examine = "A large waxy jungle plant."
+
+[jungletree1_karamja]
+id = 1303
+examine = "A tree found in tropical areas."
+
+[bamboo_tree_2_uppermid]
+id = 1373
+examine = "This tree contains dangerous insects no doubt."
+
+[greener_jungle2]
+id = 1398
+examine = "A leafy fern."

@@ -1,0 +1,11 @@
+[teleport]
+id = 200
+
+[teleport_fairy]
+id = 1098
+
+[teleport_land]
+id = 201
+
+[teleport_tablet]
+id = 965

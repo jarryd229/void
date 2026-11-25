@@ -1,0 +1,31 @@
+[chaos_druid_drop_table]
+type = "all"
+drops = [
+  { id = "bones" },
+  { table = "chaos_druid_secondary" },
+]
+
+[chaos_druid_secondary]
+roll = 256
+drops = [
+  { id = "law_rune", amount = 2, chance = 14 },
+  { id = "mithril_bolts", min = 2, max = 12, chance = 8 },
+  { id = "air_rune", min = 9, max = 36, chance = 6 },
+  { id = "body_rune", amount = 9, chance = 4 },
+  { id = "earth_rune", amount = 9, chance = 4 },
+  { id = "mind_rune", amount = 12, chance = 4 },
+  { id = "nature_rune", amount = 3, chance = 2 },
+  { id = "coins", amount = 3, chance = 10 },
+  { id = "coins", amount = 8, chance = 10 },
+  { id = "coins", amount = 29, chance = 6 },
+  { id = "coins", amount = 35, chance = 2 },
+  { id = "vial_of_water", chance = 20 },
+  { id = "bronze_longsword", chance = 2 },
+  { id = "snape_grass", chance = 2 },
+  { id = "unholy_mould", chance = 2 },
+  { table = "gem_drop_table", chance = 2 },
+  { table = "herb_drop_table", chance = 92 },
+  { id = "cosmic_talisman" },
+  { id = "iron_med_helm" },
+  { id = "uncut_jade" },
+]

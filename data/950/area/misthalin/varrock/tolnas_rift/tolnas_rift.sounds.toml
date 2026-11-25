@@ -1,0 +1,17 @@
+[angry_unicorn_defend]
+id = 878
+
+[angry_unicorn_death]
+id = 877
+
+[angry_unicorn_attack]
+id = 876
+
+[confusion_beast_defend]
+id = 299
+
+[confusion_beast_death]
+id = 298
+
+[confusion_beast_attack]
+id = 297

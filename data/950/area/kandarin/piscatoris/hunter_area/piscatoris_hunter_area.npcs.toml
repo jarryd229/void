@@ -1,0 +1,44 @@
+[kathy_corkat_piscatoris]
+id = 3831
+examine = "Carries supplies to the Piscatoris Fishing Colony."
+
+[chinchompa]
+id = 5079
+hitpoints = 10
+style = "crush"
+max_hit_melee = 10
+respawn_delay = 7
+examine = "It looks fluffy and cute; it's probably deadly."
+drop_table = "empty"
+combat_def = "rat"
+
+[ruby_harvest]
+id = 5085
+respawn_delay = 10
+collision = "sky"
+examine = "It's a ruby harvest butterfly."
+
+[prickly_kebbit]
+id = 5086
+respawn_delay = 7
+examine = "Curls up into a ball to protect itself from attack."
+
+[wild_kebbit]
+id = 5089
+respawn_delay = 7
+examine = "That's a mean looking set of claws."
+
+[dark_kebbit]
+id = 5099
+respawn_delay = 7
+examine = "Quieter than a ninja mouse with slippers on."
+
+[dashing_kebbit]
+id = 5100
+respawn_delay = 7
+examine = "Now you see it; now you don't."
+
+[copper_longtail]
+id = 5076
+respawn_delay = 5
+examine = "Nothing much to get in a flap about."

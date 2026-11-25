@@ -1,0 +1,11 @@
+[stag]
+defend_anim = "stag_defend"
+death_anim = "stag_death"
+defend_sound = "stag_defend"
+death_sound = "stag_death"
+
+[stag.melee]
+range = 1
+target_hit = { offense = "stab", max = 20 }
+anim = "stag_attack"
+sound = "stag_attack"

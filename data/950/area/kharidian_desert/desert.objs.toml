@@ -1,0 +1,27 @@
+[desert_obelisk_ladder_down]
+id = 28737
+examine = "Where does it go?"
+
+[desert_obelisk_ladder_up]
+id = 28740
+examine = "Going up?"
+
+[desert_cactus_full]
+id = 2670
+examine = "A succulent cactus."
+
+[desert_cactus_empty]
+id = 2671
+examine = "A less-than-succulent succulent."
+
+[cactus4]
+id = 1405
+examine = "How do these things manage to grow?"
+
+[cactus5]
+id = 1406
+examine = "How do these things manage to grow?"
+
+[cactus]
+id = 1396
+examine = "How do these things manage to grow?"

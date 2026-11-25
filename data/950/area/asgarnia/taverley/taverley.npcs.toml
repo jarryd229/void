@@ -1,0 +1,186 @@
+[pikkupstix]
+id = 6970
+categories = ["human"]
+collision = "indoors"
+examine = "He's a very important druid."
+shop = "summoning_supplies"
+
+[pikkupstix_normal]
+id = 6971
+categories = ["human"]
+collision = "indoors"
+examine = "He's a very important druid."
+
+[pikkupstix_spawn]
+id = 6988
+examine = "He's a very important druid."
+
+[pikkupstix_spawn_2]
+id = 6989
+
+[sanfew]
+id = 454
+categories = ["human"]
+collision = "indoors"
+examine = "An old druid."
+
+[kaqemeex]
+id = 455
+categories = ["human"]
+collision = "indoors"
+examine = "A wise druid."
+
+[thaerisk_cemphier]
+id = 8420
+categories = ["human"]
+collision = "indoors"
+examine = "A wise druid."
+
+[ivy_sophista]
+id = 8417
+examine = "An impressive, statuesque druidess. She must be of high status."
+
+[terrier_taverley]
+id = 6894
+examine = "A terrier puppy."
+
+[pet_shop_owner_taverley]
+id = 6893
+examine = "The man of the pet shop."
+
+[lady_of_the_lake]
+id = 250
+examine = "A powerful sorceress who guards Excalibur."
+
+[alain]
+id = 2339
+patch = "farming_tree_patch_taverley"
+examine = "Perhaps this gardener might look after your crops for you."
+
+[austri]
+id = 232
+examine = "He looks short and grumpy."
+
+[tegid]
+id = 1213
+interacts = false
+examine = "He's washing his clothes in the lake."
+
+[gaius]
+id = 586
+shop = "gaiuss_two_handed_shop"
+collision = "indoors"
+examine = "Ironically, makes a living from swords."
+
+[druid_grey_stick]
+id = 6972
+hitpoints = 300
+att = 28
+str = 28
+def = 32
+mage = 25
+respawn_delay = 25
+examine = "Loves nature."
+combat_def = "druid_staff"
+drop_table = "druid"
+
+[druid_hair]
+id = 6973
+clone = "druid_grey_stick"
+combat_def = "druid_unarmed"
+
+[druid_ponytail_sickle]
+id = 6974
+clone = "druid_grey_stick"
+combat_def = "druid_sickle"
+
+[druid_bald_stick]
+id = 6975
+clone = "druid_grey_stick"
+
+[druid_grey]
+id = 6976
+clone = "druid_hair"
+
+[druid_sickle]
+id = 6977
+clone = "druid_grey_stick"
+
+[druid_hood]
+id = 6978
+clone = "druid_hair"
+
+[druid_bald_stick_dark]
+id = 6979
+clone = "druid_grey_stick"
+
+[druid_bald]
+id = 6980
+clone = "druid_hair"
+
+[druidess_white]
+id = 6981
+hitpoints = 300
+att = 28
+str = 28
+def = 32
+mage = 25
+respawn_delay = 25
+examine = "A nature lover."
+combat_def = "druidess_unarmed"
+drop_table = "druid"
+
+[druidess_brunette_stick]
+id = 6982
+clone = "druidess_white"
+combat_def = "druidess_staff"
+
+[druidess_grey]
+id = 6983
+clone = "druidess_white"
+
+[druidess_stick]
+id = 6984
+clone = "druidess_brunette_stick"
+
+[druidess_sickle]
+id = 6985
+clone = "druidess_white"
+combat_def = "druidess_sickle"
+
+[druidess_mask]
+id = 6986
+clone = "druidess_white"
+
+[druidess]
+id = 6987
+clone = "druidess_white"
+
+[jatix]
+id = 587
+shop = "jatixs_herblore_shop"
+collision = "indoors"
+examine = "Master of herbs and potions."
+
+[bettamax]
+id = 13106
+shop = "bettamaxs_shop"
+collision = "outdoors"
+examine = "A botanist in training."
+
+[wilbur]
+id = 13107
+examine = "He seems a little out of place."
+
+[thaerisk_cemphier_2]
+id = 8418
+examine = "A wise druid."
+
+[druid]
+id = 14
+hitpoints = 300
+att = 28
+str = 28
+def = 32
+mage = 25
+examine = "A nature lover."

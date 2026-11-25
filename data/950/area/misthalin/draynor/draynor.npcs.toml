@@ -1,0 +1,271 @@
+[diango]
+id = 970
+shop = "diangos_toy_store"
+categories = ["human"]
+collision = "outdoors"
+examine = "A toy-seller who looks after people's toys for them."
+
+[armour_draynor_manor]
+id = 9354
+examine = "A suit of armour."
+
+[ned]
+id = 918
+collision = "indoors"
+examine = "An old sailor."
+
+[lady_keli]
+id = 919
+collision = "indoors"
+examine = "An infamous bandit."
+
+[aggie]
+id = 922
+collision = "indoors"
+examine = "A witch."
+
+[draynor_jail_guard_blonde]
+id = 917
+hitpoints = 320
+att = 19
+str = 23
+def = 21
+attack_bonus = 9
+combat_def = "draynor_jail_guard"
+respawn_delay = 30
+drop_table = "human"
+categories = ["human"]
+collision = "outdoors"
+examine = "This jail's open for business again."
+
+[draynor_jail_guard_short]
+id = 447
+hunt_mode = "cowardly"
+clone = "draynor_jail_guard_blonde"
+
+[draynor_jail_guard_long]
+id = 448
+hunt_mode = "cowardly"
+clone = "draynor_jail_guard_blonde"
+
+[draynor_jail_guard_bald]
+id = 449
+hunt_mode = "cowardly"
+clone = "draynor_jail_guard_blonde"
+
+[jail_guard_joe]
+id = 916
+collision = "indoors"
+examine = "Lady Keli's head guard."
+
+[leela]
+id = 13172
+categories = ["human"]
+examine = "She comes from Al Kharid."
+
+[undead_tree_draynor]
+id = 152
+
+[undead_tree_draynor_1]
+id = 5207
+
+[undead_tree_draynor_2]
+id = 5208
+
+[farmer_draynor]
+id = 1761
+examine = "Farming the wheat."
+
+[veronica]
+id = 285
+examine = "She doesn't look too happy."
+
+[professor_oddenstein]
+id = 286
+examine = "A mad scientist if ever I saw one!"
+
+[chicken_draynor]
+id = 3290
+
+[maris]
+id = 3292
+examine = "She's married to Morgan."
+
+[ava]
+id = 5199
+
+[scout_draynor]
+id = 5576
+
+[morgan]
+id = 755
+examine = "He looks scared."
+
+[olivia]
+id = 2233
+shop = "draynor_seed_market"
+examine = "She's a seed merchant."
+
+[piglet]
+id = 2241
+examine = "I shall call him, Mini Pig."
+
+[piglet_2]
+id = 2242
+examine = "Porcine."
+
+[piglet_3]
+id = 2243
+examine = "Hog."
+
+[pig]
+id = 2239
+examine = "Porker."
+
+[pig_2]
+id = 2240
+examine = "Swine."
+
+[master_farmer]
+id = 2234
+combat_def = "farmer"
+examine = "A master at farming."
+
+[market_guard_draynor]
+id = 2236
+hitpoints = 220
+att = 17
+str = 18
+def = 13
+attack_bonus = 9
+combat_def = "draynor_market_guard"
+hunt_mode = "guarding"
+respawn_delay = 50
+examine = "He guards the Draynor Market stalls from thieves."
+drop_table = "market_guard"
+
+[bank_guard_draynor]
+id = 2574
+examine = "He's guarding the bank."
+
+[miss_schism]
+id = 2634
+examine = "A busy-body who loves a bit of gossip."
+
+[martin_the_master_gardener]
+id = 3299
+combat_def = "farmer"
+examine = "A master at gardening."
+
+[fortunato]
+id = 3671
+shop = "fortunatos_fine_wine"
+examine = "He looks as if he could do with a sip of Amontillado."
+
+[gull_draynor]
+id = 450
+collision = "sky"
+examine = "A sea bird."
+
+[gull_draynor_2]
+id = 451
+collision = "sky"
+examine = "A sea bird."
+
+[town_crier_draynor]
+id = 6136
+
+[maggie]
+id = 8078
+examine = "A young witch."
+
+[wendy]
+id = 8201
+examine = "A young witch."
+
+[trogs]
+id = 8202
+examine = "A feisty cat."
+
+[norman]
+id = 8203
+examine = "A strong ox, no bones about it."
+
+[babe]
+id = 8204
+examine = "How can an ox without lungs sneeze like that?"
+
+[shady_stranger]
+id = 8339
+hitpoints = 300
+combat_def = "man"
+max_hit_crush = 60
+respawn_delay = 66
+examine = "He seems to be trying to watch everyone at once."
+drop_table = "shady_stranger"
+
+[shady_stranger_2]
+id = 8435
+hitpoints = 350
+combat_def = "man"
+max_hit_crush = 60
+respawn_delay = 66
+examine = "He seems to be trying to watch everyone at once."
+drop_table = "shady_stranger"
+
+[suspicious_outsider]
+id = 8436
+hitpoints = 440
+combat_def = "man"
+max_hit_crush = 60
+respawn_delay = 66
+examine = "Haven't seen his sort around here before; what's he doing here?"
+drop_table = "suspicious_outsider"
+
+[ruantun_draynor_sewers]
+id = 1916
+examine = "Luckily, I can't see much of his face."
+
+[witch]
+id = 5200
+
+[witch_normal]
+id = 5201
+examine = "The hat's a dead giveaway."
+
+[chicken_draynor_2]
+id = 288
+
+[ava_2]
+id = 5198
+shop = "avas_odds_and_ends"
+
+[scout_draynor_2]
+id = 5569
+
+[fishing_spot_small_net_bait_draynor]
+id = 327
+examine = "It looks like there might be fish swimming in the water."
+
+[market_guard]
+id = 2571
+hitpoints = 220
+att = 17
+str = 18
+def = 13
+examine = "Keeps the stalls secure."
+
+[cool_mom227]
+id = 2579
+hitpoints = 250
+att = 25
+str = 25
+def = 20
+
+[market_guard_2]
+id = 12435
+hitpoints = 220
+att = 17
+str = 18
+def = 13
+examine = "Keeps the stalls secure."

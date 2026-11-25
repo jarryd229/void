@@ -1,0 +1,14 @@
+[crab_drop_table]
+type = "all"
+drops = [
+    { id = "crab_meat" },
+    { table = "crab_secondary" },
+]
+
+[crab_secondary]
+roll = 160
+drops = [
+    { id = "fresh_crab_claw", chance = 10 },
+    { id = "fresh_crab_shell", chance = 10 },
+    { id = "oyster", chance = 16 },
+]

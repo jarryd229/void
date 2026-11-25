@@ -1,0 +1,20 @@
+[pirate]
+id = 182
+hitpoints = 200
+att = 21
+str = 21
+def = 21
+attack_bonus = 8
+combat_def = "pirate"
+respawn_delay = 25
+hunt_mode = "cowardly"
+categories = ["human", "pirate"]
+examine = "Yar! Shiver me timbers!"
+
+[pirate_2]
+id = 185
+hitpoints = 200
+att = 20
+str = 20
+def = 20
+examine = "Avast ye scurvy land lubbers!"

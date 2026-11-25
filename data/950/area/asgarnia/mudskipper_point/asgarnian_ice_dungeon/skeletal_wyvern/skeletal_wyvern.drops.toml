@@ -1,0 +1,54 @@
+[skeletal_wyvern_drop_table]
+type = "all"
+drops = [
+    { table = "skeletal_wyvern_primary" },
+    { table = "skeletal_wyvern_secondary" },
+    { table = "skeletal_wyvern_tertiary" },
+    { table = "hard_clue_scroll", roll = 128 },
+]
+
+[skeletal_wyvern_primary]
+drops = [
+    { id = "wyvern_bones" },
+]
+
+[skeletal_wyvern_secondary]
+roll = 256
+drops = [
+    { id = "soul_rune", min = 5, max = 14, chance = 13 },
+    { id = "air_rune", min = 10, max = 64, chance = 11 },
+    { id = "water_rune", min = 11, max = 33, chance = 9 },
+    { id = "runite_bolts", min = 5, max = 22, chance = 6 },
+    { id = "adamant_bolts", min = 7, max = 29, chance = 9 },
+    { id = "mithril_bolts", min = 8, max = 39, chance = 9 },
+    { id = "blood_rune", min = 2, max = 11, chance = 7 },
+    { id = "bone_bolts", min = 2, max = 27, chance = 7 },
+    { id = "law_rune", min = 2, max = 5, chance = 6 },
+    { id = "chaos_rune", amount = 10, chance = 7 },
+    { id = "cosmic_talisman" },
+    { id = "pure_essence_noted", amount = 60, chance = 15 },
+    { id = "super_attack_1", chance = 9 },
+    { id = "defence_potion_3", chance = 7 },
+    { id = "lobster", amount = 3, chance = 4 },
+    { id = "bass", chance = 7 },
+    { id = "snakeskin_chaps", chance = 4 },
+    { id = "earth_battlestaff", chance = 8 },
+    { id = "adamant_crossbow_u" },
+    { id = "coins", amount = 300, chance = 24 },
+    { id = "mithril_sword", chance = 15 },
+    { id = "adamant_hatchet", chance = 7 },
+    { id = "black_hatchet", chance = 7 },
+    { table = "herb_drop_table", chance = 14 },
+    { id = "spirit_weed_seed", chance = 7 },
+    { table = "gem_drop_table", chance = 6 },
+    { table = "uncommon_seed_drop_table", chance = 34 },
+]
+
+[skeletal_wyvern_tertiary]
+roll = 10000
+drops = [
+    { id = "draconic_visage" },
+    { id = "granite_legs", chance = 20 },
+    { id = "skeletal_wyvern_tail_bone", chance = 2500 },
+    { id = "starved_ancient_effigy", chance = 58 },
+]

@@ -1,0 +1,10 @@
+[teleport_kinship]
+id = 13652
+ticks = 8
+
+[teleport_land_kinship]
+id = 13654
+ticks = 1
+
+[rand_player_agility_jump_down]
+id = 13760

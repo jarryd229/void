@@ -1,0 +1,5 @@
+# 12870 swept_away
+[hettys_basement_ladder]
+option = "Climb-up"
+tile = { x = 3165, y = 4514 }
+to = { x = 2967, y = 3201 }

@@ -1,0 +1,30 @@
+[mort_myre_swamp_east_fishing_spot]
+x = [3478, 3490]
+y = [3430, 3449]
+
+[mort_myre_swamp_fishing_spot]
+x = [3424, 3440]
+y = [3407, 3417]
+
+[mort_myre_swamp_south_fishing_spot]
+x = [3437, 3445]
+y = [3270, 3280]
+
+[mort_myre_swamp]
+x = [3392, 3519]
+y = [3329, 3454]
+
+[mort_myre_swamp_bloom_area]
+x = [3400, 3520]
+y = [3324, 3455]
+
+tags = ["no_cannon", "no_cannon_damp"]
+
+[filliman_grotto]
+x = [3433, 3447]
+y = [3331, 3343]
+
+# The rope bridge over the Hollows, from the tile the southern tree lands on up to the top rung
+[mort_myre_rope_bridge]
+x = [3502, 3502]
+y = [3427, 3430]

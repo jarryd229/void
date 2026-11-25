@@ -1,0 +1,3 @@
+spawns = [
+  { id = "ahoy_ghost_captain_2", x = 3792, y = 3560, members = true },
+]

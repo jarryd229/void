@@ -1,0 +1,13 @@
+[clan_wars]
+id = 789
+type = "overlay"
+
+[clan_wars_defeat]
+id = 790
+
+[clan_wars_request]
+id = 791
+
+[clan_wars_overview]
+id = 792
+

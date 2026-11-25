@@ -1,0 +1,372 @@
+[commander_colby_wilderness]
+id = 12311
+
+[dark_wizard_wilderness]
+id = 172
+hitpoints = 240
+att = 17
+str = 17
+def = 14
+mage = 22
+style = "magic"
+max_hit_magic = 60
+hunt_mode = "aggressive"
+respawn_delay = 50
+examine = "A practicer of dark arts."
+drop_table = "dark_wizard"
+combat_def = "dark_wizard_water"
+
+[dark_wizard_wilderness_2]
+id = 174
+hitpoints = 120
+att = 5
+str = 2
+def = 5
+mage = 6
+style = "magic"
+max_hit_magic = 60
+hunt_mode = "aggressive"
+respawn_delay = 50
+examine = "He works evil magic."
+drop_table = "dark_wizard"
+combat_def = "dark_wizard_water"
+
+[william]
+id = 1778
+shop = "williams_wilderness_cape_shop"
+examine = "A very brave merchant."
+
+[ian]
+id = 1779
+shop = "ians_wilderness_cape_shop"
+examine = "A very brave merchant."
+
+[larry]
+id = 1780
+shop = "larrys_wilderness_cape_shop"
+collision = "indoors"
+examine = "A not-so-brave merchant."
+
+[darren]
+id = 1781
+shop = "darrens_wilderness_cape_shop"
+examine = "A very brave merchant."
+
+[edmond_wilderness]
+id = 1785
+shop = "edmonds_wilderness_cape_shop"
+examine = "A very brave merchant."
+
+[simon_wilderness]
+id = 1786
+shop = "simons_wilderness_cape_shop"
+examine = "A very brave merchant."
+
+[pirate_wilderness]
+id = 184
+examine = "This one's had too much to drink!"
+drop_table = "pirate"
+combat_def = "pirate"
+hitpoints = 230
+att = 23
+str = 23
+def = 23
+attack_bonus = 8
+max_hit_slash = 40
+
+[mysterious_ghost_wilderness]
+id = 2382
+
+[mysterious_ghost_wilderness_2]
+id = 2388
+
+[mysterious_ghost_wilderness_3]
+id = 2389
+
+[mysterious_ghost_wilderness_4]
+id = 2390
+
+[mysterious_ghost_wilderness_5]
+id = 2394
+
+[fishing_spot_wilderness]
+id = 3804
+
+[giant_rat_wilderness]
+id = 4927
+att = 6
+str = 5
+def = 2
+hitpoints = 100
+slayer_xp = 10.0
+combat_def = "giant_rat"
+drop_table = "giant_rat"
+categories = ["giant_rats", "rats"]
+examine = "Overgrown vermin."
+hunt_mode = "aggressive"
+respawn_delay = 30
+
+[black_salamander]
+id = 5116
+solid = false
+respawn_delay = 5
+examine = "Slightly slimy and somewhat menacing."
+
+[pirate_wilderness_2]
+id = 6351
+examine = "This one's had too much to drink!"
+drop_table = "pirate"
+combat_def = "pirate"
+hitpoints = 230
+att = 23
+str = 23
+def = 23
+attack_bonus = 8
+max_hit_slash = 40
+
+[pirate_wilderness_3]
+id = 6352
+examine = "This one's had too much to drink!"
+drop_table = "pirate"
+combat_def = "pirate"
+hitpoints = 230
+att = 23
+str = 23
+def = 23
+attack_bonus = 8
+max_hit_slash = 40
+
+[pirate_wilderness_4]
+id = 6353
+examine = "This one's had too much to drink!"
+drop_table = "pirate"
+combat_def = "pirate"
+hitpoints = 230
+att = 23
+str = 23
+def = 23
+attack_bonus = 8
+max_hit_slash = 40
+
+[pirate_wilderness_5]
+id = 6354
+examine = "This one's had too much to drink!"
+drop_table = "pirate"
+combat_def = "pirate"
+hitpoints = 230
+att = 23
+str = 23
+def = 23
+attack_bonus = 8
+max_hit_slash = 40
+
+[pirate_wilderness_6]
+id = 6355
+drop_table = "pirate"
+combat_def = "pirate"
+hitpoints = 230
+att = 23
+str = 23
+def = 23
+attack_bonus = 8
+max_hit_slash = 40
+
+[pirate_wilderness_7]
+id = 6356
+examine = "This one's had too much to drink!"
+drop_table = "pirate"
+combat_def = "pirate"
+hitpoints = 230
+att = 23
+str = 23
+def = 23
+attack_bonus = 8
+max_hit_slash = 40
+
+[goth_leprechaun_wilderness]
+id = 8000
+examine = "Looks after your Farming tools."
+
+[orry_wilderness]
+id = 8067
+
+[ube_wilderness]
+id = 8068
+
+[waldo_wilderness]
+id = 8069
+
+[crate_wilderness]
+id = 8074
+
+[rogue_wilderness]
+id = 8123
+
+[giant_rat_wilderness_2]
+id = 87
+drop_table = "giant_rat"
+combat_def = "giant_rat"
+hitpoints = 100
+att = 6
+str = 5
+def = 2
+max_hit_stab = 10
+hunt_mode = "aggressive"
+respawn_delay = 30
+categories = ["giant_rats", "rats"]
+
+[battle_mage_zamorak]
+id = 912
+hitpoints = 1200
+mage = 50
+attack_speed = 4
+style = "magic"
+max_hit_melee = 200
+immune_cannon = true
+respawn_delay = 150
+hunt_mode = "battle_mage"
+god = "zamorak"
+drop_table = "bones"
+examine = "He kills in the name of Zamorak."
+
+[battle_mage_saradomin]
+id = 913
+hitpoints = 1200
+mage = 50
+attack_speed = 4
+style = "magic"
+max_hit_melee = 200
+immune_cannon = true
+respawn_delay = 150
+hunt_mode = "battle_mage"
+god = "saradomin"
+drop_table = "bones"
+examine = "He kills in the name of Saradomin."
+
+[battle_mage_guthix]
+id = 914
+hitpoints = 1200
+mage = 50
+attack_speed = 4
+style = "magic"
+max_hit_melee = 200
+immune_cannon = true
+respawn_delay = 150
+hunt_mode = "battle_mage"
+god = "guthix"
+drop_table = "bones"
+examine = "He kills in the name of Guthix."
+
+[gull_wilderness]
+id = 9717
+collision = "sea"
+
+[lobster_wilderness]
+id = 9720
+examine = "He looks really cold."
+
+[mysterious_ghost_wilderness_6]
+id = 2397
+
+[mysterious_ghost_wilderness_2_2]
+id = 2400
+
+[mysterious_ghost_wilderness_5_2]
+id = 2402
+
+[orry_wilderness_2]
+id = 8044
+
+[orry_wilderness_3]
+id = 8045
+
+[ube_wilderness_2]
+id = 8046
+
+[ube_wilderness_3]
+id = 8047
+
+[waldo_wilderness_2]
+id = 8048
+
+[waldo_wilderness_3]
+id = 8049
+
+[crate_wilderness_2]
+id = 8059
+
+[crate_wilderness_3]
+id = 8060
+
+[rogue_wilderness_2]
+id = 8122
+
+[commander_colby_wilderness_2]
+id = 12312
+
+[rogue_castle]
+id = 187
+hitpoints = 170
+att = 13
+str = 13
+def = 13
+style = "stab"
+max_hit_melee = 20
+attack_bonus = 5
+slayer_xp = 17.0
+categories = ["rogues"]
+respawn_delay = 50
+examine = "Rogueish."
+drop_table = "rogue"
+max_hit_stab = 20
+combat_def = "rogue"
+
+[pkmaster0036]
+id = 2589
+hitpoints = 800
+att = 85
+str = 60
+def = 80
+mage = 40
+range = 40
+
+
+[head_mystic]
+id = 8227
+examine = "He has blindfolded himself in order to better see into the spirit world."
+
+[rewards_mystic]
+id = 8228
+shop = "stealing_creation_reward_shop"
+examine = "A little more worldly than the other mystics."
+collision = "indoors"
+
+[mystic]
+id = 8229
+examine = "He worships the spirits of the wilderness."
+
+[mystic_2]
+id = 8231
+dialogue = "old"
+examine = "He worships the spirits of the wilderness."
+
+[mystic_3]
+id = 8233
+examine = "He worships the spirits of the wilderness."
+
+[mystic_4]
+id = 8545
+examine = "He worships the spirits of the Wilderness for unusual reasons."
+
+[banker_wilderness]
+id = 6538
+examine = "He has unbelievable strength!"
+
+[calladin]
+id = 8111
+collision = "indoors"
+examine = "Master of the Clan Wars arena."
+
+[spirit]
+id = 7963
+examine = "The spirit of a small girl."

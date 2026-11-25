@@ -1,0 +1,24 @@
+[report_abuse_player_security]
+id = 593
+
+[.name]
+id = 32
+
+[.abuse]
+id = 97
+
+[.ignore]
+id = 110
+
+[report_abuse]
+id = 594
+
+[.mute_confirm]
+id = 8
+
+[.mute_entry]
+id = 52
+
+[.mute_select]
+id = 66
+

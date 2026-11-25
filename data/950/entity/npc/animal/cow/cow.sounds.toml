@@ -1,0 +1,11 @@
+[calf_attack]
+id = 366
+
+[calf_death]
+id = 367
+
+[calf_defend]
+id = 368
+
+[milk_cow]
+id = 372

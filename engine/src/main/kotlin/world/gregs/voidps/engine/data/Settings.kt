@@ -65,6 +65,17 @@ open class Settings {
         }
     }
 
+    /** Replaces `{revision}` in every setting with server.revision, so paths like ./data/{revision}/saves/ follow the revision */
+    protected fun resolveRevision() {
+        val revision = properties.getProperty("server.revision") ?: return
+        for ((key, value) in properties) {
+            if (value is String && value.contains("{revision}")) {
+                properties[key] = value.replace("{revision}", revision.trim())
+            }
+        }
+        refreshCached()
+    }
+    
     fun rebase(base: String) {
         for ((key, value) in properties) {
             if (value is String) {
@@ -91,12 +102,14 @@ open class Settings {
 
         fun load(fileName: String = PROPERTY_FILE_NAME): Properties {
             val file = File("./$fileName")
-            return if (file.exists()) {
+            val loaded = if (file.exists()) {
                 load(file.inputStream())
             } else {
                 logger.debug { "Property file not found; defaulting to internal." }
                 load(Settings::class.java.getResourceAsStream("/$fileName")!!)
             }
+            resolveRevision()
+            return loaded
         }
     }
 }

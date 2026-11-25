@@ -1,0 +1,200 @@
+# All players so long as they haven't been nearby for more than 10 minutes
+[aggressive]
+type = "player"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false
+
+# All npcs
+[aggressive_npcs]
+type = "npc"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false
+
+# All players even if they have been nearby for 10 minutes
+[aggressive_intolerant]
+type = "player"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false
+check_afk = false
+
+## All players that aren't busy
+[not_busy]
+type = "player"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = true
+
+# Players lower level than them
+[cowardly]
+type = "player"
+check_visual = "line_of_sight"
+check_not_combat = true
+check_not_combat_self = true
+check_not_too_strong = true
+check_not_busy = true
+
+# Rum Deal zombie swabs; they lose interest once the quest is over, filtered in ZombieSwab
+[zombie_swab]
+type = "player"
+check_visual = "line_of_sight"
+check_not_combat = true
+check_not_combat_self = true
+check_not_too_strong = true
+check_not_busy = true
+
+# Attacking tzhaar crafters
+[tzhaar_hunter]
+type = "player"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = false
+check_not_combat_self = true
+check_not_busy = false
+
+# Finds ashes on the floor
+[ash_finder]
+type = "floor_item"
+check_visual = "line_of_sight"
+id = "ashes"
+rate = 4
+
+# Players that don't have matching god equipment
+[godwars_aggressive]
+type = "player"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = false
+check_not_busy = false
+check_same_god = true
+
+# All non-zamorak npcs
+[zamorak_aggressive]
+type = "npc"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false
+check_not_zamorak = true
+
+# All zamorak npcs
+[anti_zamorak_aggressive]
+type = "npc"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false
+check_zamorak = true
+
+# Mage Arena battle mages; god cape and Kolodion fight exemptions filtered in BattleMages
+[battle_mage]
+type = "player"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false
+
+# Thieving stalls
+[guarding]
+type = "player"
+check_visual = "line_of_walk"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false
+check_afk = false
+
+# Sorceress's Garden
+[spotted]
+type = "player"
+check_visual = "line_of_sight"
+check_afk = false
+check_not_too_strong = false
+check_not_combat = false
+check_not_combat_self = false
+check_not_busy = false
+
+# Aggressive and continue hunting
+[aggressive_retarget]
+type = "player"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = false
+check_not_combat_self = false
+check_not_busy = false
+find_keep_hunting = true
+
+[hunter_trap]
+type = "npc"
+check_visual = "line_of_sight"
+check_not_busy = true
+find_keep_hunting = true
+
+[bird_snare]
+type = "npc"
+id = "crimson_swift,golden_warbler,copper_longtail,cerulean_twitch,tropical_wagtail,wimpy_bird"
+check_visual = "line_of_sight"
+check_not_busy = true
+find_keep_hunting = true
+
+[net_trap]
+type = "npc"
+id = "swamp_lizard,orange_salamander,red_salamander,black_salamander"
+check_visual = "line_of_sight"
+check_not_busy = true
+find_keep_hunting = true
+
+[box_trap]
+type = "npc"
+id = "chinchompa,carnivorous_chinchompa,ferret,pawya,grenwall"
+check_visual = "line_of_walk"
+check_not_busy = true
+find_keep_hunting = true
+
+[deadfall]
+type = "npc"
+id = "wild_kebbit,barb_tailed_kebbit,prickly_kebbit,sabre_toothed_kebbit"
+check_visual = "line_of_sight"
+check_not_busy = true
+find_keep_hunting = true
+
+[magic_box]
+type = "npc"
+id = "imp"
+check_visual = "line_of_sight"
+check_not_busy = true
+find_keep_hunting = true
+
+# Chaos Dwarf Battlefield Black Guard side, attack the chaos side
+[black_guard_battlefield]
+type = "npc"
+id = "chaos_*_chaos_dwarf_battlefield*"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false
+
+# Chaos Dwarf Battlefield chaos side, attack the Black Guard side
+[chaos_dwarf_battlefield]
+type = "npc"
+id = "black_guard*_chaos_dwarf_battlefield*"
+check_visual = "line_of_sight"
+check_not_too_strong = false
+check_not_combat = true
+check_not_combat_self = true
+check_not_busy = false

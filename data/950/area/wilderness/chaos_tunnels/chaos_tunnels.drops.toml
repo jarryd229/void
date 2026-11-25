@@ -1,0 +1,308 @@
+[animated_spade_drop_table]
+drops = [
+    { id = "spade" },
+]
+
+[fire_elemental_drop_table]
+type = "all"
+drops = [
+    { id = "ashes" },
+    { table = "fire_elemental_secondary" },
+]
+
+[fire_elemental_secondary]
+roll = 128
+drops = [
+    { id = "fire_rune", amount = 15, chance = 13 },
+    { id = "nature_rune", amount = 2, chance = 9 },
+    { id = "chaos_rune", amount = 2, chance = 7 },
+    { id = "law_rune", chance = 6 },
+    { id = "death_rune", chance = 4 },
+    { id = "fire_rune", amount = 20, chance = 3 },
+    { id = "blood_rune" },
+    { table = "herb_drop_table", chance = 14 },
+    { id = "coins", amount = 12, chance = 36 },
+    { id = "coins", amount = 42, chance = 3 },
+    { id = "staff_of_fire", chance = 2 },
+    { table = "gem_drop_table", chance = 2 },
+]
+
+[mummy_drop_table]
+type = "all"
+drops = [
+    { id = "ashes" },
+    { id = "bones" },
+    { table = "mummy_secondary" },
+    { table = "medium_clue_scroll", roll = 513 },
+    { table = "mummy_tertiary" },
+]
+
+[mummy_secondary]
+roll = 256
+drops = [
+    { id = "rune_sq_shield", chance = 8 },
+    { id = "rune_scimitar", chance = 8 },
+    { id = "ancient_staff" },
+    { id = "gold_ring", chance = 15 },
+    { id = "gold_necklace", chance = 15 },
+    { id = "sapphire_necklace", chance = 8 },
+    { id = "sapphire_ring", chance = 15 },
+    { id = "emerald_ring", chance = 15 },
+    { id = "ring_of_duelling_1", chance = 8 },
+    { table = "herb_drop_table" },
+    { id = "coins", chance = 8 },
+    { id = "swamp_tar", min = 1, max = 17, chance = 15 },
+    { id = "gold_ore", chance = 15 },
+    { id = "silk", chance = 15 },
+    { id = "papyrus", chance = 15 },
+    { id = "casket", chance = 8 },
+    { id = "gold_bar", chance = 15 },
+    { table = "gem_drop_table" },
+    { id = "amulet_of_magic", chance = 15 },
+    { id = "emerald_amulet", chance = 15 },
+    { id = "gold_amulet", chance = 15 },
+    { id = "sapphire_bracelet", chance = 8 },
+    { id = "pottery_scarab", chance = 15 },
+    { id = "spice_noted", amount = 10 },
+]
+
+[possessed_pickaxe_drop_table]
+type = "all"
+drops = [
+    { id = "iron_pickaxe" },
+    { table = "possessed_pickaxe_secondary" },
+    { table = "medium_clue_scroll", roll = 256 },
+]
+
+[possessed_pickaxe_secondary]
+roll = 500
+drops = [
+    { id = "iron_pickaxe", chance = 475 },
+    { id = "steel_pickaxe", chance = 10 },
+    { id = "mithril_pickaxe", chance = 10 },
+    { id = "adamant_pickaxe", chance = 4 },
+    { id = "rune_pickaxe" },
+]
+[dust_devil_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "dust_devil_secondary" },
+    { table = "dust_devil_charms" },
+    { table = "dust_devil_tertiary" },
+]
+
+[dust_devil_secondary]
+roll = 32768
+drops = [
+    { id = "rune_dagger", chance = 512 },
+    { id = "red_dragonhide_vambraces", chance = 512 },
+    { id = "earth_battlestaff", chance = 512 },
+    { id = "dragon_chainbody" },
+    { id = "fire_rune", amount = 37, chance = 683 },
+    { id = "fire_rune", amount = 150, chance = 683 },
+    { id = "fire_rune", amount = 300, chance = 2560 },
+    { id = "chaos_rune", amount = 5, chance = 1792 },
+    { id = "rune_arrow", min = 12, max = 19, chance = 2048 },
+    { id = "soul_rune", amount = 2, chance = 1024 },
+    { id = "soul_rune", amount = 5, chance = 1024 },
+    { table = "herb_drop_table", chance = 4864 },
+    { id = "coins", min = 2000, max = 4000, chance = 7168 },
+    { id = "ugthanki_kebab", min = 1, max = 2, chance = 3072 },
+    { id = "steel_hatchet", chance = 2048 },
+    { id = "pure_essence_noted", amount = 60, chance = 64 },
+    { id = "law_rune", chance = 64 },
+    { id = "mithril_bar", chance = 2048 },
+    { id = "court_summons", chance = 64 },
+    { table = "rare_drop_table", chance = 512 },
+]
+
+[dust_devil_charms]
+roll = 1000
+drops = [
+    { id = "gold_charm", chance = 121 },
+    { id = "green_charm", chance = 60 },
+    { id = "crimson_charm", chance = 243 },
+    { id = "blue_charm", chance = 8 },
+]
+
+[waterfiend_drop_table]
+type = "all"
+drops = [
+    { id = "water_rune" },
+    { table = "waterfiend_secondary" },
+    { table = "waterfiend_tertiary" },
+    { table = "waterfiend_charms" },
+]
+
+[waterfiend_secondary]
+roll = 1024
+drops = [
+    { id = "blood_rune", min = 4, max = 12, chance = 14 },
+    { id = "death_rune", min = 9, max = 19, chance = 24 },
+    { id = "mist_rune", min = 3, max = 10, chance = 10 },
+    { id = "mud_rune", min = 3, max = 9, chance = 10 },
+    { id = "steam_rune", min = 3, max = 10, chance = 10 },
+    { id = "nature_rune", min = 45, max = 100 },
+    { id = "spirit_weed_seed", chance = 19 },
+    { id = "mithril_arrow", amount = 90, chance = 80 },
+    { id = "adamant_chainbody", chance = 16 },
+    { id = "blue_dragonhide_vambraces", chance = 8 },
+    { id = "mithril_full_helm", chance = 19 },
+    { id = "mithril_grapple", chance = 19 },
+    { id = "mithril_warhammer", chance = 19 },
+    { id = "rune_med_helm", chance = 16 },
+    { id = "staff_of_water", chance = 48 },
+    { id = "water_battlestaff", chance = 32 },
+    { id = "sapphire_bolts", amount = 15, chance = 40 },
+    { id = "adamant_platebody", chance = 4 },
+    { id = "snape_grass_noted", amount = 20, chance = 10 },
+    { id = "mithril_ore_noted", min = 1, max = 5, chance = 19 },
+    { id = "mithril_bar", amount = 2, chance = 19 },
+    { id = "steel_bar_noted", amount = 3, chance = 4 },
+    { id = "uncut_sapphire_noted", min = 1, max = 4, chance = 5 },
+    { id = "coins", min = 2000, max = 3000, chance = 120 },
+    { id = "water_orb_noted", min = 5, max = 10, chance = 39 },
+    { id = "oyster", chance = 10 },
+    { id = "raw_lobster", min = 5, max = 12, chance = 48 },
+    { id = "raw_shark", min = 3, max = 6, chance = 29 },
+    { id = "seaweed_noted", min = 10, max = 29, chance = 10 },
+    { id = "shark", chance = 14 },
+    { id = "water_talisman", chance = 32 },
+    { id = "fishbowl", chance = 19 },
+    { id = "coal_noted", min = 3, max = 6, chance = 4 },
+    { id = "gold_ore_noted", min = 3, max = 8, chance = 4 },
+    { id = "vial_of_water", min = 5, max = 10, chance = 19 },
+    { id = "saradomin_brew_1", chance = 19 },
+    { id = "zamorak_brew_1", chance = 19 },
+    { id = "cannonball", min = 11, max = 27, chance = 4 },
+    { table = "gem_drop_table", chance = 24 },
+    { table = "herb_drop_table", chance = 72 },
+    { table = "uncommon_seed_drop_table", chance = 89 },
+]
+
+[waterfiend_tertiary]
+roll = 256
+drops = [
+    { table = "hard_clue_scroll", chance = 2 },
+    { id = "court_summons", chance = 2 },
+    { id = "starved_ancient_effigy" },
+]
+
+[waterfiend_charms]
+roll = 1000
+drops = [
+    { id = "gold_charm", chance = 99 },
+    { id = "green_charm", chance = 50 },
+    { id = "crimson_charm", chance = 790 },
+    { id = "blue_charm", chance = 20 },
+]
+
+[dagonhai_monk_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "dagonhai_monk_secondary" },
+    { table = "dagonhai_monk_tertiary" },
+]
+
+[dagonhai_monk_secondary]
+roll = 128
+drops = [
+    { id = "black_wizard_hat", chance = 4 },
+    { id = "black_wizard_robe_top", chance = 3 },
+    { id = "staff", chance = 4 },
+    { id = "air_rune", amount = 10, chance = 3 },
+    { id = "air_rune", amount = 18, chance = 2 },
+    { id = "water_rune", amount = 10, chance = 3 },
+    { id = "water_rune", amount = 18, chance = 2 },
+    { id = "fire_rune", amount = 10, chance = 3 },
+    { id = "fire_rune", amount = 18, chance = 2 },
+    { id = "cosmic_rune", amount = 2 },
+    { id = "chaos_rune", amount = 4, chance = 6 },
+    { id = "nature_rune", amount = 4, chance = 7 },
+    { id = "law_rune", amount = 3 },
+    { id = "blood_rune", amount = 2, chance = 2 },
+    { id = "coins", chance = 17 },
+    { id = "coins", amount = 2, chance = 16 },
+    { id = "coins", amount = 4, chance = 9 },
+    { id = "coins", amount = 29, chance = 3 },
+    { id = "coins", min = 60, max = 80, chance = 3 },
+    { id = "coins", min = 80, max = 100, chance = 11 },
+    { id = "water_talisman", chance = 2 },
+    { id = "fire_talisman", chance = 2 },
+]
+
+[dagonhai_monk_tertiary]
+roll = 512
+drops = [
+    { id = "dagonhai_robe_bottom" },
+    { id = "dagonhai_robe_top" },
+    { id = "dagonhai_hat" },
+    { id = "coins", amount = 30 },
+]
+
+[ork_legion_drop_table]
+type = "all"
+drops = [
+    { table = "ork_legion_charms" },
+]
+
+[ork_legion_charms]
+roll = 11
+drops = [
+    { id = "gold_charm", chance = 7 },
+    { id = "green_charm", chance = 3 },
+    { id = "crimson_charm", chance = 1 },
+]
+
+[bork_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { id = "coins", min = 2000, max = 10000 },
+    { id = "blue_charm", amount = 5 },
+    { id = "crimson_charm", amount = 7, variable = "wearing_ring_of_wealth", equals = false, default = false },
+    { id = "green_charm", amount = 2 },
+    { id = "uncut_ruby", variable = "wearing_ring_of_wealth", equals = false, default = false },
+    { id = "uncut_emerald", variable = "wearing_ring_of_wealth", equals = false, default = false },
+    { id = "uncut_sapphire", variable = "wearing_ring_of_wealth", equals = false, default = false },
+#     Ring of wealth
+    { id = "crimson_charm", amount = 10, variable = "wearing_ring_of_wealth", equals = true, default = false },
+    { id = "uncut_ruby", amount = 2, variable = "wearing_ring_of_wealth", equals = true, default = false },
+    { id = "uncut_emerald", amount = 3, variable = "wearing_ring_of_wealth", equals = true, default = false },
+    { id = "uncut_diamond", variable = "wearing_ring_of_wealth", equals = true, default = false },
+    { table = "bork_tertiary" },
+]
+
+[bork_tertiary]
+roll = 512
+drops = [
+    { id = "femur_bone", chance = 32, variable = "fur_n_seek_wish_list", equals = "started", default = "unstarted" },
+    { table = "rare_drop_table" },
+]
+
+[bloodworm_drop_table]
+type = "all"
+drops = [
+    { table = "bloodworm_secondary" },
+]
+
+[bloodworm_secondary]
+roll = 1024
+drops = [
+    { id = "starved_ancient_effigy", chance = 6 },
+]
+
+[dust_devil_tertiary]
+roll = 5000
+drops = [
+    { id = "starved_ancient_effigy", chance = 29 },
+]
+
+[mummy_tertiary]
+roll = 5000
+drops = [
+    { id = "starved_ancient_effigy", chance = 29 },
+    { id = "mummy_champions_scroll", lacks = "mummy_champions_scroll" },
+]

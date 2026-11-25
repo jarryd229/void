@@ -1,0 +1,21 @@
+[gorad_defend]
+id = 11427
+[gorad_death]
+id = 11418
+[gorad_attack]
+id = 11404
+
+[ogre_chieftain_attack]
+id = 11470
+
+[ogre_chieftain_defend]
+id = 11473
+
+[ogre_chieftain_death]
+id = 11476
+
+[ogre_shaman_cast]
+id = 11471
+
+[ogre_shaman_death]
+id = 11477

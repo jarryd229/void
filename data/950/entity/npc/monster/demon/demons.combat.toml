@@ -1,0 +1,35 @@
+[greater_demon]
+defend_anim = "demon_defend"
+defend_sound = "demon_defend"
+death_anim = "demon_death"
+death_sound = "demon_death"
+
+[greater_demon.melee]
+range = 1
+anim = "demon_attack"
+target_sound = "demon_attack"
+target_hit = { offense = "slash", max = 90 }
+
+[lesser_demon]
+clone = "greater_demon"
+
+[lesser_demon.melee]
+clone = "greater_demon.melee"
+target_hit = { offense = "slash", max = 80 }
+
+[delrith]
+clone = "greater_demon"
+death_anim = "delrith_death"
+
+[delrith.melee]
+clone = "greater_demon.melee"
+target_hit = { offense = "crush", max = 90 }
+
+[black_demon]
+clone = "greater_demon"
+
+[black_demon.melee]
+range = 1
+anim = "demon_attack"
+target_sound = "demon_attack"
+target_hit = { offense = "slash", max = 160 }

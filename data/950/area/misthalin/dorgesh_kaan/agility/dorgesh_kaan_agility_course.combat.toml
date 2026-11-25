@@ -1,0 +1,17 @@
+[giant_frog]
+defend_anim = "giant_frog_defend"
+death_anim = "giant_frog_death"
+
+[giant_frog.melee]
+range = 1
+target_hit = { offense = "crush", max = 90 }
+anim = "giant_frog_attack"
+
+[big_frog]
+defend_anim = "big_frog_defend"
+death_anim = "big_frog_death"
+
+[big_frog.melee]
+range = 1
+target_hit = { offense = "crush", max = 30 }
+anim = "big_frog_attack"

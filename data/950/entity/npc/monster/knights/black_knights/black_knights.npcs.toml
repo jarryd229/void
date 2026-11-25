@@ -1,0 +1,33 @@
+[black_knight]
+id = 178
+hitpoints = 420
+att = 25
+str = 25
+def = 25
+combat_def = "black_knight"
+slayer_xp = 42.0
+respawn_delay = 25
+hunt_mode = "cowardly"
+drop_table = "black_knight"
+categories = ["black_knights"]
+examine = "A dark-hearted knight."
+
+[black_knight_1]
+id = 179
+clone = "black_knight"
+
+[black_knight_2]
+id = 2698
+hitpoints = 420
+att = 25
+str = 25
+def = 25
+examine = "A dark-hearted knight."
+
+[black_knight_3]
+id = 6189
+hitpoints = 420
+att = 25
+str = 25
+def = 25
+examine = "A dark-hearted knight."

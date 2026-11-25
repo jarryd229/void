@@ -1,0 +1,24 @@
+[cleaner_sweeping]
+id = 5799
+
+[varrock_guard_defend]
+id = 6488
+
+[varrock_guard_attack]
+id = 6489
+
+[dummy_hit]
+id = 6482
+
+[varrock_guard_death]
+id = 6490
+
+[open_manhole]
+id = 4597
+
+[mah4_reach_for_rampart_top]
+id = 12551
+
+[human_get_off_ladder_in_square]
+id = 12620
+ticks = 2

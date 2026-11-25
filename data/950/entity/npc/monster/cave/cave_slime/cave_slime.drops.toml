@@ -1,0 +1,47 @@
+[cave_slime_drop_table]
+type = "all"
+drops = [
+    { table = "cave_slime_primary" },
+    { table = "cave_slime_secondary" },
+    { table = "easy_clue_scroll", roll = 128 },
+    { table = "cave_slime_charms", members = true },
+]
+
+[cave_slime_primary]
+drops = [
+    { id = "swamp_tar", min = 1, max = 6 },
+]
+
+[cave_slime_secondary]
+roll = 4096
+drops = [
+    { id = "bronze_hatchet", chance = 96 },
+    { id = "iron_sword", chance = 224 },
+    { id = "bronze_full_helm", chance = 32 },
+    { id = "iron_kiteshield", chance = 64 },
+    { id = "iron_boots", chance = 32 },
+    { id = "water_rune", amount = 15, chance = 160 },
+    { id = "earth_rune", amount = 5, chance = 96 },
+    { id = "coins", chance = 224 },
+    { id = "coins", amount = 4, chance = 960 },
+    { id = "coins", amount = 10, chance = 1244 },
+    { id = "coins", amount = 22, chance = 320 },
+    { id = "coins", amount = 46, chance = 64 },
+    { id = "unlit_torch", chance = 352 },
+    { id = "oil_lantern_frame", chance = 32 },
+    { id = "gold_bar", chance = 64 },
+    { table = "gem_drop_table", chance = 128 },
+    { id = "incantors_boots" },
+    { id = "body_rune", amount = 7 },
+    { id = "oil_lantern" },
+    { table = "herb_drop_table" },
+]
+
+[cave_slime_charms]
+roll = 100000
+drops = [
+    { id = "gold_charm", chance = 9000 },
+    { id = "green_charm", chance = 2000 },
+    { id = "crimson_charm", chance = 1000 },
+    { id = "blue_charm", chance = 500 },
+]

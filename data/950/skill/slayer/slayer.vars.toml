@@ -1,0 +1,75 @@
+[slayer_points]
+persist = true
+format = "int"
+
+[slayer_tasks_given]
+persist = true
+format = "int"
+
+[slayer_tasks_completed]
+persist = true
+format = "int"
+
+[slayer_task_streak]
+persist = true
+format = "int"
+
+[slayer_master]
+persist = true
+format = "string"
+
+[slayer_challenge]
+persist = true
+format = "string"
+
+[slayer_challenge_progress]
+persist = true
+format = "int"
+
+[slayer_last_task]
+persist = true
+format = "string"
+
+[blocked_task_0]
+persist = true
+format = "string"
+
+[blocked_task_1]
+persist = true
+format = "string"
+
+[blocked_task_2]
+persist = true
+format = "string"
+
+[blocked_task_3]
+persist = true
+format = "string"
+
+[blocked_task_4]
+persist = true
+format = "string"
+
+[broader_fletching]
+persist = true
+format = "boolean"
+
+[aquanites]
+persist = true
+format = "boolean"
+
+[ring_bling]
+persist = true
+format = "boolean"
+
+[killing_blow]
+persist = true
+format = "boolean"
+
+[malevolent_masquerade]
+persist = true
+format = "boolean"
+
+[strike_wyrms]
+persist = true
+format = "boolean"

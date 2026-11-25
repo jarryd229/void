@@ -1,0 +1,26 @@
+[ancient_ranger]
+defend_anim = "human_defend"
+death_anim = "human_death"
+
+[ancient_ranger.range]
+range = 6
+target_hit = { offense = "range", max = 650 }
+anim = "ancient_ranger_attack"
+
+[blood_reaver]
+death_anim = "blood_reaver_death"
+
+[blood_reaver.magic]
+range = 6
+target_hit = { offense = "magic", max = 146 }
+anim = "blood_reaver_attack"
+
+[ancient_mage]
+defend_anim = "human_defend"
+death_anim = "human_death"
+
+[ancient_mage.magic]
+range = 6
+target_hit = { offense = "magic", max = 207 }
+impact_poison = 88
+anim = "ancient_mage_attack"

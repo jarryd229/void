@@ -1,0 +1,168 @@
+[divine_skinweaver_dungeoneering]
+id = 10058
+examine = "An immensely powerful healer of the gorajo."
+
+[magic_construct_dungeoneering]
+id = 11006
+examine = "Created to perform menial tasks."
+
+[guardian_sphere_dungeoneering]
+id = 11009
+examine = "A sphere of dangerous portal energy."
+
+[smuggler_dungeoneering]
+id = 11226
+examine = "Our contact on the inside."
+
+[behemoth_dungeoneering]
+id = 11243
+
+[poltergeist_dungeoneering]
+id = 11245
+examine = "Pretty active for a dead guy."
+
+[pondskater_dungeoneering]
+id = 12089
+examine = "One of these things has the key. Could it be this one?"
+
+[pondskater_dungeoneering_nokey]
+id = 12090
+
+[pondskater_dungeoneering_2]
+id = 12091
+examine = "One of these things has the key. Could it be this one?"
+
+[pondskater_dungeoneering_3]
+id = 12092
+
+[pondskater_dungeoneering_4]
+id = 12093
+
+[rand_sliding_block_puzzle_tile_01_frozen]
+id = 12125
+
+[rand_sliding_block_puzzle_tile_02_frozen]
+id = 12126
+
+[rand_sliding_block_puzzle_tile_03_frozen]
+id = 12127
+
+[rand_sliding_block_puzzle_tile_04_frozen]
+id = 12128
+
+[rand_sliding_block_puzzle_tile_05_frozen]
+id = 12129
+
+[rand_sliding_block_puzzle_tile_06_frozen]
+id = 12130
+
+[rand_sliding_block_puzzle_tile_07_frozen]
+id = 12131
+
+[rand_sliding_block_puzzle_tile_08_frozen]
+id = 12132
+
+[rand_sliding_block_puzzle_tile_01_abandoned]
+id = 12133
+
+[rand_sliding_block_puzzle_tile_02_abandoned]
+id = 12134
+
+[rand_sliding_block_puzzle_tile_03_abandoned]
+id = 12135
+
+[rand_sliding_block_puzzle_tile_04_abandoned]
+id = 12136
+
+[rand_sliding_block_puzzle_tile_05_abandoned]
+id = 12137
+
+[rand_sliding_block_puzzle_tile_06_abandoned]
+id = 12138
+
+[rand_sliding_block_puzzle_tile_07_abandoned]
+id = 12139
+
+[rand_sliding_block_puzzle_tile_08_abandoned]
+id = 12140
+
+[rand_sliding_block_puzzle_tile_01_furnished]
+id = 12141
+
+[rand_sliding_block_puzzle_tile_02_furnished]
+id = 12142
+
+[rand_sliding_block_puzzle_tile_03_furnished]
+id = 12143
+
+[rand_sliding_block_puzzle_tile_04_furnished]
+id = 12144
+
+[rand_sliding_block_puzzle_tile_05_furnished]
+id = 12145
+
+[rand_sliding_block_puzzle_tile_06_furnished]
+id = 12146
+
+[rand_sliding_block_puzzle_tile_07_furnished]
+id = 12147
+
+[rand_sliding_block_puzzle_tile_08_furnished]
+id = 12148
+
+[rand_sliding_block_puzzle_tile_01_occult]
+id = 12149
+
+[rand_sliding_block_puzzle_tile_02_occult]
+id = 12150
+
+[rand_sliding_block_puzzle_tile_03_occult]
+id = 12151
+
+[rand_sliding_block_puzzle_tile_04_occult]
+id = 12152
+
+[rand_sliding_block_puzzle_tile_05_occult]
+id = 12153
+
+[rand_sliding_block_puzzle_tile_06_occult]
+id = 12154
+
+[rand_sliding_block_puzzle_tile_07_occult]
+id = 12155
+
+[rand_sliding_block_puzzle_tile_08_occult]
+id = 12156
+
+[ferret_dungeoneering]
+id = 12157
+examine = "An intelligent little critter."
+
+[ferret_dungeoneering_2]
+id = 12158
+examine = "An intelligent little critter."
+
+[ferret_dungeoneering_3]
+id = 12159
+examine = "An intelligent little critter."
+
+[ferret_dungeoneering_4]
+id = 12160
+examine = "An intelligent little critter."
+
+[ferret_dungeoneering_5]
+id = 12161
+examine = "An intelligent little critter."
+
+[luminescent_icefiend_dungeoneering]
+id = 9913
+drop_table = "luminescent_icefiend"
+hitpoints = 40
+att = 1
+str = 1
+def = 8
+mage = 8
+max_hit_magic = 40
+combat_def = "luminescent_icefiend"
+hunt_mode = "cowardly"
+

@@ -1,0 +1,11 @@
+[killerwatt_death]
+id = 11939
+
+[killerwatt_attack]
+id = 11937
+
+[killerwatt_ranged_attack]
+id = 11936
+
+[killerwatt_defend]
+id = 11938

@@ -1,0 +1,101 @@
+[duck_swim]
+id = 46
+attack_bonus = -47
+hitpoints = 30
+slayer_xp = 3.0
+max_hit_melee = 1
+style = "stab"
+categories = ["ducks", "birds"]
+respawn_delay = 25
+height = 10
+collision = "sea"
+combat_def = "duck_swim"
+examine = "Quackers."
+drop_table = "duck"
+
+[crow]
+id = 1754
+categories = ["birds"]
+collision = "sky"
+examine = "A farmer's enemy."
+
+[crow_2]
+clone = "crow"
+id = 1755
+
+[crow_3]
+clone = "crow"
+id = 1756
+
+[crow_4]
+clone = "crow"
+id = 2252
+
+[duck_grey_swim]
+clone = "duck_swim"
+id = 2693
+examine = "She quackers."
+drop_table = "duck"
+
+[duckling]
+clone = "duck_swim"
+id = 2694
+examine = "Mini quackers."
+drop_table = "bones"
+
+[crow_5]
+clone = "crow"
+id = 4570
+
+[crow_6]
+clone = "crow"
+id = 4571
+
+[drake]
+id = 6114
+attack_bonus = -47
+hitpoints = 30
+slayer_xp = 3.0
+categories = ["ducks", "birds"]
+respawn_delay = 25
+height = 10
+drop_table = "bones"
+combat_def = "duck_walk"
+examine = "It quacks like a duck."
+
+[ducklings]
+id = 6112
+categories = ["ducks", "birds"]
+collision = "sea"
+examine = "Aww, cute."
+
+[duck_grey_walk]
+id = 6113
+clone = "drake"
+examine = "Waddle waddle waddle quack."
+
+[wimpy_bird]
+id = 7031
+categories = ["birds"]
+respawn_delay = 5
+examine = "An ogre snack with wings."
+
+[wimpy_bird_2]
+clone = "wimpy_bird"
+id = 7032
+
+[wimpy_bird_3]
+clone = "wimpy_bird"
+id = 7033
+
+[wimpy_bird_4]
+clone = "wimpy_bird"
+id = 7034
+
+[wimpy_bird_5]
+clone = "wimpy_bird"
+id = 7035
+
+[wimpy_bird_6]
+clone = "wimpy_bird"
+id = 7036

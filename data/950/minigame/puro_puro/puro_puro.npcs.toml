@@ -1,0 +1,123 @@
+[baby_impling]
+id = 1028
+collision = "sky"
+
+[young_impling]
+id = 1029
+collision = "sky"
+
+[gourmet_impling]
+id = 1030
+collision = "sky"
+
+[earth_impling]
+id = 1031
+collision = "sky"
+
+[essence_impling]
+id = 1032
+collision = "sky"
+
+[eclectic_impling]
+id = 1033
+collision = "sky"
+
+[spirit_impling]
+id = 7866
+collision = "sky"
+
+[nature_impling]
+id = 1034
+collision = "sky"
+
+[magpie_impling]
+id = 1035
+collision = "sky"
+
+[ninja_impling]
+id = 6053
+collision = "sky"
+
+[pirate_impling]
+id = 7845
+collision = "sky"
+
+[zombie_impling]
+id = 7902
+collision = "sky"
+
+[dragon_impling]
+id = 6054
+collision = "sky"
+
+[kingly_impling]
+id = 7903
+collision = "sky"
+
+[kingly_puro_puro_impling]
+id = 7906
+collision = "sky"
+
+[baby_puro_puro_impling]
+id = 6055
+collision = "sky"
+
+[young_puro_puro_impling]
+id = 6056
+collision = "sky"
+
+[gourmet_puro_puro_impling]
+id = 6057
+collision = "sky"
+
+[earth_puro_puro_impling]
+id = 6058
+collision = "sky"
+
+[essence_puro_puro_impling]
+id = 6059
+collision = "sky"
+
+[eclectic_puro_puro_impling]
+id = 6060
+collision = "sky"
+
+[spirit_puro_puro_impling]
+id = 7904
+collision = "sky"
+
+[nature_puro_puro_impling]
+id = 6061
+collision = "sky"
+
+[magpie_puro_puro_impling]
+id = 6062
+collision = "sky"
+
+[ninja_puro_puro_impling]
+id = 6063
+collision = "sky"
+
+[pirate_puro_puro_impling]
+id = 7846
+collision = "sky"
+
+[zombie_puro_puro_impling]
+id = 7905
+collision = "sky"
+
+[dragon_puro_puro_impling]
+id = 6064
+collision = "sky"
+
+[elnock_inquisitor]
+id = 6070
+examine = "Insurance investigator extraordinaire."
+
+[immenizz]
+id = 6071
+examine = "An impling."
+
+[imp_defender_puro_puro]
+id = 6074
+examine = "An angry little imp. Grrr."

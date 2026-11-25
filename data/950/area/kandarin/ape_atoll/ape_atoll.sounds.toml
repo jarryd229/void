@@ -1,0 +1,10 @@
+[monkey_archer_defend]
+id = 631
+[monkey_archer_death]
+id = 630
+[monkey_archer_attack]
+id = 629
+
+[monkey_guard_ape_atoll_attack]
+id = 478
+

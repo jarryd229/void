@@ -1,0 +1,110 @@
+[jungle_strykewyrm_drop_table]
+type = "all"
+drops = [
+    { table = "jungle_strykewyrm_secondary" },
+    { table = "jungle_strykewyrm_tertiary" },
+    { table = "jungle_strykewyrm_charms" },
+]
+
+[jungle_strykewyrm_secondary]
+roll = 256
+drops = [
+    { id = "nature_rune", amount = 15, chance = 16 },
+    { id = "death_rune", amount = 10, chance = 16 },
+    { id = "law_rune", amount = 10, chance = 16 },
+    { id = "water_talisman" },
+    { id = "air_talisman" },
+    { id = "body_talisman" },
+    { id = "fire_talisman" },
+    { id = "mind_talisman" },
+    { id = "cosmic_talisman" },
+    { id = "earth_talisman" },
+    { id = "spirit_weed_seed" },
+    { id = "adamant_hatchet", chance = 8 },
+    { id = "mithril_battleaxe", chance = 8 },
+    { id = "hexcrest" },
+    { id = "coins", min = 200, max = 2465, chance = 16 },
+    { id = "papaya_fruit_noted", min = 3, max = 10, chance = 16 },
+    { id = "pure_essence_noted", amount = 40, chance = 16 },
+    { id = "teak_logs_noted", amount = 20, chance = 16 },
+    { id = "lobster", chance = 8 },
+    { id = "lobster", amount = 2, chance = 8 },
+    { id = "super_defence_1", chance = 16 },
+    { id = "mithril_bar_noted", amount = 5, chance = 8 },
+    { table = "gem_drop_table", chance = 5 },
+    { table = "herb_drop_table", chance = 30 },
+    { table = "uncommon_seed_drop_table", chance = 37 },
+    { table = "tree_herb_seed_drop_table", chance = 5 },
+]
+
+[jungle_strykewyrm_tertiary]
+roll = 512
+drops = [
+    { table = "hard_clue_scroll", chance = 2 },
+    { id = "starved_ancient_effigy", chance = 2 },
+    { table = "elite_clue_scroll" },
+]
+
+[jungle_strykewyrm_charms]
+roll = 1000
+drops = [
+    { id = "gold_charm", chance = 56 },
+    { id = "green_charm", chance = 140 },
+    { id = "crimson_charm", chance = 22 },
+    { id = "blue_charm", chance = 11 },
+]
+[ogress_warrior_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { table = "ogress_warrior_secondary" },
+]
+
+[ogress_warrior_secondary]
+roll = 128
+drops = [
+    { id = "iron_spear", chance = 8 },
+    { id = "ogre_club", chance = 43 },
+]
+
+[ogress_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { table = "ogress_secondary" },
+    { table = "ogress_tertiary" },
+]
+
+[ogress_secondary]
+roll = 192
+drops = [
+    { id = "ogre_club", chance = 64 },
+    { id = "iron_spear", chance = 6 },
+]
+
+[ogress_champion_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { table = "ogress_champion_secondary" },
+    { table = "ogress_champion_tertiary" },
+]
+
+[ogress_champion_secondary]
+roll = 144
+drops = [
+    { id = "ogre_club", chance = 80 },
+    { id = "iron_spear", chance = 9 },
+]
+
+[ogress_champion_tertiary]
+roll = 5000
+drops = [
+    { id = "starved_ancient_effigy", chance = 29 },
+]
+
+[ogress_tertiary]
+roll = 5000
+drops = [
+    { id = "long_bone", chance = 12 },
+]

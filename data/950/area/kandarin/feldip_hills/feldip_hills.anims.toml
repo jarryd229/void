@@ -1,0 +1,44 @@
+[strykewyrm_attack]
+id = 12791
+
+[strykewyrm_defend]
+id = 12792
+
+[strykewyrm_death]
+id = 12793
+
+[strykewyrm_shoot]
+id = 12794
+
+[strykewyrm_surface]
+id = 12795
+
+[strykewyrm_bury]
+id = 12796
+
+[carnivorous_chinchompa_death]
+id = 5183
+
+[ogress_death]
+id = 8640
+
+[ogress_attack]
+id = 8636
+
+[ogress_attack_2]
+id = 8637
+
+[ogress_defend]
+id = 8638
+
+[ogress_defend_2]
+id = 8639
+
+[ogress_death_2]
+id = 8641
+
+[ogress_champion_death]
+id = 8640
+
+[ogress_champion_attack]
+id = 8636

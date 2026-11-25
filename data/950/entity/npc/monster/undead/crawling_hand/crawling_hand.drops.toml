@@ -1,0 +1,44 @@
+[crawling_hand_drop_table]
+type = "all"
+drops = [
+    { table = "bones" },
+    { table = "crawling_hand_secondary" },
+    { table = "crawling_hand_tertiary" },
+    { table = "crawling_hand_charms", members = true },
+]
+
+[crawling_hand_secondary]
+roll = 512
+drops = [
+    { id = "leather_gloves", chance = 84 },
+    { id = "gloves_purple", chance = 8 },
+    { id = "gloves_yellow", chance = 8 },
+    { id = "gloves_red", chance = 8 },
+    { id = "gloves_teal", chance = 8 },
+    { id = "gold_ring", chance = 12 },
+    { id = "sapphire_ring", chance = 8 },
+    { id = "emerald_ring", chance = 8 },
+    { id = "coins", amount = 8, chance = 96 },
+    { table = "gem_drop_table", chance = 8 },
+    { id = "gloves_grey", chance = 8 },
+    { id = "silver_precision_bracelet", chance = 16 },
+    { id = "mystic_gloves_light" },
+    { id = "golden_precision_bracelet" },
+    { id = "ruby_ring", chance = 16 },
+]
+
+[crawling_hand_tertiary]
+roll = 500
+drops = [
+    { id = "crawling_hand", chance = 1 },
+    { id = "hand_bone", chance = 125 },
+]
+
+[crawling_hand_charms]
+roll = 100000
+drops = [
+    { id = "gold_charm", chance = 9450 },
+    { id = "green_charm", chance = 624 },
+    { id = "crimson_charm", chance = 660 },
+    { id = "blue_charm", chance = 128 },
+]

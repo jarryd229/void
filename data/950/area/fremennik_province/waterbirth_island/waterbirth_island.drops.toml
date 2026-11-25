@@ -1,0 +1,216 @@
+[dagannoth_primary]
+type = "all"
+drops = [
+    { id = "dagannoth_bones" },
+    { id = "dagannoth_hide" },
+]
+
+[dagannoth_prime_drop_table]
+type = "all"
+drops = [
+    { table = "dagannoth_primary" },
+    { table = "dagannoth_prime_secondary" },
+    { table = "dagannoth_prime_tertiary" },
+]
+
+[dagannoth_prime_secondary]
+roll = 256
+drops = [
+    { id = "earth_battlestaff", chance = 20 },
+    { id = "water_battlestaff", chance = 10 },
+    { id = "air_battlestaff", chance = 8 },
+    { id = "battlestaff_noted", chance = 2 },
+    { id = "fremennik_blade", chance = 2 },
+    { id = "fremennik_shield", chance = 2 },
+    { id = "fremennik_helm", chance = 2 },
+    { id = "mud_battlestaff", chance = 2 },
+    { id = "dragon_hatchet", chance = 2 },
+    { id = "farseer_helm", chance = 2 },
+    { id = "skeletal_top", chance = 2 },
+    { id = "skeletal_bottoms", chance = 2 },
+    { id = "seers_ring", chance = 2 },
+    { id = "air_rune", amount = 155, chance = 12 },
+    { id = "blood_rune", amount = 97, chance = 4 },
+    { id = "law_rune", amount = 45, chance = 4 },
+    { id = "law_rune", amount = 55, chance = 4 },
+    { id = "nature_rune", amount = 67, chance = 4 },
+    { id = "mud_rune", amount = 32, chance = 4 },
+    { id = "death_rune", amount = 45, chance = 3 },
+    { id = "death_rune", amount = 60, chance = 3 },
+    { id = "death_rune", amount = 77, chance = 3 },
+    { id = "shark", amount = 5, chance = 20 },
+    { id = "coins", min = 500, max = 1109, chance = 6 },
+    { id = "pure_essence_noted", amount = 150, chance = 10 },
+    { id = "grimy_ranarr", chance = 10 },
+    { table = "rare_drop_table", chance = 16 },
+    { id = "air_talisman", min = 1, max = 80, chance = 8 },
+    { id = "earth_talisman", min = 1, max = 80, chance = 8 },
+    { id = "water_talisman", min = 3, max = 146, chance = 12 },
+    { id = "belladonna_seed", chance = 8 },
+    { id = "lantadyme_seed" },
+    { id = "court_summons" },
+]
+
+[dagannoth_prime_tertiary]
+roll = 5000
+drops = [
+    { id = "dagannoth_ribs", chance = 1250 },
+    { table = "hard_clue_scroll", chance = 119 },
+    { table = "elite_clue_scroll", chance = 6 },
+]
+
+[dagannoth_rex_drop_table]
+type = "all"
+drops = [
+    { table = "dagannoth_primary" },
+    { table = "dagannoth_rex_secondary" },
+    { table = "dagannoth_rex_tertiary" },
+]
+
+[dagannoth_rex_secondary]
+roll = 256
+drops = [
+    { id = "steel_kiteshield", chance = 34 },
+    { id = "mithril_warhammer", chance = 22 },
+    { id = "adamant_hatchet", chance = 14 },
+    { id = "steel_platebody", chance = 8 },
+    { id = "mithril_pickaxe", chance = 6 },
+    { id = "adamant_platebody", chance = 4 },
+    { id = "fremennik_blade", chance = 4 },
+    { id = "dragon_hatchet", chance = 2 },
+    { id = "rune_hatchet", chance = 2 },
+    { id = "fremennik_shield", chance = 2 },
+    { id = "fremennik_helm", chance = 2 },
+    { id = "mithril_2h_sword", chance = 2 },
+    { id = "ring_of_life", chance = 2 },
+    { id = "rock_shell_plate", chance = 2 },
+    { id = "rock_shell_legs", chance = 2 },
+    { id = "berserker_ring", chance = 2 },
+    { id = "warrior_ring", chance = 2 },
+    { id = "antifire_2", chance = 5 },
+    { id = "prayer_potion_2", chance = 5 },
+    { id = "restore_potion_2" },
+    { id = "super_attack_2", chance = 5 },
+    { id = "super_strength_2", chance = 5 },
+    { id = "super_defence_2", chance = 5 },
+    { id = "zamorak_brew_2", chance = 5 },
+    { id = "mithril_ore_noted", amount = 25, chance = 20 },
+    { id = "adamant_bar" },
+    { id = "coal_noted", amount = 100, chance = 4 },
+    { id = "iron_ore_noted", amount = 50 },
+    { id = "steel_bar_noted", min = 26, max = 38 },
+    { id = "coins", min = 100, max = 1209, chance = 20 },
+    { id = "grimy_ranarr", chance = 14 },
+    { id = "bass", amount = 5, chance = 14 },
+    { id = "swordfish", amount = 5, chance = 8 },
+    { id = "shark", amount = 5, chance = 2 },
+    { table = "rare_drop_table", chance = 16 },
+    { id = "steel_battleaxe", chance = 5 },
+    { id = "mithril_hatchet", chance = 5 },
+]
+
+[dagannoth_rex_tertiary]
+roll = 5000
+drops = [
+    { id = "dagannoth_ribs", chance = 1250, variable = "rag_and_bone_man_wish_list", equals = "started", default = "unstarted" },
+    { table = "hard_clue_scroll", chance = 119 },
+    { table = "elite_clue_scroll", chance = 6 },
+]
+
+[dagannoth_supreme_drop_table]
+type = "all"
+drops = [
+    { table = "dagannoth_primary" },
+    { table = "dagannoth_supreme_secondary" },
+    { table = "dagannoth_supreme_tertiary" },
+]
+
+[dagannoth_supreme_secondary]
+roll = 256
+drops = [
+    { id = "mithril_knife", chance = 14 },
+    { id = "red_dragonhide_vambraces", chance = 14 },
+    { id = "rune_throwing_axe", chance = 7 },
+    { id = "adamant_dart", chance = 7 },
+    { id = "iron_knife", chance = 7 },
+    { id = "steel_knife", chance = 7 },
+    { id = "fremennik_blade", chance = 2 },
+    { id = "fremennik_shield", chance = 2 },
+    { id = "fremennik_helm", chance = 2 },
+    { id = "seercull", chance = 2 },
+    { id = "dragon_hatchet", chance = 2 },
+    { id = "archer_helm", chance = 2 },
+    { id = "spined_body", chance = 2 },
+    { id = "spined_chaps", chance = 2 },
+    { id = "archers_ring", chance = 2 },
+    { id = "steel_arrow", chance = 7 },
+    { id = "iron_arrow", chance = 6 },
+    { id = "coins", min = 500, max = 1110, chance = 20 },
+    { id = "oyster_pearls", chance = 12 },
+    { id = "opal_bolt_tips", min = 1, max = 3, chance = 7 },
+    { id = "shark", amount = 5, chance = 10 },
+    { id = "grimy_ranarr", chance = 10 },
+    { id = "feather" },
+    { table = "rare_drop_table", chance = 16 },
+    { id = "rune_longsword", chance = 6 },
+    { id = "law_rune", chance = 6 },
+    { id = "air_talisman", chance = 11 },
+    { id = "mind_talisman", chance = 11 },
+    { id = "water_talisman", chance = 11 },
+    { id = "earth_talisman", chance = 11 },
+    { id = "fire_talisman", chance = 11 },
+    { id = "body_talisman", chance = 11 },
+    { id = "cosmic_talisman", chance = 11 },
+    { id = "court_summons" },
+]
+
+[dagannoth_supreme_tertiary]
+roll = 5000
+drops = [
+    { id = "dagannoth_ribs", chance = 1250 },
+    { table = "hard_clue_scroll", chance = 119 },
+    { table = "elite_clue_scroll", chance = 6 },
+]
+
+[dagannoth_guardian_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { table = "dagannoth_guardian_secondary" },
+    { table = "medium_clue_scroll", roll = 32 },
+    { table = "dagannoth_guardian_tertiary" },
+]
+
+[dagannoth_guardian_secondary]
+roll = 1024
+drops = [
+    { id = "super_attack_3", chance = 48 },
+    { id = "super_defence_3", chance = 32 },
+    { id = "swordfish", chance = 112 },
+    { id = "keg_of_beer", chance = 48 },
+    { id = "pure_essence", chance = 96 },
+    { id = "iron_arrow_p", min = 7, max = 18, chance = 24 },
+    { id = "steel_arrow", min = 11, max = 33, chance = 96 },
+    { id = "spirit_weed_seed", chance = 24 },
+    { id = "super_antipoison_1", chance = 48 },
+    { id = "super_restore_1", chance = 16 },
+    { id = "prayer_potion_1", chance = 16 },
+    { id = "coins", min = 800, max = 1200, chance = 136 },
+    { id = "water_rune", min = 10, max = 36, chance = 80 },
+    { id = "water_talisman", chance = 16 },
+    { id = "dagannoth_hide", chance = 16 },
+    { id = "warrior_helm" },
+    { id = "berserker_helm" },
+    { id = "farseer_helm" },
+    { id = "archer_helm" },
+    { table = "gem_drop_table", chance = 15 },
+    { table = "herb_drop_table", chance = 88 },
+    { table = "uncommon_seed_drop_table", chance = 109 },
+]
+
+[dagannoth_guardian_tertiary]
+roll = 5000
+drops = [
+    { id = "long_bone", chance = 12 },
+    { id = "curved_bone" },
+]

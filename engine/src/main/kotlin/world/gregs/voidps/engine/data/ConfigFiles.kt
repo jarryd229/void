@@ -26,7 +26,10 @@ data class ConfigFiles(
 
 fun configFiles(path: String = Settings["storage.data"], cachePath: String = Settings["storage.cache.path"]): ConfigFiles {
     val map = Object2ObjectOpenHashMap<String, MutableList<String>>()
-    val data = Path.of(path)
+    val root = Path.of(path)
+    val revisionFolder = root.resolve(Settings["server.revision", 0].toString())
+    val data = if (revisionFolder.resolve("dirs.txt").exists()) revisionFolder else root
+    println("[data] config files from $data (server.revision=${Settings["server.revision", 0]})")
     val stamps = Object2ObjectOpenHashMap<String, Long>()
     timedLoad("config file path") {
         val dirs = data.resolve("dirs.txt").toFile().readLines()

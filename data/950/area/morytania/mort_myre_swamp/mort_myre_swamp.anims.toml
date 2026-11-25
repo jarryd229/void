@@ -1,0 +1,23 @@
+[snail_defend]
+id = 1278
+
+[snail_attack]
+id = 1277
+
+[snail_death]
+id = 1279
+
+[ghast_attack]
+id = 1093
+
+[boat_journey_mort_ton]
+id = 1492
+
+[boat_journey_the_hollows]
+id = 1491
+
+[ghast_defend]
+id = 1088
+
+[ghast_death]
+id = 1090

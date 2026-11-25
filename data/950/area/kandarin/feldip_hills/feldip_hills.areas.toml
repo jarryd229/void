@@ -1,0 +1,85 @@
+[east_feldip_hills_multi_area]
+x = [2648, 2655]
+y = [2952, 2975]
+level = 0
+tags = ["multi_combat"]
+
+[feldip_hills]
+x = [2304,2304,2367,2367,2687,2687]
+y = [2944,3094,3094,3071,3071,2944]
+tags = ["penguin_area"]
+hint = "around Feldip Hills, near Gu'Tanoth."
+
+[south_feldip_hills]
+x = [2368, 2687]
+y = [2816, 2943]
+tags = ["penguin_area"]
+hint = "near some ogres in South Feldip Hills."
+
+[feldip_hills_north_fishing_area]
+x = [2455, 2468]
+y = [2927, 2936]
+
+[feldip_hills_fishing_area]
+x = [2442, 2450]
+y = [2915, 2922]
+
+[feldip_hills_south_fishing_area]
+x = [2435, 2436]
+y = [2890, 2895]
+
+[zogre_burial_grounds]
+x = [2496, 2559]
+y = [2880, 2943]
+tags = ["no_cannon", "no_cannon_dark_forces"]
+
+[feldip_hills_crimson_swifts_south]
+# nav-editor: named area only
+x = [2597, 2612]
+y = [2888, 2905]
+level = 0
+
+[feldip_hills_crimson_swifts_north]
+# nav-editor: named area only
+x = [2603, 2611]
+y = [2917, 2932]
+level = 0
+
+[feldip_hills_tropical_wagtails]
+# nav-editor: named area only
+x = [2517, 2551]
+y = [2876, 2885]
+level = 0
+
+[feldip_hills_carniverous_chinchompas_west]
+# nav-editor: named area only
+x = [2500, 2510]
+y = [2893, 2908]
+level = 0
+
+[feldip_hills_carniverous_chinchompas_east]
+# nav-editor: named area only
+x = [2517, 2530]
+y = [2893, 2909]
+level = 0
+
+[feldip_hills_jungle_strykewyrms]
+# nav-editor: named area only
+x = [2448, 2461]
+y = [2892, 2908]
+level = 0
+
+[feldip_hills_gnome_glider]
+# nav-editor: named area only
+x = [2543, 2546]
+y = [2970, 2973]
+level = 0
+tags = ["gnome_glider"]
+
+[feldip_hills_small_obelisk]
+# nav-editor: named area only
+x = [2548, 2550]
+y = [2961, 2963]
+level = 0
+tags = ["small_obelisk"]
+

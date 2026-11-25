@@ -1,0 +1,34 @@
+[terrorbird]
+defend_anim = "terrorbird_defend"
+death_anim = "terrorbird_death"
+
+[terrorbird.melee]
+range = 1
+anim = "terrorbird_attack"
+target_hit = { offense = "stab", max = 30 }
+
+[gnome_child]
+defend_anim = "gnome_defend"
+death_anim = "gnome_death"
+
+[gnome_child.attack]
+anim = "gnome_attack"
+target_hit = { offense = "crush", max = 0 }
+
+[gnome_guard]
+defend_anim = "gnome_defend"
+death_anim = "gnome_death"
+
+[gnome_guard.attack]
+anim = "gnome_attack"
+target_hit = { offense = "slash", max = 30 }
+
+[gnome_woman]
+defend_anim = "gnome_defend"
+death_anim = "gnome_death"
+
+[gnome_woman.attack]
+range = 8
+anim = "gnome_bow_attack"
+projectile = "bronze_arrow"
+target_hit = { offense = "range", max = 10 }

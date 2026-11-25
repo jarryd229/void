@@ -1,0 +1,48 @@
+[jungle_horror_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "jungle_horror_secondary" },
+    { table = "medium_clue_scroll", roll = 128 },
+    { table = "jungle_horror_tertiary" },
+]
+
+[jungle_horror_secondary]
+roll = 258
+drops = [
+    { id = "iron_warhammer", chance = 36 },
+    { id = "iron_kiteshield", chance = 10 },
+    { id = "iron_spear", chance = 8 },
+    { id = "iron_javelin", amount = 5, chance = 4 },
+    { id = "nature_rune", min = 2, max = 6, chance = 16 },
+    { id = "death_rune", chance = 10 },
+    { table = "herb_drop_table", chance = 12 },
+    { id = "teak_logs_noted", chance = 8 },
+    { id = "teak_logs_noted", amount = 3, chance = 18 },
+    { id = "mahogany_logs", chance = 6 },
+    { id = "big_bones", min = 1, max = 3, chance = 20 },
+    { table = "gem_drop_table", chance = 2 },
+    { id = "iron_ore_noted", chance = 16 },
+    { id = "pineapple_noted", min = 1, max = 3, chance = 16 },
+    { id = "oak_plank", amount = 4, chance = 2 },
+    { table = "allotment_seed_drop_table", chance = 30 },
+]
+
+[giant_mosquito_drop_table]
+type = "all"
+drops = [
+    { table = "giant_mosquito_secondary" },
+]
+
+[giant_mosquito_secondary]
+roll = 1024
+drops = [
+    { id = "proboscis", chance = 64 },
+]
+
+[jungle_horror_tertiary]
+roll = 5000
+drops = [
+    { id = "foot_bone", chance = 1250 },
+    { id = "starved_ancient_effigy", chance = 29 },
+]

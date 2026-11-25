@@ -1,0 +1,98 @@
+[climb_down]
+id = 827
+
+[climb_up]
+id = 828
+
+[assist]
+id = 7299
+
+[human_death]
+id = 836
+
+[eat_drink]
+id = 829
+
+[take]
+id = 832
+
+[unarmed_punch]
+id = 422
+
+[unarmed_kick]
+id = 423
+
+[human_dancing]
+id = 818
+
+[unarmed_block]
+id = 422
+
+[unarmed_defend]
+id = 424
+
+[human_attack]
+id = 422
+
+[human_block]
+id = 422
+
+[human_farmersfork_stab]
+id = 433
+
+[human_farmersfork_def]
+id = 434
+
+[human_defend]
+id = 424
+
+[hand_over_item]
+id = 14737
+
+[pocket_item]
+id = 14738
+
+[human_dig]
+id = 830
+
+[open_map]
+id = 5354
+
+[shear_sheep]
+id = 893
+
+[human_walk_forward]
+id = 819
+
+[human_walk_backwards]
+id = 820
+
+[human_lockedchest]
+id = 537
+
+[throw_bucketofwater]
+id = 1077
+
+[human_opencupboard]
+id = 538
+
+[human_push]
+id = 810
+
+[open_chest_mid]
+id = 2094
+
+[human_lever_down]
+id = 834
+
+[human_read_book]
+id = 1350
+
+[human_pick_wall_start]
+id = 2096
+
+[human_pick_wall_middle]
+id = 2097
+
+[human_pick_wall_end]
+id = 2098

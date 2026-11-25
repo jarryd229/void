@@ -1,0 +1,11 @@
+[direction_signpost_1]
+id = 2754
+examine = "This tells you which way is which."
+
+[direction_signpost_2]
+id = 18493
+examine = "This tells you which way is which."
+
+[direction_signpost_3]
+id = 24263
+examine = "This tells you which way is which."

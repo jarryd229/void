@@ -1,0 +1,40 @@
+[maze_wall]
+id = 3626
+examine = "It looks very sturdy."
+
+[maze_door_1_closed]
+id = 3628
+opened = "maze_door_1_closed"
+examine = "It looks very sturdy."
+
+[maze_door_2_closed]
+id = 3629
+opened = "maze_door_2_closed"
+examine = "It looks very sturdy."
+
+[maze_door_3_closed]
+id = 3630
+opened = "maze_door_3_closed"
+examine = "It looks very sturdy."
+
+[maze_door_4_closed]
+id = 3631
+opened = "maze_door_4_closed"
+examine = "It looks very sturdy."
+
+[maze_door_5_closed]
+id = 3632
+opened = "maze_door_5_closed"
+examine = "It looks very sturdy."
+
+[maze_chest]
+id = 3635
+examine = "A chest, I wonder what's inside."
+
+[maze_chest_opened]
+id = 3636
+examine = "An open chest."
+
+[strange_shrine]
+id = 3634
+examine = "A strange shrine."

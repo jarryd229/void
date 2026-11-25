@@ -1,0 +1,158 @@
+[dr_fenkenstrain_windmill_cellar]
+id = 5606
+
+[zombie_pirate_windmill_cellar]
+id = 5630
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_2]
+id = 5632
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_3]
+id = 5636
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_4]
+id = 5649
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_5]
+id = 5651
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_6]
+id = 5653
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_7]
+id = 5655
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_8]
+id = 5657
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_9]
+id = 5660
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_10]
+id = 5662
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[zombie_pirate_windmill_cellar_11]
+id = 5664
+drop_table = "zombie_pirate"
+combat_def = "zombie_pirate"
+hitpoints = 520
+att = 49
+str = 50
+def = 50
+max_hit_crush = 60
+hunt_mode = "cowardly"
+categories = ["zombies"]
+
+[monk_windmill_cellar]
+id = 5673
+
+[monk_windmill_cellar_2]
+id = 5674
+
+[monk_windmill_cellar_3]
+id = 5675
+
+[monk_windmill_cellar_4]
+id = 5676
+
+[monk_windmill_cellar_5]
+id = 5619
+
+[monk_windmill_cellar_2_2]
+id = 5620
+
+[monk_windmill_cellar_3_2]
+id = 5621
+
+[monk_windmill_cellar_4_2]
+id = 5622

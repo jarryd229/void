@@ -1,0 +1,81 @@
+[jungle_strykewyrm]
+defend_anim = "strykewyrm_defend"
+defend_sound = "strykewyrm_defend"
+death_anim = "strykewyrm_death"
+death_sound = "strykewyrm_death"
+
+[jungle_strykewyrm.melee]
+chance = 5
+range = 1
+anim = "strykewyrm_attack"
+target_hit = { offense = "stab", max = 90 }
+
+[jungle_strykewyrm.poison]
+clone = "jungle_strykewyrm.melee"
+impact_poison = 44
+impact_gfx = "jungle_strykewyrm_poison"
+
+[jungle_strykewyrm.magic]
+chance = 5
+range = 8
+anim = "strykewyrm_shoot"
+projectile = "jungle_strykewyrm_travel"
+projectile_origin_y = 1
+projectile_origin_x = 1
+impact_gfx = "jungle_strykewyrm_impact"
+target_hit = { offense = "magic", max = 88 }
+
+[jungle_strykewyrm.cloud]
+clone = "jungle_strykewyrm.magic"
+impact_poison = 88
+target_hit = { offense = "magic", max = 0 }
+
+[jungle_strykewyrm.dig]
+range = 8
+[carnivorous_chinchompa]
+death_anim = "carnivorous_chinchompa_death"
+
+[carnivorous_chinchompa.melee]
+range = 1
+target_hit = { offense = "crush", max = 10 }
+
+[ogress_champion]
+defend_anim = "ogress_defend"
+death_anim = "ogress_champion_death"
+
+[ogress_champion.melee]
+range = 1
+target_hit = { offense = "crush", max = 100 }
+anim = "ogress_champion_attack"
+
+[ogress]
+defend_anim = "ogress_defend"
+death_anim = "ogress_death"
+
+[ogress.melee]
+range = 1
+target_hit = { offense = "crush", max = 80 }
+anim = "ogress_attack"
+
+[ogress_2]
+clone = "ogress"
+defend_anim = "ogress_defend_2"
+death_anim = "ogress_death_2"
+
+[ogress_2.melee]
+clone = "ogress.melee"
+anim = "ogress_attack_2"
+
+[ogress_warrior]
+clone = "ogress"
+
+[ogress_warrior.melee]
+clone = "ogress.melee"
+target_hit = { offense = "crush", max = 120 }
+
+[ogress_warrior_2]
+clone = "ogress_2"
+
+[ogress_warrior_2.melee]
+clone = "ogress_2.melee"
+target_hit = { offense = "crush", max = 120 }

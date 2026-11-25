@@ -1,0 +1,57 @@
+[abyssal_demon_drop_table]
+type = "all"
+drops = [
+  { id = "ashes" },
+  { table = "abyssal_demon_secondary" },
+  { table = "abyssal_demon_tertiary" },
+  { table = "abyssal_demon_charms", members = true },
+]
+
+[abyssal_demon_secondary]
+roll = 256
+drops = [
+  { id = "black_sword", chance = 8 },
+  { id = "steel_battleaxe", chance = 6 },
+  { id = "black_hatchet", chance = 4 },
+  { id = "mithril_kiteshield", chance = 2 },
+  { id = "rune_chainbody", chance = 2 },
+  { id = "rune_med_helm", chance = 2 },
+  { id = "air_rune", amount = 50, chance = 16 },
+  { id = "chaos_rune", amount = 10, chance = 14 },
+  { id = "blood_rune", amount = 7, chance = 8 },
+  { id = "law_rune", amount = 3, chance = 2 },
+  { id = "law_rune", amount = 45 },
+  { table = "herb_drop_table", chance = 38 },
+  { id = "pure_essence_noted", amount = 60, chance = 10 },
+  { id = "adamant_bar", chance = 7 },
+  { id = "coins", amount = 132, chance = 70 },
+  { id = "coins", amount = 220, chance = 18 },
+  { id = "coins", amount = 30, chance = 14 },
+  { id = "coins", amount = 44, chance = 12 },
+  { id = "coins", amount = 460, chance = 2 },
+  { id = "lobster", chance = 4 },
+  { id = "cosmic_talisman", chance = 2 },
+  { id = "chaos_talisman", chance = 2 },
+  { id = "defence_potion_3", chance = 7 },
+  { table = "rare_drop_table", chance = 4 },
+  { id = "court_summons" },
+]
+
+[abyssal_demon_tertiary]
+roll = 6000
+drops = [
+  { table = "hard_clue_scroll", chance = 46 },
+  { id = "abyssal_head" },
+  { id = "abyssal_whip", chance = 6 },
+  { id = "ferocious_ring_5", chance = 38 },
+  { id = "starved_ancient_effigy", chance = 35 },
+]
+
+[abyssal_demon_charms]
+roll = 1000
+drops = [
+  { id = "gold_charm", chance = 90 },
+  { id = "green_charm", chance = 45 },
+  { id = "crimson_charm", chance = 314 },
+  { id = "blue_charm", chance = 9 },
+]

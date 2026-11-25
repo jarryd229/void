@@ -1,0 +1,8 @@
+[terror_dog]
+defend_anim = "terror_dog_defend"
+death_anim = "terror_dog_death"
+
+[terror_dog.melee]
+range = 1
+target_hit = { offense = "crush", max = 150 }
+anim = "terror_dog_attack"

@@ -1,0 +1,22 @@
+spawns = [
+# 11060
+  { id = "vial", x = 2808, y = 3343, delay = 100, members = true },
+  { id = "vial", x = 2809, y = 3342, delay = 100, members = true },
+  { id = "seaweed", x = 2810, y = 3387, delay = 100, members = true },
+  { id = "seaweed", x = 2809, y = 3388, delay = 100, members = true },
+  { id = "seaweed", x = 2809, y = 3385, delay = 100, members = true },
+  { id = "seaweed", x = 2807, y = 3386, delay = 100, members = true },
+  { id = "seaweed", x = 2807, y = 3384, delay = 100, members = true },
+  { id = "seaweed", x = 2805, y = 3384, delay = 100, members = true },
+  { id = "seaweed", x = 2805, y = 3381, delay = 100, members = true },
+  { id = "seaweed", x = 2804, y = 3385, delay = 100, members = true },
+  { id = "seaweed", x = 2804, y = 3380, delay = 100, members = true },
+  { id = "seaweed", x = 2803, y = 3382, delay = 100, members = true },
+# 11316
+  { id = "plank", x = 2848, y = 3383, delay = 100, members = true },
+  { id = "plank", x = 2846, y = 3384, delay = 100, members = true },
+  { id = "kebab", x = 2843, y = 3369, delay = 100, members = true },
+  { id = "fishing_rod", x = 2860, y = 3335, delay = 100, members = true },
+  { id = "glassblowing_pipe", x = 2822, y = 3355, delay = 100, members = true },
+  { id = "bowl", x = 2816, y = 3351, level = 1, delay = 100, members = true },
+]

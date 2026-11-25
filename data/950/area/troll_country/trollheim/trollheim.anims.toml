@@ -1,0 +1,8 @@
+[thrower_troll_attack]
+id = 1142
+
+[troll_defend]
+id = 285
+
+[troll_death]
+id = 287

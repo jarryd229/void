@@ -1,0 +1,64 @@
+[cave_lizard]
+defend_anim = "gecko_defend"
+death_anim = "gecko_death"
+
+[cave_lizard.melee]
+range = 1
+anim = "gecko_attack"
+target_hit = { offense = "crush", max = 50 }
+
+[zamorak_warrior_kite]
+clone = "human"
+
+[zamorak_warrior_kite.melee]
+range = 1
+anim = "sword_slash"
+target_hit = { offense = "slash", max = 80 }
+
+[zamorak_warrior_square]
+clone = "zamorak_warrior_kite"
+
+[zamorak_warrior_square.melee]
+range = 1
+anim = "sword_slash"
+target_hit = { offense = "crush", max = 80 }
+
+[zamorak_mage]
+defend_anim = "human_defend"
+death_anim = "human_death"
+
+[zamorak_mage.spell]
+range = 8
+anim = "fire_spell"
+gfx = "fire_spell_cast"
+projectile = "fire_bolt"
+target_sound = "fire_bolt_cast"
+target_hit = { offense = "magic", max = 90 }
+impact_gfx = "fire_bolt_impact"
+impact_sound = "fire_bolt_impact"
+
+[zamorak_ranger]
+defend_anim = "human_defend"
+death_anim = "human_death"
+
+[zamorak_ranger.shoot]
+range = 5
+anim = "bow_accurate"
+projectile = "mithril_arrow"
+target_hit = { offense = "range", max = 90 }
+
+[zamorak_crafter]
+clone = "man"
+
+[zamorak_crafter.melee]
+clone = "man.melee"
+target_hit = { offense = "crush", max = 20 }
+
+[ghost_ourania]
+clone = "ghost"
+defend_anim = "ghost_ourania_defend"
+death_anim = "ghost_ourania_death"
+
+[ghost_ourania.melee]
+clone = "ghost.melee"
+anim = "ghost_ourania_attack"

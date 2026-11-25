@@ -1,0 +1,17 @@
+[yeti]
+defend_anim = "yeti_defend"
+death_anim = "yeti_death"
+
+[yeti.melee]
+range = 1
+target_hit = { offense = "crush", max = 70 }
+anim = "yeti_attack"
+
+[gnoeals]
+defend_anim = "gnoeals_defend"
+death_anim = "gnoeals_death"
+
+[gnoeals.magic]
+range = 6
+target_hit = { offense = "magic", max = 120 }
+anim = "gnoeals_attack"

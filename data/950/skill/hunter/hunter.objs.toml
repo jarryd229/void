@@ -1,0 +1,638 @@
+[box_trap]
+id = 19187
+examine = "If a creature goes inside, the box should then slam shut."
+
+[box_trap_fail]
+id = 19192
+examine = "This trap has been triggered by something."
+
+[bird_snare]
+id = 19175
+examine = "A simple device for catching birds."
+
+[bird_snare_fail]
+id = 19174
+examine = "The trap has been sprung but has failed to catch anything."
+
+[swamp_net_catching]
+id = 19674
+examine = "It looks like there's something caught in it."
+
+[swamp_net_caught]
+id = 19675
+examine = "It looks like there's something caught in it."
+
+[swamp_net_failing]
+id = 19676
+examine = "Something has triggered this trap but it looks like it must have escaped."
+
+[swamp_net_failed]
+id = 19677
+examine = "Something has triggered this trap but it looks like it must have escaped."
+
+[swamp_net_setup]
+id = 19678
+examine = "It's been bent over to provide the springing action for the net trap below."
+
+[swamp_net]
+id = 19679
+examine = "A young tree, probably quite flexible."
+
+[orange_net_setup]
+id = 19650
+examine = "It's been bent over to provide the springing action for the net trap below."
+
+[net]
+id = 19651
+examine = "Theoretically, it should close around anything that trips the trigger string."
+
+[orange_net]
+id = 19652
+examine = "A young tree, probably quite flexible."
+
+[orange_net_caught]
+id = 19654
+examine = "It looks like there's something caught in it."
+
+[orange_net_catching]
+id = 19655
+examine = "It looks like there's something caught in it."
+
+[orange_net_failed]
+id = 19656
+examine = "Something has triggered this trap but it looks like it must have escaped."
+
+[orange_net_failing]
+id = 19657
+examine = "Something has triggered this trap but it looks like it must have escaped."
+
+[red_net_catching]
+id = 19658
+examine = "It looks like there's something caught in it."
+
+[red_net_caught]
+id = 19659
+examine = "It looks like there's something caught in it."
+
+[red_net_failing]
+id = 19660
+examine = "Something has triggered this trap but it looks like it must have escaped."
+
+[red_net_failed]
+id = 19661
+examine = "Something has triggered this trap but it looks like it must have escaped."
+
+[red_net_setup]
+id = 19662
+examine = "It's been bent over to provide the springing action for the net trap below."
+
+[red_net]
+id = 19663
+examine = "A young tree, probably quite flexible."
+
+[black_net_catching]
+id = 19666
+examine = "It looks like there's something caught in it."
+
+[black_net_caught]
+id = 19667
+examine = "It looks like there's something caught in it."
+
+[black_net_failing]
+id = 19668
+examine = "Something has triggered this trap but it looks like it must have escaped."
+
+[black_net_failed]
+id = 19669
+examine = "Something has triggered this trap but it looks like it must have escaped."
+
+[black_net_setup]
+id = 19670
+examine = "It's been bent over to provide the springing action for the net trap below."
+
+[black_net]
+id = 19671
+examine = "A young tree, probably quite flexible."
+
+[boulder_trap]
+id = 19205
+examine = "A large flat boulder. It looks like it could be useful for something."
+
+[boulder_trap_setup]
+id = 19206
+examine = "Someone could get their fingers caught in that."
+
+[boulder_trap_fail]
+id = 19219
+examine = "Someone could get their fingers caught in that."
+
+[rabbit_snare]
+id = 19333
+examine = "The snare will tighten around animals passing through."
+
+[rabbit_snare_fail]
+id = 19334
+examine = "Whatever it caught must have escaped."
+
+[rabbit_snare_caught]
+id = 19335
+examine = "There's something caught in it."
+
+[rabbit_snare_inverse]
+id = 19336
+
+# Snare trap — triggered states (creature caught inside)
+examine = "There's something caught in it."
+
+[snare_crimson_swift]
+id = 19180
+examine = "There's something caught in it."
+
+[snare_cerulean_twitch]
+id = 19182
+examine = "There's something caught in it."
+
+[snare_golden_warbler]
+id = 19184
+examine = "There's something caught in it."
+
+[snare_copper_longtail]
+id = 19186
+examine = "There's something caught in it."
+
+[snare_tropical_wagtail]
+id = 19178
+examine = "There's something caught in it."
+
+[snare_wimpy_bird]
+id = 28930
+
+examine = "There's something caught in it."
+
+[magic_box]
+id = 19223
+
+[magic_box_fail]
+id = 19224
+
+[magic_box_catching]
+id = 19225
+
+[magic_box_caught]
+id = 19226
+
+# Box trap — triggered states
+[box_trap_catching]
+id = 19188
+
+[box_trap_ferret]
+id = 19190
+
+[box_trap_chinchompa]
+id = 28557
+examine = "It looks like there is something caught inside this trap."
+
+[box_trap_carnivorous_chinchompa]
+id = 28558
+examine = "It looks like there is something caught inside this trap."
+
+[box_trap_pawya]
+id = 28567
+examine = "It looks like there is something caught inside this trap."
+
+[box_trap_grenwall]
+id = 28906
+examine = "It looks like there is something caught inside this trap."
+
+# Boulder trap — falling boulder states (per creature, boulder mid-crush)
+[boulder_trap_wild_kebbit_catching]
+id = 19213
+
+[boulder_trap_barb_tailed_kebbit_catching]
+id = 19211
+
+[boulder_trap_prickly_kebbit_catching]
+id = 19207
+
+[boulder_trap_sabre_toothed_kebbit_catching]
+id = 19209
+
+# Boulder trap — caught states (boulder dropped on creature)
+[boulder_trap_wild_kebbit]
+id = 19215
+examine = "Someone could get their fingers caught in that."
+
+[boulder_trap_sabre_toothed_kebbit]
+id = 19216
+examine = "Someone could get their fingers caught in that."
+
+[boulder_trap_barb_tailed_kebbit]
+id = 19217
+examine = "Someone could get their fingers caught in that."
+
+[boulder_trap_prickly_kebbit]
+id = 19218
+examine = "Someone could get their fingers caught in that."
+
+[pitfall_sabre_toothed_kyatt_0]
+id = 19253
+
+[pitfall_sabre_toothed_kyatt_1]
+id = 19254
+
+[pitfall_sabre_toothed_kyatt_2]
+id = 19255
+
+[pitfall_sabre_toothed_kyatt_3]
+id = 19256
+
+[pitfall_sabre_toothed_kyatt_4]
+id = 19257
+
+[pitfall_sabre_toothed_kyatt_5]
+id = 19258
+
+[pitfall_spined_larupia_6]
+id = 19259
+
+[pitfall_spined_larupia_7]
+id = 19260
+
+[pitfall_spined_larupia_8]
+id = 19261
+
+[pitfall_spined_larupia_9]
+id = 19262
+
+[pitfall_spined_larupia_10]
+id = 19263
+
+[pitfall_horned_graahk_11]
+id = 19264
+
+[pitfall_horned_graahk_12]
+id = 19265
+
+[pitfall_horned_graahk_13]
+id = 19266
+
+[pitfall_horned_graahk_14]
+id = 19267
+
+[pitfall_horned_graahk_15]
+id = 19268
+
+[pitfall_spined_larupia_16]
+id = 43614
+
+[pitfall]
+id = 19227
+examine = "A suitable place for a pit trap."
+
+[pitfall_spiked]
+id = 19228
+examine = "Dangerous; someone could trip right into that."
+
+[pitfall_collapsed]
+id = 19229
+examine = "It looks like something fell through the branches on top."
+
+[pitfall_caught_spined_larupia]
+id = 19232
+examine = "Something has fallen into this trap."
+
+[pitfall_inverse_spined_larupia]
+id = 19235
+examine = "Something has fallen into this trap."
+
+[pitfall_caught_horned_graahk]
+id = 19231
+examine = "Something has fallen into this trap."
+
+[pitfall_inverse_horned_graahk]
+id = 19234
+examine = "Something has fallen into this trap."
+
+[pitfall_caught_sabre_toothed_kyatt]
+id = 19233
+examine = "Something has fallen into this trap."
+
+[pitfall_inverse_sabre_toothed_kyatt]
+id = 19236
+examine = "Something has fallen into this trap."
+
+# Kebbit tracking
+[kebbit_tracks_plant_0]
+id = 19356
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_1]
+id = 19357
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_2]
+id = 19358
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_3]
+id = 19359
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_4]
+id = 19360
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_5]
+id = 19361
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_6]
+id = 19362
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_7]
+id = 19363
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_8]
+id = 19364
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_9]
+id = 19365
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_10]
+id = 19372
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_11]
+id = 19373
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_12]
+id = 19374
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_13]
+id = 19375
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_14]
+id = 19376
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_15]
+id = 19377
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_16]
+id = 19378
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_17]
+id = 19379
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_18]
+id = 19380
+examine = "A small fern-like plant."
+
+[kebbit_tunnel_0]
+id = 19419
+
+[kebbit_tunnel_1]
+id = 19420
+
+[kebbit_tunnel_2]
+id = 19421
+
+[kebbit_tunnel_3]
+id = 19423
+
+[kebbit_tunnel_4]
+id = 19424
+
+[kebbit_tunnel_5]
+id = 19426
+
+[kebbit_hollow_log_0]
+id = 36688
+
+[kebbit_hollow_log_1]
+id = 36689
+
+[kebbit_hollow_log_2]
+id = 36690
+
+[kebbit_bush]
+id = 19428
+
+[kebbit_snow_drift]
+id = 19435
+
+[common_kebbit_burrow]
+id = 19439
+
+[common_kebbit_burrow_2]
+id = 19440
+
+[polar_kebbit_hole]
+id = 19640
+
+[polar_kebbit_hole_2]
+id = 19641
+
+# Desert devil tracking
+[desert_cactus_0]
+id = 19388
+
+[desert_cactus_1]
+id = 19389
+
+[desert_cactus_2]
+id = 19391
+
+[desert_cactus_3]
+id = 19392
+
+[desert_cactus_4]
+id = 19394
+
+[desert_cactus_5]
+id = 19395
+
+[desert_cactus_6]
+id = 19398
+
+[desert_cactus_7]
+id = 19399
+
+[desert_cactus_8]
+id = 19401
+
+[desert_rockslide_0]
+id = 19390
+
+[desert_rockslide_1]
+id = 19393
+
+[desert_rockslide_2]
+id = 19396
+
+[desert_rockslide_3]
+id = 19397
+
+[desert_rockslide_4]
+id = 19400
+
+[desert_rockslide_5]
+id = 19402
+
+[disturbed_sand]
+id = 19430
+
+[desert_devil_burrow]
+id = 19552
+
+[desert_devil_burrow_2]
+id = 19553
+
+# Feldip weasel tracking
+[feldip_plant_0]
+id = 19403
+
+[feldip_plant_1]
+id = 19404
+
+[feldip_plant_2]
+id = 19405
+
+[feldip_plant_3]
+id = 19406
+
+[feldip_plant_4]
+id = 19407
+
+[feldip_plant_5]
+id = 19408
+
+[feldip_plant_6]
+id = 19409
+
+[feldip_plant_7]
+id = 19410
+
+[feldip_plant_8]
+id = 19411
+
+[feldip_plant_9]
+id = 19412
+
+[feldip_plant_10]
+id = 19413
+
+[feldip_plant_11]
+id = 19414
+
+[feldip_plant_12]
+id = 19415
+
+[feldip_plant_13]
+id = 19416
+
+[feldip_plant_14]
+id = 19417
+
+[weasel_bush]
+id = 19427
+
+[feldip_weasel_burrow]
+id = 19594
+
+[feldip_weasel_burrow_2]
+id = 19593
+
+# Razor-backed kebbit tracking + north common kebbit burrow
+[common_kebbit_burrow_3]
+id = 19438
+
+[razor_backed_kebbit_burrow]
+id = 19492
+
+[razor_backed_kebbit_burrow_2]
+id = 19493
+
+[razor_backed_kebbit_burrow_3]
+id = 19494
+
+[razor_kebbit_bush]
+id = 19429
+
+[kebbit_tracks_plant_19]
+id = 19339
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_20]
+id = 19340
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_21]
+id = 19341
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_22]
+id = 19342
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_23]
+id = 19343
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_24]
+id = 19344
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_25]
+id = 19345
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_26]
+id = 19346
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_27]
+id = 19347
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_28]
+id = 19348
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_29]
+id = 19349
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_30]
+id = 19350
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_31]
+id = 19351
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_32]
+id = 19352
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_33]
+id = 19353
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_34]
+id = 19354
+examine = "A small fern-like plant."
+
+[kebbit_tracks_plant_35]
+id = 19355
+examine = "A small fern-like plant."

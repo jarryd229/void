@@ -1,0 +1,81 @@
+[warped_terrorbird_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "warped_terrorbird_secondary" },
+]
+
+[warped_terrorbird_secondary]
+roll = 512
+drops = [
+    { id = "air_rune", min = 24, max = 60, chance = 26 },
+    { id = "earth_rune", min = 14, max = 31, chance = 36 },
+    { id = "death_rune", min = 4, max = 28, chance = 26 },
+    { id = "emerald_bolt_tips", min = 16, max = 24, chance = 20 },
+    { id = "ruby_bolt_tips", min = 16, max = 24, chance = 13 },
+    { id = "diamond_bolt_tips", min = 16, max = 24, chance = 7 },
+    { id = "adamant_bolts", min = 6, max = 15, chance = 33 },
+    { id = "runite_bolts", min = 3, max = 12, chance = 26 },
+    { id = "coins", min = 600, max = 800, chance = 64 },
+    { id = "feather", min = 23, max = 95, chance = 33 },
+    { id = "swamp_tar", min = 10, max = 52, chance = 33 },
+    { id = "adamantite_ore", chance = 26 },
+    { id = "wergali_seed", chance = 13 },
+    { id = "law_rune", min = 1, max = 10, chance = 10 },
+    { id = "soul_rune", min = 1, max = 10, chance = 10 },
+    { id = "mithril_platebody", chance = 13 },
+    { id = "mithril_warhammer", chance = 13 },
+    { id = "weapon_poison", chance = 24 },
+    { id = "chocolate_bomb", min = 1, max = 3, chance = 10 },
+    { id = "tangled_toads_legs", min = 1, max = 3, chance = 7 },
+    { id = "law_talisman", chance = 10 },
+    { id = "sulphur", chance = 2 },
+    { id = "rune_kiteshield", chance = 8 },
+    { id = "rune_warhammer", chance = 8 },
+    { id = "rune_pickaxe" },
+    { id = "raw_shark_noted", min = 1, max = 6, chance = 33 },
+    { table = "rare_drop_table", chance = 7 },
+]
+
+[warped_tortoise_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { table = "warped_tortoise_secondary" },
+    { table = "warped_tortoise_tertiary" },
+]
+
+[warped_tortoise_secondary]
+roll = 256
+drops = [
+    { id = "adamant_hatchet", chance = 8 },
+    { id = "law_talisman", chance = 16 },
+    { id = "sulphur", chance = 16 },
+    { id = "coins", min = 600, max = 800, chance = 40 },
+    { id = "tangled_toads_legs", min = 1, max = 4, chance = 12 },
+    { id = "weapon_poison", chance = 12 },
+    { id = "mithril_platebody", chance = 8 },
+    { id = "mithril_warhammer", chance = 8 },
+    { id = "rune_pickaxe", chance = 4 },
+    { id = "adamantite_ore", chance = 8 },
+    { id = "air_rune", amount = 49, chance = 8 },
+    { id = "law_rune", min = 3, max = 6, chance = 8 },
+    { id = "swamp_tar", min = 1, max = 32, chance = 24 },
+    { id = "tortoise_shell", min = 1, max = 3, chance = 8 },
+    { id = "perfect_shell", min = 1, max = 3, chance = 8 },
+    { id = "humerus_bone", chance = 8 },
+    { id = "rune_warhammer", chance = 4 },
+    { id = "court_summons" },
+    { id = "mithril_ore_noted", min = 3, max = 9, chance = 8 },
+    { id = "coal_noted", min = 6, max = 16, chance = 12 },
+    { id = "cabbage_noted", min = 2, max = 54, chance = 24 },
+    { table = "gem_drop_table", chance = 5 },
+]
+
+[warped_tortoise_tertiary]
+roll = 5000
+drops = [
+    { id = "long_bone", chance = 12 },
+    { id = "curved_bone" },
+    { id = "starved_ancient_effigy", chance = 29 },
+]

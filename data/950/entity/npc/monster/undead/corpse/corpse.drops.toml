@@ -1,0 +1,169 @@
+[crawling_corpse_torso_drop_table]
+type = "all"
+drops = [
+  { id = "bones"},
+  { table = "crawling_corpse_torso_secondary" },
+  { table = "mask_part_2_drop", roll = 3 },
+]
+
+[crawling_corpse_torso_secondary]
+roll = 256
+drops = [
+  { id = "air_rune", amount = 10, chance = 8 },
+  { id = "mind_rune", amount = 22, chance = 8 },
+  { id = "water_rune", amount = 4, chance = 8 },
+  { id = "earth_rune", amount = 4, chance = 8 },
+  { id = "fire_rune", amount = 4, chance = 8 },
+  { id = "leather_boots", chance = 8 },
+  { id = "leather_body", chance = 8 },
+  { id = "leather_gloves", chance = 8 },
+  { id = "leather_cowl", chance = 8 },
+  { id = "bronze_med_helm", chance = 8 },
+  { id = "bronze_chainbody", chance = 8 },
+  { id = "bronze_sq_shield", chance = 8 },
+  { id = "shortbow", chance = 8 },
+  { id = "magic_staff", chance = 8 },
+  { id = "bronze_arrow", amount = 20, chance = 8 },
+  { id = "staff", chance = 8 },
+  { id = "copper_ore", chance = 4 },
+  { id = "tin_ore", chance = 4 },
+  { id = "iron_bar", chance = 4 },
+  { id = "bronze_bar", chance = 4 },
+  { id = "coins", amount = 100, chance = 8 },
+  { id = "fishing_bait", amount = 35, chance = 8 },
+  { id = "leather", chance = 8 },
+  { id = "gold_amulet", chance = 8 },
+  { id = "gold_necklace", chance = 8 },
+  { id = "thread", amount = 25, chance = 4 },
+]
+
+[corpse_spider_drop_table]
+type = "all"
+drops = [
+  { id = "bones"},
+  { table = "corpse_spider_secondary" },
+  { table = "mask_part_1_drop", roll = 3 },
+]
+
+[corpse_spider_secondary]
+roll = 256
+drops = [
+  { id = "bronze_mace", chance = 16 },
+  { id = "bronze_med_helm", chance = 4 },
+  { id = "shortbow", chance = 16 },
+  { id = "bronze_arrow", amount = 12, chance = 16 },
+  { id = "leather_cowl", chance = 16 },
+  { id = "leather_gloves", chance = 4 },
+  { id = "fire_rune", amount = 2, chance = 16 },
+  { id = "air_rune", amount = 10, chance = 16 },
+  { id = "water_rune", amount = 2, chance = 16 },
+  { id = "earth_rune", amount = 2, chance = 16 },
+  { id = "mind_rune", amount = 12, chance = 16 },
+  { id = "staff" },
+  { id = "coins", amount = 60, chance = 16 },
+  { id = "fishing_bait", amount = 20, chance = 16 },
+  { id = "feather", amount = 3, chance = 4 },
+  { id = "thread", amount = 15, chance = 4 },
+  { id = "leather" },
+  { id = "bronze_bar" },
+  { id = "tin_ore" },
+]
+
+[corpse_archer_drop_table]
+type = "all"
+drops = [
+  { id = "bones"},
+  { table = "corpse_archer_secondary" },
+  { table = "mask_part_3_drop", roll = 3 },
+]
+
+[corpse_archer_secondary]
+roll = 256
+drops = [
+  { id = "air_rune", amount = 12, chance = 8 },
+  { id = "water_rune", amount = 6, chance = 8 },
+  { id = "earth_rune", amount = 6, chance = 8 },
+  { id = "fire_rune", amount = 6, chance = 8 },
+  { id = "mind_rune", amount = 33, chance = 8 },
+  { id = "air_talisman", chance = 8 },
+  { id = "mind_talisman", chance = 8 },
+  { id = "water_talisman" },
+  { id = "earth_talisman", chance = 4 },
+  { id = "fire_talisman", chance = 4 },
+  { id = "bronze_mace", chance = 8 },
+  { id = "shortbow", chance = 8 },
+  { id = "magic_staff", chance = 8 },
+  { id = "bronze_arrow", amount = 26, chance = 8 },
+  { id = "staff", chance = 8 },
+  { id = "leather_boots", chance = 8 },
+  { id = "leather_body", chance = 8 },
+  { id = "leather_gloves", chance = 8 },
+  { id = "bronze_med_helm", chance = 8 },
+  { id = "bronze_chainbody", chance = 8 },
+  { id = "bronze_sq_shield", chance = 8 },
+  { id = "gold_amulet", chance = 8 },
+  { id = "gold_necklace", chance = 8 },
+  { id = "holy_symbol", chance = 8 },
+  { id = "amulet_of_magic", chance = 4 },
+  { id = "gold_ring", chance = 4 },
+  { id = "amulet_of_defence", chance = 4 },
+  { id = "copper_ore", chance = 4 },
+  { id = "tin_ore", chance = 4 },
+  { id = "iron_bar", chance = 4 },
+  { id = "bronze_bar", chance = 4 },
+  { id = "coins", amount = 200, chance = 8 },
+  { id = "fishing_bait", amount = 50, chance = 8 },
+  { id = "leather", chance = 8 },
+]
+
+[corpse_mage_drop_table]
+type = "all"
+drops = [
+  { id = "bones"},
+  { table = "corpse_mage_secondary" },
+  { table = "mask_part_4_drop", roll = 3 },
+]
+
+[corpse_mage_secondary]
+roll = 256
+drops = [
+  { id = "air_rune", amount = 18, chance = 8 },
+  { id = "mind_rune", amount = 40, chance = 8 },
+  { id = "water_rune", amount = 8, chance = 8 },
+  { id = "earth_rune", amount = 8, chance = 8 },
+  { id = "fire_rune", amount = 8, chance = 8 },
+  { id = "air_talisman", chance = 8 },
+  { id = "mind_talisman", chance = 8 },
+  { id = "earth_talisman", chance = 4 },
+  { id = "fire_talisman", chance = 4 },
+  { id = "water_talisman" },
+  { id = "bronze_mace", chance = 8 },
+  { id = "shortbow", chance = 8 },
+  { id = "magic_staff", chance = 8 },
+  { id = "bronze_arrow", amount = 40, chance = 8 },
+  { id = "staff", chance = 8 },
+  { id = "sling" },
+  { id = "staff_of_air" },
+  { id = "leather_boots", chance = 8 },
+  { id = "leather_body", chance = 8 },
+  { id = "leather_gloves", chance = 8 },
+  { id = "leather_cowl", chance = 8 },
+  { id = "bronze_med_helm", chance = 8 },
+  { id = "bronze_chainbody", chance = 8 },
+  { id = "bronze_sq_shield", chance = 8 },
+  { id = "gold_amulet", chance = 8 },
+  { id = "gold_necklace", chance = 8 },
+  { id = "holy_symbol", chance = 8 },
+  { id = "amulet_of_magic", chance = 4 },
+  { id = "gold_ring", chance = 4 },
+  { id = "amulet_of_defence", chance = 4 },
+  { id = "copper_ore", chance = 4 },
+  { id = "tin_ore", amount = 2, chance = 4 },
+  { id = "bronze_bar", chance = 4 },
+  { id = "iron_bar", chance = 4 },
+  { id = "coins", amount = 250, chance = 8 },
+  { id = "thread", amount = 65, chance = 8 },
+  { id = "fishing_bait", amount = 80, chance = 8 },
+  { id = "feather", amount = 15, chance = 8 },
+  { id = "leather", chance = 8 },
+]

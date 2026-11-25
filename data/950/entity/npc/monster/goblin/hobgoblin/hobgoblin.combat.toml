@@ -1,0 +1,41 @@
+[hobgoblin_unarmed]
+defend_anim = "hobgoblin_defend"
+defend_sound = "hobgoblin_defend"
+death_anim = "hobgoblin_death"
+death_sound = "goblin_death"
+
+[hobgoblin_unarmed.melee]
+range = 1
+anim = "hobgoblin_attack"
+target_sound = "goblin_attack"
+target_hit = { offense = "crush", max = 30 }
+
+[hobgoblin_armed]
+defend_anim = "hobgoblin_armed_defend"
+defend_sound = "hobgoblin_defend"
+death_anim = "hobgoblin_armed_death"
+death_sound = "goblin_death"
+
+[hobgoblin_armed.melee]
+range = 1
+anim = "hobgoblin_armed_attack"
+target_sound = "goblin_attack"
+target_hit = { offense = "stab", max = 30 }
+
+[poh_hobgoblin]
+clone = "hobgoblin_unarmed"
+
+[poh_hobgoblin.melee]
+clone = "hobgoblin_unarmed.melee"
+target_hit = { offense = "crush", max = 60 }
+
+[hobgoblin_god_wars]
+clone = "poh_hobgoblin"
+defend_anim = "hobgoblin_god_wars_defend"
+death_anim = "hobgoblin_god_wars_death"
+
+[hobgoblin_god_wars.melee]
+clone = "poh_hobgoblin.melee"
+anim = "hobgoblin_god_wars_attack"
+target_hit = { offense = "crush", max = 50 }
+

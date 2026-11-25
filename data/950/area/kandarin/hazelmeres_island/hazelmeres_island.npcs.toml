@@ -1,0 +1,22 @@
+[jungle_spider_hazelmeres_island]
+id = 62
+hitpoints = 500
+att = 35
+str = 37
+def = 35
+style = "stab"
+max_hit_melee = 50
+hunt_mode = "cowardly"
+slayer_xp = 50.0
+categories = ["spiders"]
+respawn_delay = 30
+examine = "A barely visible deadly jungle spider."
+drop_table = "jungle_spider"
+combat_def = "jungle_spider_ape_atoll"
+
+[larry_hazelmeres_island]
+id = 7576
+
+[hazelmere_hazelmeres_island]
+id = 8460
+

@@ -1,0 +1,37 @@
+[rockslug_drop_table]
+type = "all"
+drops = [
+    { table = "rockslug_secondary" },
+    { table = "rockslug_charms", members = true },
+]
+
+[rockslug_secondary]
+roll = 512
+drops = [
+    { id = "mystic_gloves_light" },
+    { id = "earth_rune", amount = 5, chance = 120 },
+    { id = "earth_rune", amount = 42, chance = 16 },
+    { id = "chaos_rune", amount = 2, chance = 16 },
+    { id = "chaos_rune", amount = 5, chance = 4 },
+    { id = "coal", chance = 52 },
+    { id = "iron_ore", chance = 88 },
+    { id = "bronze_bar", chance = 8 },
+    { id = "iron_bar", chance = 12 },
+    { id = "copper_ore", chance = 12 },
+    { id = "tin_ore", chance = 32 },
+    { id = "mithril_ore", chance = 4 },
+    { id = "dwarven_stout", chance = 52 },
+    { id = "hammer", chance = 40 },
+    { table = "gem_drop_table", chance = 24 },
+    { id = "court_summons" },
+    { table = "allotment_seed_drop_table", chance = 30 },
+]
+
+[rockslug_charms]
+roll = 100000
+drops = [
+    { id = "gold_charm", chance = 9000 },
+    { id = "green_charm", chance = 2000 },
+    { id = "crimson_charm", chance = 1000 },
+    { id = "blue_charm", chance = 500 },
+]

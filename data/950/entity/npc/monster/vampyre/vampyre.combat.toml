@@ -1,0 +1,31 @@
+[vampyre_god_wars]
+defend_anim = "vampyre_god_wars_defend"
+defend_sound = "death_spawn_defend"
+death_anim = "vampyre_death"
+death_sound = "vampyre_death"
+
+[vampyre_god_wars.melee]
+range = 1
+anim = "vampyre_attack"
+target_sound = "vampyre_attack"
+target_hit = { offense = "slash", max = 80 }
+
+[vampyre]
+defend_anim = "vampyre_defend"
+defend_sound = "death_spawn_defend"
+death_anim = "human_death"
+death_sound = "vampyre_death"
+
+[vampyre.melee]
+chance = 10
+range = 1
+anim = "vampyre_attack"
+target_sound = "vampyre_attack"
+target_hit = { offense = "stab", max = 70 }
+
+[vampyre.bite]
+range = 1
+anim = "vampyre_bite"
+target_sound = "vampyre_suck"
+target_hit = { offense = "stab", max = 70 }
+

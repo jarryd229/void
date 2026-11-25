@@ -1,0 +1,8 @@
+[foreman]
+defend_anim = "foreman_defend"
+death_anim = "foreman_death"
+
+[foreman.melee]
+range = 1
+target_hit = { offense = "crush", max = 30 }
+anim = "foreman_attack"

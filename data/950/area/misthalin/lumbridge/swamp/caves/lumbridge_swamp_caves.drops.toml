@@ -1,0 +1,110 @@
+[cave_goblin_monster_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "cave_goblin_monster_secondary" },
+    { table = "cave_goblin_monster_tertiary" },
+    { table = "cave_goblin_charms", members = true },
+]
+
+[cave_goblin_monster_secondary]
+roll = 50
+drops = [
+    { id = "body_rune", amount = 7, chance = 5 },
+    { id = "water_rune", amount = 6, chance = 5 },
+    { id = "earth_rune", amount = 4, chance = 5 },
+    { id = "coins", amount = 5, chance = 4 },
+    { id = "coins", amount = 9, chance = 4 },
+    { id = "coins", amount = 15, chance = 6 },
+    { id = "coins", amount = 20, chance = 5 },
+    { id = "coins" },
+    { id = "nothing", amount = 0, chance = 6 },
+    { id = "hammer", chance = 4 },
+    { id = "brass_necklace" },
+    { id = "tinderbox", chance = 4 },
+]
+
+[cave_goblin_monster_tertiary]
+roll = 5000
+drops = [
+    { id = "cave_goblin_skull", chance = 1250, variable = "rag_and_bone_man_wish_list", equals = "started", default = "unstarted" },
+    { table = "easy_clue_scroll", chance = 39 },
+    { id = "goblin_champions_scroll", members = true, lacks = "goblin_champions_scroll" },
+]
+
+[wall_beast_drop_table]
+type = "all"
+drops = [
+    { table = "wall_beast_secondary" },
+    { table = "wall_beast_tertiary" },
+]
+
+[cave_goblin_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "cave_goblin_secondary" },
+    { table = "easy_clue_scroll", roll = 32 },
+    { table = "cave_goblin_tertiary" },
+]
+
+[cave_goblin_secondary]
+roll = 256
+drops = [
+    { id = "water_rune", amount = 6, chance = 16 },
+    { id = "coins", min = 13, max = 49, chance = 16 },
+    { id = "body_rune", amount = 7, chance = 8 },
+    { id = "earth_rune", amount = 4, chance = 8 },
+    { id = "air_talisman", chance = 8 },
+    { id = "bone_spear" },
+    { id = "bone_club" },
+    { id = "brass_necklace", chance = 8 },
+    { id = "bronze_spear", chance = 16 },
+    { id = "bronze_sq_shield", chance = 8 },
+    { id = "beer" },
+    { id = "goblin_book", chance = 16 },
+    { id = "goblin_mail", chance = 16 },
+    { id = "iron_chainbody", chance = 16 },
+    { id = "oil_lantern", chance = 8 },
+    { id = "tinderbox", chance = 8 },
+    { id = "chefs_hat", chance = 8 },
+]
+
+[cave_goblin_tertiary]
+roll = 5000
+drops = [
+    { id = "goblin_champions_scroll", lacks = "goblin_champions_scroll" },
+]
+
+[wall_beast_secondary]
+roll = 512
+drops = [
+    { id = "air_rune", amount = 3, chance = 12 },
+    { id = "cosmic_rune", amount = 2, chance = 12 },
+    { id = "chaos_rune", amount = 3, chance = 8 },
+    { id = "chaos_rune", amount = 7, chance = 4 },
+    { id = "bronze_med_helm", chance = 8 },
+    { id = "bronze_full_helm", chance = 8 },
+    { id = "iron_med_helm", chance = 32 },
+    { id = "steel_med_helm", chance = 28 },
+    { id = "steel_full_helm", chance = 16 },
+    { id = "mithril_med_helm", chance = 4 },
+    { id = "mithril_full_helm", chance = 4 },
+    { id = "adamant_med_helm", chance = 4 },
+    { id = "mystic_hat_light" },
+    { id = "coins", amount = 15, chance = 40 },
+    { id = "tinderbox", chance = 84 },
+    { id = "lantern_lens", chance = 48 },
+    { id = "unlit_torch", chance = 36 },
+    { id = "eye_of_newt", chance = 4 },
+    { id = "black_full_helm", chance = 16 },
+    { id = "bullseye_lantern_frame", chance = 32 },
+    { table = "herb_drop_table", chance = 60 },
+]
+
+[wall_beast_tertiary]
+roll = 5000
+drops = [
+    { table = "medium_clue_scroll", chance = 29 },
+    { id = "starved_ancient_effigy", chance = 10 },
+]

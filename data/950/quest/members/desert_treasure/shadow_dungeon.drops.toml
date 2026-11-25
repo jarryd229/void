@@ -1,0 +1,29 @@
+[giant_skeleton_shadow_dungeon_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { table = "giant_skeleton_shadow_dungeon_secondary" },
+    { table = "giant_skeleton_shadow_dungeon_tertiary" },
+]
+
+[giant_skeleton_shadow_dungeon_secondary]
+roll = 128
+drops = [
+    { id = "steel_scimitar", chance = 8 },
+    { id = "steel_hatchet", chance = 2 },
+    { id = "coins", amount = 17, chance = 5 },
+    { id = "coins", amount = 41, chance = 5 },
+    { id = "coins", amount = 142, chance = 5 },
+    { id = "coins", amount = 206, chance = 3 },
+    { id = "coins", amount = 106, chance = 2 },
+    { id = "coins", amount = 323 },
+]
+
+[giant_skeleton_shadow_dungeon_tertiary]
+roll = 5012
+drops = [
+    { table = "medium_clue_scroll", chance = 39 },
+    { id = "long_bone", chance = 12 },
+    { id = "skeleton_champions_scroll", members = true, lacks = "giant_champions_scroll" },
+    { id = "curved_bone" },
+]

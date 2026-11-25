@@ -1,0 +1,126 @@
+[cyreg_paddlehorn]
+id = 1567
+examine = "A tall and imposing man who's more than familiar with boating."
+
+[strange_old_man]
+id = 2024
+examine = "Wonder how long he's been here..."
+
+[crypt_rat_barrows]
+id = 2032
+hitpoints = 350
+att = 70
+str = 20
+def = 20
+combat_def = "crypt_rat_barrows"
+max_hit_stab = 30
+hunt_mode = "cowardly"
+slayer_xp = 35.0
+categories = ["rats"]
+respawn_delay = 50
+examine = "A nasty little rodent."
+drop_table = "crypt_rat"
+
+[skeleton_barrows]
+id = 2036
+clone = "skeleton_unarmed"
+hitpoints = 510
+att = 72
+str = 72
+def = 72
+examine = "Could do with gaining a few pounds."
+
+[skeleton_barrows_2]
+id = 2037
+clone = "skeleton_mace_shield"
+hitpoints = 510
+att = 72
+str = 72
+def = 72
+examine = "Could do with gaining a few pounds."
+
+[skeleton_barrows_3]
+id = 5381
+clone = "skeleton_unarmed"
+hitpoints = 510
+att = 72
+str = 72
+def = 72
+examine = "Could do with gaining a few pounds."
+
+[skeleton_barrows_4]
+id = 5422
+clone = "skeleton_longsword"
+hitpoints = 510
+att = 72
+str = 72
+def = 72
+examine = "Could do with gaining a few pounds."
+
+[ahrim_the_blighted]
+id = 2025
+hitpoints = 1000
+def = 100
+mage = 100
+combat_def = "ahrim_the_blighted"
+xp_bonus = 2.5
+hunt_mode = "cowardly"
+categories = ["barrows_brothers"]
+examine = "A vengeful spirit corrupted by dark magic."
+
+[dharok_the_wretched]
+id = 2026
+hitpoints = 1000
+att = 100
+str = 100
+def = 100
+combat_def = "dharok_the_wretched"
+xp_bonus = 1.5
+categories = ["barrows_brothers"]
+examine = "A vengeful spirit corrupted by dark magic."
+
+[guthan_the_infested]
+id = 2027
+hitpoints = 1000
+att = 100
+str = 100
+def = 100
+combat_def = "guthan_the_infested"
+xp_bonus = 1.5
+hunt_mode = "cowardly"
+categories = ["barrows_brothers"]
+examine = "A vengeful spirit corrupted by dark magic."
+
+[karil_the_tainted]
+id = 2028
+hitpoints = 1000
+def = 100
+range = 100
+combat_def = "karil_the_tainted"
+hunt_mode = "cowardly"
+categories = ["barrows_brothers"]
+examine = "A vengeful spirit corrupted by dark magic."
+
+[torag_the_corrupted]
+id = 2029
+hitpoints = 1000
+att = 100
+str = 100
+def = 100
+combat_def = "torag_the_corrupted"
+xp_bonus = 12.5
+hunt_mode = "cowardly"
+categories = ["barrows_brothers"]
+examine = "A vengeful spirit corrupted by dark magic."
+
+[verac_the_defiled]
+id = 2030
+hitpoints = 1000
+att = 100
+str = 100
+def = 100
+combat_def = "verac_the_defiled"
+xp_bonus = 12.5
+hunt_mode = "cowardly"
+categories = ["barrows_brothers"]
+examine = "A vengeful spirit corrupted by dark magic."

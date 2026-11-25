@@ -1,0 +1,176 @@
+[vannaka_slayer_tasks]
+amount = "range"
+weight = "int"
+tip = "string"
+
+[.aberrant_spectre]
+amount = [60, 120]
+weight = 25
+tip = "Aberrant Spectres are fetid, vile ghosts. The very smell of them will paralyse and harm you. A nosepeg will help ignore their stink."
+
+[.ankou]
+amount = [60, 120]
+weight = 10
+tip = "Ankou are undead skeletal ghosts. Their blows can be powerful but they have limited defences, so killing them quickly is often the best way to protect yourself."
+
+[.banshees]
+amount = [60, 120]
+weight = 15
+tip = "Banshees use a piercing scream to shock their enemies; you'll need some earmuffs to protect yourself from them. Their cries echo throughout the Slayer Tower in Morytania."
+
+[.basilisks]
+amount = [60, 120]
+weight = 10
+tip = "Basilisks, like Cockatrice, have a gaze which will paralyse and harm their prey. You'll need a Mirror Shield to protect you."
+
+[.bloodvelds]
+amount = [60, 120]
+weight = 20
+tip = "Bloodveld are strange demonic creatures, their long rasping tongue has magical properties so it pierces straight through physical defences."
+
+[.brine_rats]
+amount = [60, 120]
+weight = 20
+tip = "Brine Rats can be found in caves that are near the sea. They are hairless, bad-tempered and generally unfriendly."
+
+[.cockatrice]
+amount = [60, 120]
+weight = 10
+tip = "Cockatrice, like Basilisks, have a gaze which will paralyse and harm their prey. You'll need a Mirror Shield to protect you."
+
+[.crocodiles]
+amount = [30, 60]
+weight = 10
+tip = "Crocodiles are large reptiles which live near water. You'll want to have a stabbing weapon handy for puncturing their thick scaly hides."
+
+[.dust_devils]
+amount = [60, 120]
+weight = 25
+tip = "Dust Devils use clouds of dust, sand, ash, and whatever else they can inhale to blind and disorientate their victims. Make sure to wear a facemask when fighting them."
+
+[.earth_warrior]
+amount = [30, 60]
+weight = 15
+tip = "An Earth warrior is a monster made of earth which fights using melee."
+
+[.elves]
+amount = [30, 60]
+weight = 10
+tip = "Elves are agile creatures."
+
+[.ghouls]
+amount = [60, 120]
+weight = 10
+tip = "Ghouls aren't undead but they are stronger and tougher than they look. However they're also very cowardly and will run if they're losing a fight."
+
+[.green_dragons]
+amount = [30, 60]
+weight = 10
+tip = "Green dragons are very powerful, they have fierce fiery breath."
+
+[.harpie_bug_swarms]
+amount = [60, 120]
+weight = 20
+tip = "Harpie Bug Swarms are pesky critters that are hard to hit. You need a lit bug lantern to distract them with its hypnotic light."
+
+[.hill_giants]
+amount = [60, 120]
+weight = 10
+tip = "Hill giants use crude weapons or tools so prepare accordingly. There is a colony of them, deep inside the Edgeville tunnels; all good folk will approve if you clean it out."
+
+[.ice_giants]
+amount = [60, 120]
+weight = 10
+tip = "Like other giants, ice giants often wield large weapons. Try using fire spells to melt them before they can hit you. Ice giants can be found underground to the south of Port Sarim."
+
+[.ice_warriors]
+amount = [60, 120]
+weight = 10
+tip = "Ice warriors are a kind of ice elemental. Thurgo the dwarf recently spotted some in the caves south of Port Sarim."
+
+[.infernal_mage]
+amount = [60, 120]
+weight = 10
+tip = "Infernal Mages are dangerous spell users, beware of their magic spells and go properly prepared."
+
+[.jellies]
+amount = [60, 120]
+weight = 20
+tip = "Jellies are nasty cube-like gelatinous creatures which absorb everything they come across into themselves. Their magical acids bypass physical defences."
+
+[.jungle_horrors]
+amount = [60, 120]
+weight = 10
+tip = "Jungle Horrors can be found all over Mos Le'Harmless. They are strong and aggressive, so watch out!"
+
+[.killerwatts]
+amount = [60, 120]
+weight = 20
+tip = "Killerwatts store huge amounts of energy in their bodies, which is released if they are touched. You'll need to wear heavily insulated boots to counter this shocking effect, plus they can attack speedily with both magic and missiles. To access their cloudy plane, you'll need to explore Draynor Manor."
+
+[.lesser_demons]
+amount = [60, 120]
+weight = 10
+tip = "Demons are weak to magical attacks. Though Lesser Demons are relatively weak they are still dangerous."
+
+[.mogres]
+amount = [60, 120]
+weight = 10
+tip = "Mogres are a type of aquatic ogre that is often mistaken for a giant mudskipper. You have to force them out of the water with a fishing explosive. You can find them on the peninsula to the south of Port Sarim."
+
+[.molanisks]
+amount = [60, 120]
+weight = 10
+
+[.moss_giants]
+amount = [60, 120]
+weight = 10
+tip = "Like other giants, moss giants often wield large weapons. Use fire spells to burn them to cinders before they can damage you. Strangely for giants, some have been seen at the end of the Varrock sewers."
+
+[.ogres]
+amount = [60, 120]
+weight = 10
+tip = "Ogres are brutal creatures, favouring large blunt maces and clubs, they often attack without warning."
+
+[.otherworldly_beings]
+amount = [60, 120]
+weight = 10
+tip = "Otherworldly Beings are ethereal beings making them weak to magical attack."
+
+[.pyrefiends]
+amount = [60, 120]
+weight = 10
+tip = "Pyrefiends are beings of fire and molten rock, they're quick and agile but weak to water spells."
+
+[.sea_snakes]
+amount = [30, 60]
+weight = 10
+
+[.shades]
+amount = [60, 120]
+weight = 10
+tip = "Shades are undead so magic is your best bet against them. You can find Shades at Mort'ton."
+
+[.shadow_warriors]
+amount = [60, 120]
+weight = 10
+tip = "Shadow Warriors are dark and mysterious. They wear spectral plate armour, so crush weapons and magic will give them trouble."
+
+[.terror_dogs]
+amount = [60, 120]
+weight = 10
+
+[.turoth]
+amount = [60, 120]
+weight = 20
+tip = "Turoth are large vicious creatures with thick hides. You'll need a Leaf-Tipped Spear or Sword, Broad Arrows, or a Magic Dart to harm them."
+
+[.vampyres]
+amount = [60, 120]
+weight = 15
+tip = "Vampyres are extremely powerful beings. An underground group known as the Myreque have been searching for tools to defeat them, which they may be willing to share if you can find them."
+
+[.werewolves]
+amount = [60, 120]
+weight = 10
+tip = "Werewolves are feral creatures, they are strong and tough with sharp claws and teeth."

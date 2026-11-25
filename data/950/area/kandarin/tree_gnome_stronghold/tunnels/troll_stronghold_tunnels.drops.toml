@@ -1,0 +1,43 @@
+[troll_general_drop_table]
+type = "all"
+drops = [
+    { id = "big_bones" },
+    { table = "troll_general_secondary" },
+    { table = "troll_general_tertiary" },
+]
+
+[troll_general_secondary]
+roll = 128
+drops = [
+    { id = "nature_rune", amount = 16, chance = 5 },
+    { id = "law_rune", amount = 4, chance = 3 },
+    { id = "steel_platebody", chance = 4 },
+    { id = "steel_warhammer", chance = 3 },
+    { id = "black_warhammer", chance = 3 },
+    { id = "mithril_platebody" },
+    { id = "adamant_hatchet", chance = 2 },
+    { id = "adamant_sq_shield" },
+    { id = "rune_warhammer" },
+    { id = "earth_rune", amount = 25 },
+    { id = "earth_rune", amount = 65 },
+    { id = "earth_rune", amount = 80, chance = 8 },
+    { id = "coins", amount = 40, chance = 29 },
+    { id = "coins", amount = 135, chance = 25 },
+    { id = "coins", amount = 190, chance = 10 },
+    { id = "coins", amount = 20, chance = 4 },
+    { id = "coins", amount = 420 },
+    { id = "court_summons", chance = 2 },
+    { id = "granite_shield" },
+    { id = "raw_tuna_noted" },
+    { id = "coal_noted", chance = 2 },
+    { table = "gem_drop_table", chance = 5 },
+    { table = "herb_drop_table", chance = 15 },
+]
+
+[troll_general_tertiary]
+roll = 5000
+drops = [
+    { id = "long_bone", chance = 12 },
+    { id = "curved_bone" },
+    { id = "starved_ancient_effigy", chance = 29 },
+]

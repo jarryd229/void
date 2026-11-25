@@ -1,0 +1,14 @@
+[gertrudes_cat]
+id = 180
+persist = true
+format = "map"
+default = "unstarted"
+values = {
+    unstarted = 0,
+    spoke_to_gertrude = 1,
+    found_the_boys = 2,
+    found_fluffs = 3,
+    attempt_fluffs_pickup = 4,
+    fluffs_returned = 5,
+    completed = 6,
+}

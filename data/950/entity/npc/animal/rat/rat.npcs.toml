@@ -1,0 +1,156 @@
+[rat]
+id = 47
+hitpoints = 20
+attack_bonus = -47
+slayer_xp = 2.0
+combat_def = "rat"
+respawn_delay = 1
+categories = ["rats"]
+drop_table = "rat"
+height = 5
+examine = "A popular dwarven delicacy."
+
+[stronghold_rat]
+clone = "rat"
+id = 4415
+respawn_delay = 30
+
+[stronghold_rat_2]
+id = 4396
+categories = ["rats"]
+clone = "stronghold_rat"
+drop_table = "stronghold_rat"
+
+[stronghold_giant_rat]
+id = 4944
+hitpoints = 250
+att = 22
+str = 23
+def = 22
+combat_def = "giant_rat"
+slayer_xp = 25.0
+respawn_delay = 30
+categories = ["rats"]
+drop_table = "stronghold_rat"
+examine = "Overgrown vermin."
+hunt_mode = "cowardly"
+
+[stronghold_giant_rat_2]
+id = 4945
+categories = ["rats"]
+clone = "stronghold_giant_rat"
+hunt_mode = "cowardly"
+
+[stronghold_giant_rat_3]
+id = 4395
+categories = ["rats"]
+clone = "stronghold_giant_rat"
+hunt_mode = "cowardly"
+
+[giant_rat]
+id = 86
+att = 2
+str = 3
+def = 2
+combat_def = "giant_rat"
+hitpoints = 53
+slayer_xp = 5.0
+respawn_delay = 30
+drop_table = "giant_rat"
+categories = ["giant_rats", "rats"]
+examine = "Overgrown vermin."
+
+[giant_rat_tutorial_island]
+id = 950
+clone = "giant_rat"
+hitpoints = 50
+combat_def = "giant_rat_tutorial_island"
+
+[giant_rat_3]
+id = 12349
+clone = "giant_rat"
+hitpoints = 50
+
+[giant_rat_5]
+id = 12351
+clone = "giant_rat"
+hitpoints = 50
+
+[giant_rat_dark]
+id = 8828
+att = 6
+str = 5
+def = 2
+hitpoints = 100
+slayer_xp = 10.0
+respawn_delay = 30
+combat_def = "giant_rat"
+drop_table = "giant_rat"
+categories = ["giant_rats", "rats"]
+examine = "Overgrown vermin."
+hunt_mode = "cowardly"
+
+[giant_rat_brimhaven]
+id = 4926
+categories = ["rats"]
+clone = "giant_rat_dark"
+hunt_mode = "cowardly"
+
+[giant_rat_dark_injured]
+id = 8829
+categories = ["giant_rats", "rats"]
+clone = "giant_rat_dark"
+hunt_mode = "cowardly"
+
+[rat_ratcatchers]
+id = 2974
+
+[rat_ratcatchers_2]
+id = 2975
+
+[rat_ratcatchers_3]
+id = 2976
+
+[rat_ratcatchers_4]
+id = 2977
+
+[rat_ratcatchers_5]
+id = 2978
+
+[rat_ratcatchers_6]
+id = 2979
+
+[rat_ratcatchers_7]
+id = 2980
+examine = "A popular dwarven delicacy."
+
+[rat_swept_away]
+id = 8209
+examine = "Cheese-eater."
+
+[giant_rat_2]
+id = 4942
+hitpoints = 50
+att = 2
+str = 3
+def = 2
+examine = "Overgrown vermin."
+categories = ["giant_rats", "rats"]
+
+[giant_rat_4]
+id = 4943
+hitpoints = 50
+att = 2
+str = 3
+def = 2
+examine = "Overgrown vermin."
+categories = ["giant_rats", "rats"]
+
+[giant_rat_6]
+id = 12350
+hitpoints = 50
+att = 2
+str = 3
+def = 2
+examine = "Overgrown vermin."
+categories = ["giant_rats", "rats"]

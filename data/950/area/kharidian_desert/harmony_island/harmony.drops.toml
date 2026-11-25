@@ -1,0 +1,81 @@
+[sorebones_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { id = "brain_tongs", variable = "great_brain_robbery", equals = "started", default = "unstarted" },
+    { id = "cranial_clamp", variable = "great_brain_robbery", equals = "started", default = "unstarted" },
+    { id = "bell_jar", amount = 3, variable = "great_brain_robbery", equals = "started", default = "unstarted" },
+    { id = "skull_staple", amount = 30, variable = "great_brain_robbery", equals = "started", default = "unstarted" },
+    { table = "sorebones_secondary" },
+    { table = "sorebones_tertiary" },
+]
+
+[sorebones_secondary]
+roll = 128
+drops = [
+    { id = "steel_bolts", amount = 6, chance = 3 },
+    { id = "mithril_dagger", chance = 2 },
+    { id = "bandana_and_eyepatch_blue", chance = 3 },
+    { id = "bandana_and_eyepatch_red", chance = 5 },
+    { id = "eye_patch" },
+    { id = "mithril_scimitar", chance = 3 },
+    { id = "water_rune", amount = 23 },
+    { id = "body_rune", amount = 6, chance = 2 },
+    { id = "chaos_rune", amount = 7 },
+    { id = "cosmic_rune", amount = 5, chance = 3 },
+    { id = "law_rune", amount = 2, chance = 3 },
+    { table = "herb_drop_table", chance = 29 },
+    { id = "coins", amount = 30, chance = 10 },
+    { id = "coins", amount = 38, chance = 21 },
+    { id = "coins", amount = 46, chance = 8 },
+    { id = "coins", amount = 55, chance = 6 },
+    { id = "coins", amount = 60, chance = 2 },
+    { id = "fishing_bait", amount = 10, chance = 22 },
+    { id = "rusty_scimitar" },
+    { id = "braindeath_rum" },
+    { table = "gem_drop_table" },
+]
+
+[sorebones_tertiary]
+roll = 5000
+drops = [
+    { id = "zombie_bone", chance = 1250, variable = "rag_and_bone_man_wish_list", equals = "started", default = "unstarted" },
+    { id = "zombie_champions_scroll", members = true, lacks = "zombie_champions_scroll" },
+]
+
+[zombie_pirate_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "zombie_pirate_secondary" },
+    { table = "zombie_pirate_tertiary" },
+]
+
+[zombie_pirate_secondary]
+roll = 420
+drops = [
+    { id = "mithril_scimitar" },
+    { id = "mithril_dagger", chance = 13 },
+    { id = "steel_bolts", amount = 2, chance = 26 },
+    { id = "bandana_and_eyepatch_red", chance = 13 },
+    { id = "bandana_and_eyepatch_blue", chance = 13 },
+    { id = "air_rune", amount = 3, chance = 10 },
+    { id = "water_rune", amount = 23, chance = 3 },
+    { id = "body_rune", amount = 6, chance = 7 },
+    { id = "chaos_rune", amount = 7, chance = 3 },
+    { id = "cosmic_rune", amount = 5, chance = 10 },
+    { id = "law_rune", amount = 2, chance = 2 },
+    { id = "coins", min = 1000, max = 8000, chance = 4 },
+    { id = "karamthulhu", chance = 10 },
+    { id = "fishing_bait", amount = 10, chance = 16 },
+    { id = "braindeath_rum", chance = 2 },
+    { id = "iron_ore", chance = 13 },
+    { id = "rusty_scimitar", chance = 3 },
+    { table = "herb_drop_table", chance = 49 },
+]
+
+[zombie_pirate_tertiary]
+roll = 5000
+drops = [
+    { id = "zombie_bone", chance = 1250, variable = "rag_and_bone_man_wish_list", equals = "started", default = "unstarted" },
+]

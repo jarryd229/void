@@ -1,0 +1,8 @@
+[the_inadequacy]
+defend_anim = "the_inadequacy_defend"
+death_anim = "the_inadequacy_death"
+
+[the_inadequacy.range]
+range = 6
+target_hit = { offense = "range", max = 200 }
+anim = "the_inadequacy_attack"

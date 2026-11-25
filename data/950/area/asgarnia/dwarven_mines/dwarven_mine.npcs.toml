@@ -1,0 +1,67 @@
+[hammerspike_stoutbeard]
+id = 1794
+examine = "He looks quite independent in an aggressive and business like way."
+
+[dwarf_gang_member]
+id = 1795
+categories = ["dwarves"]
+examine = "A short stout menacing fellow."
+drop_table = "dwarf_gang_member"
+combat_def = "dwarf"
+hitpoints = 400
+att = 40
+str = 40
+def = 35
+max_hit_crush = 50
+
+[dwarf_gang_member_2]
+id = 1796
+categories = ["dwarves"]
+examine = "A short stout menacing fellow."
+drop_table = "dwarf_gang_member"
+combat_def = "dwarf"
+hitpoints = 250
+att = 80
+str = 30
+def = 25
+max_hit_crush = 40
+
+[dwarf_gang_member_3]
+id = 1797
+categories = ["dwarves"]
+examine = "A short stout menacing fellow."
+drop_table = "dwarf_gang_member"
+combat_def = "dwarf"
+hitpoints = 250
+att = 30
+str = 60
+def = 57
+max_hit_crush = 70
+
+[cart_conductor]
+id = 2186
+examine = "Keeps the line clear of traffic."
+
+[hura]
+id = 4563
+shop = "crossbow_shop_dwarven_mine"
+examine = "A seller of crossbow parts."
+
+[drogo_dwarf]
+id = 579
+shop = "drogos_mining_emporium"
+examine = "He runs a Mining store."
+
+[dwarf_dwarven_mine]
+id = 582
+shop = "dwarven_shopping_store"
+examine = "I wonder if he wants to buy my junk?"
+
+[nurmof]
+id = 594
+shop = "nurmofs_pickaxe_shop"
+examine = "He runs a pickaxe store."
+
+[boot_dwarven_mine]
+id = 665
+examine = "I wonder why he's called boot."

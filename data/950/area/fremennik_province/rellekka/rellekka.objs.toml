@@ -1,0 +1,63 @@
+[pottery_oven_rellekka]
+id = 4308
+examine = "Bake your clay items in here."
+
+[fur_stall]
+id = 4278
+empty = "viking_market_stall_empty"
+level = 35
+exp = 45.0
+restock = 12
+examine = "All manner of animal clothing."
+
+[fish_stall]
+id = 4277
+empty = "viking_market_stall_empty"
+level = 42
+exp = 42.0
+restock = 12
+examine = "There's something fishy about this stall."
+
+[fire_rellekka]
+id = 4265
+examine = "Toasty."
+
+[furnace_rellekka]
+id = 4304
+examine = "A hot furnace."
+
+[spinning_wheel_rellekka]
+id = 4309
+examine = "Used for spinning thread."
+
+[potters_wheel_rellekka]
+id = 4310
+examine = "Used for fashioning clay items."
+
+[ice_strykewyrm_cave_entrance]
+id = 48188
+examine = "It looks cold in there."
+
+[ice_strykewyrm_cave_exit]
+id = 48189
+examine = "The exit is this way out."
+
+[erjolf_cave_opening]
+id = 42794
+examine = "This seems to head deeper into the caves."
+
+[erjolf_cave_opening_exit]
+id = 42795
+examine = "I can get through there."
+
+[erjolf_cave_exit]
+id = 42891
+examine = "This must be the way out."
+
+[erjolf_cave_entrance]
+id = 42793
+examine = "An entrance leading under ground."
+
+[viking_treestump]
+id = 4328
+examine = "This tree has been cut down."

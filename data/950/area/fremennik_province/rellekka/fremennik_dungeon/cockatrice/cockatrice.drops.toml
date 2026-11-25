@@ -1,0 +1,55 @@
+[cockatrice_drop_table]
+type = "all"
+drops = [
+    { id = "bones" },
+    { table = "cockatrice_secondary" },
+    { table = "cockatrice_tertiary" },
+    { table = "cockatrice_charms", members = true },
+]
+
+[cockatrice_secondary]
+roll = 512
+drops = [
+    { id = "iron_sword", chance = 12 },
+    { id = "steel_dagger", chance = 12 },
+    { id = "iron_boots", chance = 4 },
+    { id = "iron_javelin", amount = 5, chance = 4 },
+    { id = "steel_longsword", chance = 4 },
+    { id = "nature_rune", amount = 2, chance = 24 },
+    { id = "nature_rune", amount = 4, chance = 16 },
+    { id = "nature_rune", amount = 6, chance = 8 },
+    { id = "law_rune", amount = 2, chance = 12 },
+    { id = "law_rune", amount = 3, chance = 16 },
+    { id = "water_rune", min = 1, max = 2, chance = 8 },
+    { id = "fire_rune", amount = 7, chance = 8 },
+    { table = "herb_drop_table", chance = 40 },
+    { id = "coins", amount = 15, chance = 64 },
+    { id = "coins", amount = 28, chance = 48 },
+    { id = "coins", amount = 62, chance = 16 },
+    { id = "limpwurt_root", chance = 84 },
+    { table = "gem_drop_table", chance = 8 },
+    { id = "steel_platelegs", chance = 3 },
+    { id = "rune_med_helm" },
+    { id = "ranarr_seed", chance = 3 },
+    { id = "cockatrice_egg", chance = 32 },
+    { id = "mithril_ore", chance = 3 },
+    { table = "allotment_seed_drop_table", chance = 60 },
+]
+
+[cockatrice_tertiary]
+roll = 1000
+drops = [
+    { table = "medium_clue_scroll", chance = 7 },
+    { id = "cockatrice_head" },
+    { id = "mystic_boots_light", chance = 2 },
+    { id = "starved_ancient_effigy", chance = 2 },
+]
+
+[cockatrice_charms]
+roll = 100000
+drops = [
+    { id = "gold_charm", chance = 2266 },
+    { id = "green_charm", chance = 7365 },
+    { id = "crimson_charm", chance = 1174 },
+    { id = "blue_charm", chance = 269 },
+]

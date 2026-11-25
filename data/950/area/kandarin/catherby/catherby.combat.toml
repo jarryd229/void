@@ -1,0 +1,7 @@
+[renegade_knight]
+clone = "human"
+
+[renegade_knight.melee]
+range = 1
+anim = "human_attack"
+target_hit = { offense = "slash", max = 75 }

@@ -1,0 +1,191 @@
+[ghast]
+id = 1052
+hitpoints = 450
+att = 22
+str = 22
+def = 18
+style = "slash"
+max_hit_melee = 30
+respawn_delay = 40
+categories = ["ghosts"]
+hunt_mode = "aggressive"
+examine = "Arrghhh... A Ghast."
+
+[ghast_level_30]
+id = 1053
+hitpoints = 450
+att = 22
+str = 22
+def = 18
+style = "slash"
+max_hit_melee = 30
+respawn_delay = 40
+categories = ["ghosts"]
+drop_table = "ghast"
+examine = "Arrghhh... A ghast!"
+
+[ghast_level_79]
+id = 3609
+hitpoints = 1150
+att = 80
+str = 30
+def = 60
+mage = 30
+range = 30
+style = "crush"
+max_hit_melee = 40
+respawn_delay = 40
+attack_speed = 8
+immune_poison = true
+drop_table = "ghast"
+examine = "Arrghhh... A ghast!"
+categories = ["ghosts"]
+
+[ghast_level_109]
+id = 3610
+hitpoints = 1350
+att = 110
+str = 70
+def = 70
+mage = 30
+range = 30
+style = "crush"
+max_hit_melee = 80
+respawn_delay = 40
+attack_speed = 8
+drop_table = "ghast"
+examine = "Arrghhh... A ghast!"
+categories = ["ghosts"]
+
+[ghast_level_139]
+id = 3611
+hitpoints = 1600
+att = 135
+str = 110
+def = 80
+mage = 30
+range = 30
+style = "crush"
+max_hit_melee = 120
+respawn_delay = 40
+attack_speed = 8
+drop_table = "ghast"
+examine = "Arrghhh... A ghast!"
+categories = ["ghosts"]
+
+[myre_blamish_snail]
+id = 1227
+hitpoints = 80
+att = 0
+str = 0
+def = 22
+range = 5
+combat_def = "snail"
+attack_bonus = 10
+hunt_mode = "cowardly"
+respawn_delay = 50
+drop_table = "myre_blamish_snail"
+examine = "A marsh coloured blamish snail, these types are said to spit acid."
+
+[blood_blamish_snail]
+id = 1228
+hitpoints = 100
+def = 30
+range = 21
+combat_def = "snail"
+attack_bonus = 10
+hunt_mode = "cowardly"
+respawn_delay = 50
+drop_table = "blood_blamish_snail"
+examine = "A blood coloured blamish snail, these types are said to spit acid."
+
+[ochre_blamish_snail]
+id = 1229
+hitpoints = 100
+att = 0
+str = 0
+def = 18
+range = 7
+combat_def = "snail"
+attack_bonus = 10
+hunt_mode = "cowardly"
+respawn_delay = 50
+examine = "A muddy coloured blamish snail, these types are said to spit acid."
+
+[bruise_blamish_snail]
+id = 1230
+hitpoints = 120
+att = 0
+str = 0
+def = 40
+range = 15
+combat_def = "snail"
+attack_bonus = 10
+hunt_mode = "cowardly"
+respawn_delay = 50
+drop_table = "bruise_blamish_snail"
+examine = "A bruise blue coloured blamish snail, these types are said to spit acid."
+
+[bark_blamish_snail]
+id = 1231
+hitpoints = 220
+def = 20
+range = 10
+combat_def = "snail"
+attack_bonus = 10
+hunt_mode = "cowardly"
+respawn_delay = 50
+drop_table = "bark_blamish_snail"
+examine = "A branch bark coloured blamish snail, these types are said to spit acid."
+
+[myre_blamish_snail_2]
+id = 1232
+clone = "myre_blamish_snail"
+hitpoints = 130
+def = 12
+range = 8
+
+[blood_blamish_snail_2]
+id = 1233
+clone = "blood_blamish_snail"
+
+[ochre_blamish_snail_2]
+id = 1234
+clone = "ochre_blamish_snail"
+hitpoints = 200
+def = 25
+range = 8
+drop_table = "ochre_blamish_snail"
+
+[bruise_blamish_snail_2]
+id = 1235
+clone = "bruise_blamish_snail"
+hitpoints = 150
+def = 27
+range = 20
+
+[fishing_spot_mort_myre_swamp]
+id = 1236
+
+[fishing_spot_mort_myre_swamp_centre]
+id = 1237
+
+[fishing_spot_mort_myre_swamp_south]
+id = 1238
+
+[curpile_fyod_mort_myre_swamp]
+id = 1568
+
+[vampire]
+id = 1223
+hitpoints = 400
+att = 55
+str = 60
+def = 55
+mage = 40
+range = 1
+slayer_xp = 40.0
+combat_def = "vampyre"
+drop_table = "vampyre"
+categories = ["vampyres"]
+examine = "A feral vampyre. It looks really hungry!"

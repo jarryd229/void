@@ -1,0 +1,17 @@
+[twig]
+defend_anim = "troll_defend"
+death_anim = "troll_death"
+
+[twig.melee]
+range = 1
+target_hit = { offense = "crush", max = 130 }
+anim = "troll_attack"
+
+[berry]
+defend_anim = "troll_defend"
+death_anim = "troll_death"
+
+[berry.melee]
+range = 1
+target_hit = { offense = "crush", max = 130 }
+anim = "troll_attack"

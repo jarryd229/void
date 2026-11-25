@@ -1,0 +1,16 @@
+[shadow_mournings_end_part_2]
+id = 2782
+categories = ["shadow_creatures"]
+examine = "A shadow."
+drop_table = "empty"
+hitpoints = 150
+att = 90
+str = 120
+def = 5
+mage = 90
+
+[arianwyn]
+id = 8952
+
+[arianwyn_2]
+id = 8914

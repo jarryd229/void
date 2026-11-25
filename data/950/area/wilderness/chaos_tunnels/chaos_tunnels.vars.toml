@@ -1,0 +1,3 @@
+[bork_cooldown]
+format = "int"
+persist = true

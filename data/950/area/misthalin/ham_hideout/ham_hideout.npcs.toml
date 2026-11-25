@@ -1,0 +1,96 @@
+[johanhus_ulsbrecht_ham_cave]
+id = 1709
+examine = "The leader of the 'Humans Against Monsters' group."
+
+[ham_guard_ham_cave]
+id = 1710
+hitpoints = 150
+att = 8
+str = 12
+def = 8
+style = "crush"
+max_hit_melee = 20
+respawn_delay = 25
+drop_table = "ham_guard"
+examine = "A guard for the humans against monster group."
+combat_def = "guard"
+
+[ham_guard_ham_cave_2]
+id = 1711
+hitpoints = 200
+att = 14
+str = 18
+def = 12
+style = "crush"
+max_hit_melee = 30
+respawn_delay = 25
+examine = "A guard for the humans against monster group."
+drop_table = "h_a_m_guard"
+combat_def = "guard"
+
+[ham_guard_ham_cave_3]
+id = 1712
+hitpoints = 300
+att = 16
+str = 20
+def = 12
+style = "crush"
+max_hit_melee = 30
+respawn_delay = 25
+examine = "A guard for the humans against monster group."
+drop_table = "h_a_m_guard"
+combat_def = "guard"
+
+[ham_deacon_ham_cave]
+id = 1713
+examine = "A deacon in the Humans Against Monsters group. A rather enthusiastic chap."
+
+[ham_member_male_ham_cave]
+id = 1714
+combat_def = "ham_member"
+examine = "A member of the 'Humans Against Monsters' group."
+
+[ham_member_female_ham_cave]
+id = 1715
+combat_def = "ham_member"
+examine = "A member of the 'Humans Against Monsters' group."
+
+[ham_member_ham_cave_3]
+id = 1717
+examine = "A member of the 'Humans Against Monsters' group."
+
+[jimmy_the_chisel_ham_cave]
+id = 1718
+examine = "A young man with a dark and mysterious past."
+
+[sigmund_ham_cave]
+id = 2081
+
+[sigmund_ham_cave_2]
+id = 2083
+
+[ham_archer]
+id = 5859
+hitpoints = 350
+att = 0
+str = 0
+def = 30
+mage = 0
+range = 30
+style = "range"
+weapon_style = "bow"
+ammo = "bronze_arrow"
+attack_range = 8
+max_hit_range = 40
+hunt_mode = "cowardly"
+examine = "He looks pretty skilled with that bow."
+
+[ham_mage]
+id = 5860
+hitpoints = 350
+def = 30
+mage = 30
+style = "magic"
+max_hit_magic = 40
+hunt_mode = "cowardly"
+examine = "He bristles with arcane power."

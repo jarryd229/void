@@ -1,0 +1,34 @@
+[mercenary_adventurer]
+id = 1048
+
+[mercenary_adventurer_normal]
+id = 7664
+
+[ulizius]
+id = 1054
+examine = "A slightly nervous guard."
+
+[hiylik_myna]
+id = 1514
+examine = "A local holy man who supports the people trying to get through Mort Myre."
+
+[monk_paterdomus_temple]
+id = 3074
+
+[dead_monk_paterdomus_temple]
+id = 3076
+
+[blaze_sharpeye_paterdomus_temple]
+id = 8065
+
+[monk_paterdomus_temple_2]
+id = 3075
+
+[dead_monk_paterdomus_temple_2]
+id = 3077
+
+[blaze_sharpeye_paterdomus_temple_2]
+id = 5191
+
+[blaze_sharpeye_paterdomus_temple_3]
+id = 5194

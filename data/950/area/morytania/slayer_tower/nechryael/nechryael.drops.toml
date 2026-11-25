@@ -1,0 +1,62 @@
+[nechryael_drop_table]
+type = "all"
+drops = [
+  { table = "nechryael_secondary" },
+  { table = "hard_clue_scroll", roll = 128 },
+  { table = "nechryael_charms", members = true },
+  { table = "nechryael_tertiary" },
+]
+
+[nechryael_secondary]
+roll = 928
+drops = [
+  { id = "adamant_platelegs", chance = 32 },
+  { id = "rune_2h_sword", chance = 32 },
+  { id = "rune_full_helm", chance = 24 },
+  { id = "adamant_kiteshield", chance = 16 },
+  { id = "rune_boots", chance = 8 },
+  { id = "chaos_rune", amount = 3, chance = 9 },
+  { id = "chaos_rune", amount = 37, chance = 64 },
+  { id = "death_rune", amount = 5, chance = 48 },
+  { id = "death_rune", amount = 10, chance = 48 },
+  { id = "law_rune", amount = 45, chance = 25 },
+  { table = "rare_seed_drop_table", chance = 144 },
+  { id = "coins", min = 1000, max = 1499, chance = 104 },
+  { id = "coins", min = 1500, max = 2000, chance = 84 },
+  { id = "coins", min = 2500, max = 2999, chance = 48 },
+  { id = "coins", min = 3000, max = 3500, chance = 24 },
+  { id = "coins", min = 500, max = 999, chance = 20 },
+  { id = "coins", amount = 5000, chance = 8 },
+  { id = "tuna", chance = 24 },
+  { table = "rare_drop_table", chance = 8 },
+  { id = "mithril_kiteshield", chance = 18 },
+  { id = "steel_2h_sword", chance = 36 },
+  { id = "steel_battleaxe", chance = 36 },
+  { id = "steel_hatchet", chance = 36 },
+  { id = "rune_longsword" },
+  { id = "doomcore_staff", chance = 3 },
+  { id = "thread", amount = 10, chance = 5 },
+  { id = "gold_bar", chance = 18 },
+  { id = "court_summons", chance = 3 },
+]
+
+[death_spawn_drop_table]
+type = "all"
+drops = [
+  { id = "ashes" },
+]
+
+[nechryael_charms]
+roll = 100000
+drops = [
+    { id = "gold_charm", chance = 8836 },
+    { id = "green_charm", chance = 4369 },
+    { id = "crimson_charm", chance = 30473 },
+    { id = "blue_charm", chance = 1031 },
+]
+
+[nechryael_tertiary]
+roll = 5000
+drops = [
+  { id = "starved_ancient_effigy", chance = 10 },
+]

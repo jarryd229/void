@@ -1,0 +1,8 @@
+[barbarian]
+defend_anim = "barbarian_defend"
+death_anim = "barbarian_death"
+
+[barbarian.melee]
+range = 1
+target_hit = { offense = "crush", max = 20 }
+anim = "barbarian_attack"

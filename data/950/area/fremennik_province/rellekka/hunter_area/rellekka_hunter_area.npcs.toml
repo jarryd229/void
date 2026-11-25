@@ -1,0 +1,90 @@
+[snowy_knight]
+id = 5083
+respawn_delay = 10
+collision = "sky"
+examine = "It's a snowy knight butterfly."
+
+[sapphire_glacialis]
+id = 5084
+respawn_delay = 10
+collision = "sky"
+examine = "A sapphire glacialis. It doesn't look as pretentious as its name sounds."
+
+[sabre_toothed_kyatt]
+id = 5103
+hitpoints = 420
+att = 60
+str = 60
+def = 42
+combat_def = "panther"
+respawn_delay = 50
+examine = "It's just like a big, white, furry, deadly can opener."
+
+[hunting_expert_rellekka]
+id = 5112
+shop = "hunting_supplies_rellekka"
+examine = "He must be good at hunting; even his hair blends in with the surroundings."
+
+[yeti]
+id = 7379
+examine = "Aww, aren't the little ones cute?"
+drop_table = "yeti"
+hitpoints = 550
+att = 48
+str = 60
+def = 39
+max_hit_crush = 70
+hunt_mode = "cowardly"
+
+[yeti_2]
+id = 7380
+drop_table = "yeti"
+hitpoints = 550
+att = 48
+str = 60
+def = 39
+max_hit_crush = 70
+combat_def = "yeti"
+hunt_mode = "cowardly"
+
+[gnoeals]
+id = 7381
+examine = "A strange, magical beast."
+drop_table = "gnoeals"
+hitpoints = 750
+att = 1
+str = 1
+def = 101
+mage = 101
+max_hit_magic = 120
+hunt_mode = "cowardly"
+
+[gnoeals_2]
+id = 7382
+drop_table = "gnoeals"
+hitpoints = 750
+att = 1
+str = 1
+def = 88
+mage = 88
+max_hit_magic = 120
+combat_def = "gnoeals"
+hunt_mode = "cowardly"
+
+[erjolf_base]
+id = 7405
+
+[natural_historian_rellekka]
+id = 7457
+
+[cerulean_twitch]
+id = 5074
+respawn_delay = 5
+examine = "Best served ice cold."
+
+[erjolf_2]
+id = 7463
+
+[natural_historian_rellekka_2]
+id = 7458
+

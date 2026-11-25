@@ -1,0 +1,75 @@
+[spider_ape_atoll]
+clone = "spider"
+
+[spider_ape_atoll.melee]
+clone = "spider.melee"
+target_hit = { offense = "slash", max = 10 }
+impact_poison = 10
+
+[jungle_spider_ape_atoll]
+clone = "giant_spider"
+
+[jungle_spider_ape_atoll.melee]
+clone = "giant_spider.melee"
+target_hit = { offense = "stab", max = 100 }
+impact_poison = 10
+
+[scorpion_ape_atoll]
+clone = "small_scorpion"
+
+[scorpion_ape_atoll.melee]
+clone = "small_scorpion.melee"
+target_hit = { offense = "stab", max = 150 }
+impact_poison = 10
+
+[bird_ape_atol]
+defend_anim = "bird_defend"
+death_anim = "bird_death"
+
+[bird_ape_atol.melee]
+range = 1
+anim = "bird_attack"
+target_hit = { offense = "stab", max = 20 }
+
+[ninja_monkey]
+defend_anim = "ninja_monkey_defend_double_scimitar"
+defend_sound = "monkey_defend"
+death_anim = "ninja_monkey_death"
+death_sound = "monkey_death"
+
+[ninja_monkey.melee]
+anim = "ninja_monkey_attack_double_scimitar"
+target_hit = { offense = "slash", max = 140 }
+
+[padulah]
+defend_anim = "padulah_defend"
+death_anim = "padulah_death"
+
+[padulah.melee]
+range = 1
+target_hit = { offense = "slash", max = 200 }
+anim = "padulah_attack"
+
+[monkey_archer]
+defend_anim = "monkey_archer_defend"
+death_anim = "monkey_archer_death"
+defend_sound = "monkey_archer_defend"
+death_sound = "monkey_archer_death"
+
+[monkey_archer.range]
+range = 6
+target_hit = { offense = "range", max = 200 }
+anim = "monkey_archer_attack"
+sound = "monkey_archer_attack"
+
+[monkey_guard]
+defend_anim = "monkey_guard_defend"
+death_anim = "monkey_guard_death"
+death_sound = "jungle_horror_death"
+defend_sound = "fenris_wolf_attack"
+
+[monkey_guard.melee]
+range = 1
+anim = "monkey_guard_attack"
+target_sound = "monkey_guard_ape_atoll_attack"
+target_hit = { offense = "crush", max = 140 }

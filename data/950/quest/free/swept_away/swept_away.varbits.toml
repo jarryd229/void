@@ -1,0 +1,10 @@
+[swept_away]
+id = 5448
+persist = true
+format = "map"
+default = "unstarted"
+values = { unstarted = 0, started = 1, completed = 50 }
+
+[hettys_trapdoor_opened]
+id = 5465
+format = "boolean"

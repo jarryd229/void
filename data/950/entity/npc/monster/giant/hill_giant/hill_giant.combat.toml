@@ -1,0 +1,11 @@
+[hill_giant]
+defend_anim = "hill_giant_defend"
+defend_sound = "giant_defend"
+death_anim = "hill_giant_death"
+death_sound = "giant_death"
+
+[hill_giant.melee]
+range = 1
+anim = "hill_giant_attack"
+target_sound = "gorad_attack"
+target_hit = { offense = "crush", max = 40 }

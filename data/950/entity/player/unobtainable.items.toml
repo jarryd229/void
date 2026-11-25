@@ -1,0 +1,750 @@
+[poisoned_dart_p] # Unreleased
+id = 818
+examine = "A deadly throwing dart with a poisoned tip."
+
+[papyrus_used]
+id = 972
+examine = "Used papyrus, it has squiggles all over it. "
+
+[poisoned_dagger_p]
+id = 1235
+examine = "The blade is covered with poison. "
+
+[poisoned_dagger_p_noted]
+id = 1236
+
+[farmers_fork]
+id = 1411
+examine = "A farmer's fork."
+
+[farmers_fork_noted]
+id = 1412
+
+[halberd]
+id = 1413
+examine = "A halberd."
+
+[halberd_noted]
+id = 1414
+
+[warhammer]
+id = 1415
+examine = "A warhammer."
+
+[warhammer_noted]
+id = 1416
+
+[javelin]
+id = 1417
+examine = "A javelin."
+
+[javelin_noted]
+id = 1418
+
+[soul_talisman]
+id = 1460
+examine = "A mysterious power emanates from the talisman..."
+
+[soul_talisman_noted]
+id = 1461
+
+[weapon_poison_ranging_guild]
+id = 1465
+examine = "For use on daggers and projectiles. "
+
+[unfinished_cocktail_pineapple_punch_mixed]
+id = 2042
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_blurberry_special_mixed]
+id = 2056
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_blurberry_special_orange]
+id = 2058
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_blurberry_special_lemon]
+id = 2060
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_blurberry_special_lime]
+id = 2062
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_choc_saturday_mixed]
+id = 2066
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_choc_saturday_chocolate_bar]
+id = 2068
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_choc_saturday_heated]
+id = 2070
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_choc_saturday_cream]
+id = 2072
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_short_green_guy_mixed]
+id = 2076
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_short_green_guy_lime]
+id = 2078
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_fruit_blast]
+id = 2082
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_pineapple_punch_lime]
+id = 2044
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_pineapple_punch_pineapple]
+id = 2046
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_wizard_blizzard_mixed]
+id = 2050
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_wizard_blizzard_pineapple]
+id = 2052
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_drunk_dragon_mixed]
+id = 2086
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_drunk_dragon_pineapple]
+id = 2088
+examine = "This cocktail is just missing those little finishing touches."
+
+[unfinished_cocktail_drunk_dragon_cream]
+id = 2090
+examine = "This cocktail is just missing those little finishing touches."
+
+[equa_toads_legs]
+id = 2154
+examine = "They're a gnome delicacy apparently."
+
+[odd_batta]
+id = 2245
+weight = 0.25
+examine = "This batta doesn't look very appetising."
+
+[equa_toads_legs_noted]
+id = 2155
+
+[odd_gnomebowl_noted]
+id = 2174
+
+[unfinished_bowl_chocolate_bomb_baked_noted]
+id = 2180
+
+[unfinished_bowl_chocolate_bomb_cream_noted]
+id = 2182
+
+[unfinished_bowl_chocolate_bomb_2_cream_noted]
+id = 2184
+
+[unfinished_bowl_worm_hole_noted]
+id = 2190
+
+[unfinished_bowl_veg_ball_noted]
+id = 2194
+
+[unfinished_crunchy_worm_noted]
+id = 2204
+
+[unfinished_crunchy_chocolate_chip_noted]
+id = 2208
+
+[unfinished_crunchy_spicy_noted]
+id = 2212
+
+[unfinished_crunchy_toad_noted]
+id = 2216
+
+[unfinished_batta_cheese_and_tomato]
+id = 2257
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_fruit_baked]
+id = 2261
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_fruit_baked_noted]
+id = 2262
+
+[unfinished_batta_fruit_lime]
+id = 2263
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_fruit_lime_noted]
+id = 2264
+
+[unfinished_batta_fruit_orange]
+id = 2265
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_fruit_orange_noted]
+id = 2266
+
+[unfinished_batta_fruit_pineapple]
+id = 2267
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_fruit_pineapple_noted]
+id = 2268
+
+[unfinished_batta_fruit_lime_orange]
+id = 2269
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_fruit_lime_orange_noted]
+id = 2270
+
+[unfinished_batta_fruit_lime_pineapple]
+id = 2271
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_fruit_lime_pineapple_noted]
+id = 2272
+
+[unfinished_batta_fruit_orange_pineapple]
+id = 2273
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_fruit_orange_pineapple_noted]
+id = 2274
+
+[unfinished_batta_fruit_lime_orange_pineapple]
+id = 2275
+examine = "This batta is just missing those little finishing touches."
+
+[unfinished_batta_vegetable]
+id = 2279
+examine = "This batta is just missing those little finishing touches.	"
+
+[unfinished_batta_worm]
+id = 2251
+examine = "This batta is just missing those little finishing touches."
+
+[odd_batta_noted]
+id = 2246
+
+[unfinished_batta_worm_noted]
+id = 2252
+
+[unfinished_batta_cheese_and_tomato_noted]
+id = 2258
+
+[unfinished_batta_fruit_lime_orange_pineapple_noted]
+id = 2276
+
+[unfinished_batta_vegetable_noted]
+id = 2280
+
+[left_handed_banana_noted]
+id = 3178
+
+[dummy]
+id = 4032
+examine = "A fade."
+
+[dial]
+id = 5572
+examine = "I wonder what this does?"
+
+[magic_carpet]
+id = 5614
+tradeable = false
+weight = 0.005
+slot = "Weapon"
+examine = "A flying Magic carpet."
+
+[poison_dagger_p+] 
+id = 5684
+examine = "The blade is covered with poison."
+
+[poison_dagger_p+_noted]
+id = 5685
+
+[poison_dagger_p++]
+id = 5702
+examine = "The blade is covered with poison."
+
+[poison_dagger_p++_noted]
+id = 5703
+
+[stool_dairy_cow_anim]
+id = 5732
+examine = "A stool for milking"
+
+[stool_dairy_cow_anim_noted]
+id = 6060
+
+[spirit_roots]
+id = 6053
+examine = "The roots of the Spirit tree."
+
+[spirit_roots_noted]
+id = 6054
+
+[dummy_2]
+id = 7586
+examine = "All is white!"
+
+[hatchet_handle_2]
+id = 7952
+examine = "Useless."
+
+[hatchet_handle_2_noted]
+id = 7953
+
+[flatpack_globe]
+id = 8630
+examine = "How does it all fit in there?"
+
+[flatpack_globe_noted]
+id = 8631
+
+[thing]
+id = 8796
+examine = "Not an interesting thing."
+
+[guthix_staff_dummy]
+id = 8843
+
+[torch_sea_slug_noted]
+id = 9701
+
+[stick_2]
+id = 9702
+examine = "Random stick."
+
+[rock]
+id = 9716
+examine = "A chunk of rock. "
+
+[bobble_hat_2]
+id = 9815
+tradeable = false
+examine = "A woolly bobble hat."
+
+[bobble_scarf_2]
+id = 9816
+tradeable = false
+examine = "A woolly scarf."
+
+[watchtower_scroll]
+id = 10485
+examine = "A scroll."
+
+[thingy] # Unreleased
+id = 10567
+examine = "Mabob."
+
+[thingy_noted]
+id = 10568
+
+[shade_robe]
+id = 10634
+tradeable = false
+examine = "I feel closer to the gods when I am wearing this."
+
+[black_shield_h1_2]
+id = 10665
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[adamant_shield_h1_2]
+id = 10666
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[rune_shield_h1_2]
+id = 10667
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[black_shield_h2_2]
+id = 10668
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[adamant_shield_h2_2]
+id = 10669
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[rune_shield_h2_2]
+id = 10670
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[black_shield_h3_2]
+id = 10671
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[adamant_shield_h3_2]
+id = 10672
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[rune_shield_h3_2]
+id = 10673
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[black_shield_h4_2]
+id = 10674
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[adamant_shield_h4_2]
+id = 10675
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[rune_shield_h4_2]
+id = 10676
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[black_shield_h5_2]
+id = 10677
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[adamant_shield_h5_2]
+id = 10678
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[rune_shield_h5_2]
+id = 10679
+tradeable = false
+examine = "A shield with a heraldic design"
+
+[dhide_body_g]
+id = 10682
+tradeable = false
+examine = "Made from 100% real dragonhide. With colourful trim!"
+
+[dhide_body_t]
+id = 10683
+tradeable = false
+examine = "Made from 100% real dragonhide. With colourful trim!"
+
+[wizard_robe_g]
+id = 10686
+tradeable = false
+examine = "I can do magic better in this."
+
+[wizard_robe_t]
+id = 10687
+tradeable = false
+examine = "I can do magic better in this."
+
+[adam_platebody_t]
+id = 10697
+tradeable = false
+examine = "Adamant platebody with trim."
+
+[adam_platebody_g]
+id = 10698
+tradeable = false
+examine = "Adamant platebody with gold trim."
+
+[black_helm_h1_2]
+id = 10699
+tradeable = false
+examine = "A black helmet with a heraldic design."
+
+[black_helm_h2_2]
+id = 10700
+tradeable = false
+examine = "A black helmet with a heraldic design."
+
+[black_helm_h3_2]
+id = 10701
+tradeable = false
+examine = "A black helmet with a heraldic design."
+
+[black_helm_h4_2]
+id = 10702
+tradeable = false
+examine = "A black helmet with a heraldic design."
+
+[black_helm_h5_2]
+id = 10703
+tradeable = false
+examine = "A black helmet with a heraldic design."
+
+[rune_helm_h1_2]
+id = 10704
+tradeable = false
+examine = "A rune helmet with a heraldic design."
+
+[rune_helm_h2_2]
+id = 10705
+tradeable = false
+examine = "A rune helmet with a heraldic design."
+
+[rune_helm_h3_2]
+id = 10706
+tradeable = false
+examine = "A rune helmet with a heraldic design."
+
+[rune_helm_h4_2]
+id = 10707
+tradeable = false
+examine = "A rune helmet with a heraldic design."
+
+[rune_helm_h5_2]
+id = 10708
+tradeable = false
+examine = "A rune helmet with a heraldic design."
+
+[adamant_helm_h1_2]
+id = 10709
+tradeable = false
+examine = "An adamant helmet with a heraldic design."
+
+[adamant_helm_h2_2]
+id = 10710
+tradeable = false
+examine = "An adamant helmet with a heraldic design."
+
+[adamant_helm_h3_2]
+id = 10711
+tradeable = false
+examine = "An adamant helmet with a heraldic design."
+
+[adamant_helm_h4_2]
+id = 10712
+tradeable = false
+examine = "An adamant helmet with a heraldic design."
+
+[adamant_helm_h5_2]
+id = 10713
+tradeable = false
+examine = "An adamant helmet with a heraldic design."
+
+[amulet_of_glory_t_0]
+id = 10719
+tradeable = false
+examine = "A very powerful dragonstone amulet."
+
+[reindeer_hat_2]
+id = 10722
+tradeable = false
+examine = "A reindeer hat and a matching flashing nose."
+
+[jack_lantern_mask_2]
+id = 10723
+tradeable = false
+examine = "Better not light it!"
+
+[skeleton_boots_2]
+id = 10724
+tradeable = false
+examine = "Skeleton feet."
+
+[skeleton_gloves_2]
+id = 10725
+tradeable = false
+examine = "Some skeletal gloves."
+
+[skeleton_leggings_2]
+id = 10726
+tradeable = false
+examine = "Does my pelvis look big in this?"
+
+[skeleton_shirt_2]
+id = 10727
+tradeable = false
+examine = "The shirt of a full body skeleton costume."
+
+[skeleton_mask_2]
+id = 10728
+tradeable = false
+examine = "A scary skeleton mask."
+
+[easter_ring_2]
+id = 10729
+examine = "A ring given to you by the Easter Bunny."
+
+[blue_marionette_2]
+id = 10730
+examine = "I've got no strings ... oh hang on!"
+
+[zombie_head_2]
+id = 10731
+tradeable = false
+examine = "Alas...I hardly knew him."
+
+[rubber_chicken_2]
+id = 10732
+tradeable = false
+examine = "Perhaps not the most powerful weapon in Gielinor."
+
+[yo_yo_2]
+id = 10733
+examine = "A gift from Santa."
+
+[bunny_ears_2]
+id = 10734
+tradeable = false
+examine = "A rabbit-like adornment."
+
+[scythe_2]
+id = 10735
+tradeable = false
+examine = "It's a Scythe."
+
+[mithril_grapple_unf_noted]
+id = 11275
+
+[mithril_grapple_noted]
+id = 11276
+
+[logs_3]
+id = 11760
+examine = "A number of wooden logs."
+
+[blue_navy_slacks_2]
+id = 13174
+tradeable = false
+examine = "Not for slackers."
+
+[green_navy_slacks_2]
+id = 13175
+tradeable = false
+examine = "Not for slackers."
+
+[red_navy_slacks_2]
+id = 13176
+tradeable = false
+examine = "Not for slackers."
+
+[brown_navy_slacks_2]
+id = 13177
+tradeable = false
+examine = "Not for slackers."
+
+[black_navy_slacks_2]
+id = 13178
+tradeable = false
+examine = "Not for slackers."
+
+[purple_navy_slacks_2]
+id = 13179
+tradeable = false
+examine = "Not for slackers."
+
+[grey_navy_slacks_2]
+id = 13180
+tradeable = false
+examine = "Not for slackers."
+
+[blue_tricorn_hat_2]
+id = 13188
+tradeable = false
+examine = "I could never look square in this."
+
+[green_tricorn_hat_2]
+id = 13189
+tradeable = false
+examine = "I could never look square in this."
+
+[red_tricorn_hat_2]
+id = 13190
+tradeable = false
+examine = "I could never look square in this."
+
+[brown_tricorn_hat_2]
+id = 13191
+tradeable = false
+examine = "I could never look square in this."
+
+[black_tricorn_hat_2]
+id = 13192
+tradeable = false
+examine = "I could never look square in this."
+
+[purple_tricorn_hat_2]
+id = 13193
+tradeable = false
+examine = "I could never look square in this."
+
+[grey_tricorn_hat_2]
+id = 13194
+tradeable = false
+examine = "I could never look square in this."
+
+[chisel_3]
+id = 13239
+tradeable = false
+
+[witch_top_2]
+id = 14086
+tradeable = false
+examine = "The height of witchly fashion."
+
+[witch_skirt_2]
+id = 14087
+tradeable = false
+examine = "Tattered but trendy."
+
+[witch_cloak_2]
+id = 14088
+tradeable = false
+examine = "Ragged but rugged."
+
+[bones_3]
+id = 14693
+examine = "Bones are for burying!"
+
+[beer_2]
+id = 14712
+examine = "Please enjoy beer responsibly."
+
+[elite_black_platelegs_2]
+id = 14729
+tradeable = false
+examine = "These look pretty heavy, but very elite."
+
+[elite_black_full_helm_2]
+id = 14731
+tradeable = false
+examine = "A full face helmet, and elite."
+
+[dagonhai_hat_2]
+id = 14733
+tradeable = false
+examine = "A hat worn by members of the Dagon'hai."
+
+[dagonhai_robe_bottom_2]
+id = 14734
+tradeable = false
+examine = "A robe worn by members of the Dagon'hai."
+
+[iron_hatchet_2]
+id = 15298
+tradeable = false
+examine = "A woodcutter's hatchet."
+
+[iron_hatchet_2_noted]
+id = 15299
+
+[black_helm_2]
+id = 19801
+examine = "A black helmet."

@@ -1,0 +1,67 @@
+[captain_gilroy]
+id = 12313
+examine = "One of the Black Knights."
+
+[lord_daquarius]
+id = 200
+examine = "Wears a stylish suit of armour."
+
+[velrak_the_explorer]
+id = 798
+examine = "He looks cold and hungry."
+
+[jailer_black_knights_base]
+id = 201
+hitpoints = 470
+att = 40
+str = 40
+def = 40
+drop_table = "jailer_black_knights_base"
+combat_def = "man"
+max_hit_crush = 50
+respawn_delay = 50
+examine = "Guards prisoners for the black knights."
+hunt_mode = "cowardly"
+
+[black_knight_void_stares_back]
+id = 12317
+examine = "One of the Black Knights."
+
+[captain_gilroy_2]
+id = 12315
+examine = "One of the Black Knights."
+
+[black_knight_void_stares_back_2]
+id = 12319
+examine = "One of the Black Knights."
+
+[fortress_guard]
+id = 609
+hitpoints = 220
+att = 18
+str = 18
+def = 15
+combat_def = "fortress_guard_spear"
+attack_bonus = 5
+respawn_delay = 25
+drop_table = "bones"
+examine = "A generic evil henchman."
+
+[fortress_guard_2]
+id = 4603
+combat_def = "fortress_guard_sword"
+clone = "fortress_guard"
+
+[fortress_guard_3]
+id = 4604
+combat_def = "fortress_guard_halberd"
+clone = "fortress_guard"
+
+[fortress_guard_4]
+id = 4605
+clone = "fortress_guard"
+
+[fortress_guard_5]
+id = 4606
+combat_def = "fortress_guard_sword"
+clone = "fortress_guard"

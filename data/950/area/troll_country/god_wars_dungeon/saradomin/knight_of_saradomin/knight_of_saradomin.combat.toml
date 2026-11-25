@@ -1,0 +1,10 @@
+[knight_of_saradomin]
+defend_anim = "sword_defend"
+defend_sound = "man_defend"
+death_anim = "human_death"
+death_sound = "man_death"
+
+[knight_of_saradomin.melee]
+range = 1
+anim = "sword_chop"
+target_hit = { offense = "crush", max = 120 }

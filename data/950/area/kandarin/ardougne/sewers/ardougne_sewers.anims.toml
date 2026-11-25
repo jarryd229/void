@@ -1,0 +1,26 @@
+[alomone_death]
+id = 836
+
+[alomone_attack]
+id = 422
+
+[clivet_defend]
+id = 425
+
+[clivet_death]
+id = 836
+
+[clivet_attack]
+id = 811
+
+[hazeel_cultist_death]
+id = 836
+
+[hazeel_cultist_attack]
+id = 422
+
+[hazeel_cultist_defend]
+id = 424
+
+[alomone_defend]
+id = 424
